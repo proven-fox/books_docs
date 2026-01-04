@@ -93,7 +93,7 @@ displayed.
 
 1. Date Format: used to set how dates are displayed.
 2. Hide Get Started: used to hide the Get Started section from the Sidebar.
-3. Version: this is a read only field which tells you the current version of Frappe Books.
+3. Version: this is a read only field which tells you the current version of Omni Start Soft.
 4. Locale: used to set the currency format, by default locale of the selected country is used.
 5. Display Precision: used to set the number of digits are shown after the decimal.
 6. Currency: used to set the currency used for all transactions.

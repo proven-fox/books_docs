@@ -1,6 +1,6 @@
 # Print Templates
 
-The Print Template feature in Frappe Books allows you to create personalized
+The Print Template feature in Omni Start Soft allows you to create personalized
 print templates for
 [Invoices](/transactions/sales-invoices#printing-the-sales-invoice) and a few
 other [Entries](/transactions/transactional-entries).
@@ -13,7 +13,7 @@ Template" and hit enter.
 
 :::tip Preloaded Templates
 
-When you create a new instance of Frappe Books, it comes preloaded with a few
+When you create a new instance of Omni Start Soft, it comes preloaded with a few
 templates.
 
 You use these as they are, or you can _Duplicate_ and customize them.
@@ -40,7 +40,7 @@ can create Print Templates for other entry types too.
 
 :::tip Display Entry
 
-You can change the example Entry being displayed. By default Frappe Books
+You can change the example Entry being displayed. By default Omni Start Soft
 selects the latest entry that has been created.
 :::
 
@@ -177,7 +177,7 @@ and step by step make the template like how you want it to look.
 
 ### Precaution when using tailwindcss
 
-A few of the tailwindcss defaults (for example colors) used in Frappe Books have
+A few of the tailwindcss defaults (for example colors) used in Omni Start Soft have
 been overriden using the
 [`tsconfig.js`](https://github.com/frappe/books/blob/master/tailwind.config.js)
 file.

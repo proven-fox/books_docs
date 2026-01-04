@@ -1,7 +1,7 @@
 # Entries
 
-Besides [Transactional Entries](/transactions/transactional-entries) Frappe
-Books has regular entries for documents that don't affect any account's balance
+Besides [Transactional Entries](/transactions/transactional-entries) Omni Start
+Soft has regular entries for documents that don't affect any account's balance
 directly.
 
 Examples of these are:

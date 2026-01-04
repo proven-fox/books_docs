@@ -1,6 +1,6 @@
 # Multi Currency Invoicing
 
-Frappe Books allows you to create and print invoices in your customers currency.
+Omni Start Soft allows you to create and print invoices in your customers currency.
 
 ::: tip Suppliers and Purchase Invoices
 The same applies procedure applies for creating a Multi Currency Purchase
@@ -66,6 +66,6 @@ This is set when a [Customer](/entries/party) entry is created.
 
 ### Company Currency
 
-This is set when [initializing](/setting-up/getting-started) a new Frappe Books instance
+This is set when [initializing](/setting-up/getting-started) a new Omni Start Soft instance
 
 ![Company Currency](./images/company-currency.png)

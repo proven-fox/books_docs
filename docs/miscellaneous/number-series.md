@@ -9,7 +9,7 @@ single Number Series.
 
 ## Default Number Series
 
-By default Frappe Books comes with a single Number Series for each of the
+By default Omni Start Soft comes with a single Number Series for each of the
 transactional entry types
 
 | Type             | Number Series |

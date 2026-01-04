@@ -1,11 +1,11 @@
 # Introduction to Inventory
 
-Frappe Books' inventory features allows you to track the movement of your items
+Omni Start Soft's inventory features allows you to track the movement of your items
 as you perform your business transactions.
 
 ## Inventory Features
 
-The inventory module of Frappe Books consists of the following features:
+The inventory module of Omni Start Soft consists of the following features:
 
 1. [Stock Movement](/inventory/stock-movement): transaction that records the movement of Items to and from
    selected Locations.
@@ -23,7 +23,7 @@ navigate: `Setup > Settings > General Tab`.
 
 ![Enable Inventory](./images//enable-inventory.png)
 
-Once that is done you will have to restart Frappe Books to see the Inventory
+Once that is done you will have to restart Omni Start Soft to see the Inventory
 item in the sidebar.
 
 ::: warning
@@ -48,7 +48,7 @@ by making inventory specific transactions.
 
 ## Location
 
-In Frappe Books the movement of an item takes place to and from a _Location_.
+In Omni Start Soft the movement of an item takes place to and from a _Location_.
 There are two kinds of movements that can take place:
 
 1. Inward movement: When you move an item to a _Location_, the quantity of the
@@ -61,7 +61,7 @@ selected when making the transaction.
 
 ::: info Default Location
 
-Frappe Books has a default location called Stores set. This can be changed from
+Omni Start Soft has a default location called Stores set. This can be changed from
 the Inventory tab under Settings.
 :::
 

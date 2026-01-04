@@ -1,6 +1,6 @@
 # Items
 
-_Item_ is term used by Frappe Books for anything that is purchased or sold using
+_Item_ is term used by Omni Start Soft for anything that is purchased or sold using
 a Sales or Purchase Invoice.
 
 ## Types of Items

@@ -1,6 +1,6 @@
 # Batches
 
-Inventory in Frappe Books can be maintained on the basis of Batches. Here a
+Inventory in Omni Start Soft can be maintained on the basis of Batches. Here a
 Batch of some Item is a uniquely grouped collection of those Items.
 
 ## Enable Batches

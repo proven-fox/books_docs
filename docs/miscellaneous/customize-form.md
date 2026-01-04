@@ -1,6 +1,6 @@
 # Customize Form
 
-Frappe Books allows you to customize all forms whether it's Invoice, or Party,
+Omni Start Soft allows you to customize all forms whether it's Invoice, or Party,
 or Item you can use the Customize Form feature to add additional fields to it.
 
 ## Enable Form Customization
@@ -14,7 +14,7 @@ Customization checkbox.
 
 ![Enable Form Customization](./images/enable-form-customization.png)
 
-You will have to reload Frappe Books to see the option, you can press
+You will have to reload Omni Start Soft to see the option, you can press
 `Ctrl + R` if you are on Windows or linux, or `command + R` on macOS.
 
 ::: warning Disabling Form Customization
@@ -25,7 +25,7 @@ the sidebar and search, it will not disable the customizations.
 
 ## Customizing Forms
 
-After enabling form customization and reloading Frappe Books navigate to the
+After enabling form customization and reloading Omni Start Soft navigate to the
 Customize Form list view using the sidebar.
 
 `Setup > Customize Form`
@@ -71,7 +71,7 @@ Once you are done click on the blue Save button.
 
 :::warning Reload App
 
-After customizing a form you must reload Frappe Books to view the added fields
+After customizing a form you must reload Omni Start Soft to view the added fields
 in the forms.
 :::
 

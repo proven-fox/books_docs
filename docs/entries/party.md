@@ -1,6 +1,6 @@
 # Party
 
-_Party_ is a term used in Frappe Books for any entity to whom a Sale or from
+_Party_ is a term used in Omni Start Soft for any entity to whom a Sale or from
 whom a Purchase is made.
 
 ## Types of Party

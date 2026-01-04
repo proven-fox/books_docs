@@ -1,33 +1,33 @@
 ---
 layout: home
-title: فريبي بوكس
+title: Omni Start Soft
 hero:
-  name: فريبي بوكس
+  name: Omni Start Soft
   text: التوثيق ودليل المستخدم
-  tagline: 'مرحباً بك في توثيق فريبي بوكس ودليل المستخدم.
+  tagline: 'مرحباً بك في توثيق Omni Start Soft ودليل المستخدم.
     تعلم كيفية إنشاء القيود، وإجراء المعاملات، وقراءة التقارير، والمزيد!'
   actions:
     - theme: brand
       text: ابدأ الآن
       link: /setting-up/getting-started
     - theme: alt
-      text: احصل على فريبي بوكس
+      text: احصل على Omni Start Soft
       link: https://frappebooks.com/download
 
 features:
   - title: قابل للنقل
-    details: يستخدم فريبي بوكس قاعدة بيانات SQLite خفيفة الوزن والتي تستخدم ملفاً واحداً لتخزين بياناتها.
+    details: يستخدم Omni Start Soft قاعدة بيانات SQLite خفيفة الوزن والتي تستخدم ملفاً واحداً لتخزين بياناتها.
   - title: يعمل دون اتصال
-    details: يستخدم فريبي بوكس ملفاً محلياً من جهاز الكمبيوتر الخاص بك ويحفظ جميع المعاملات والقيود في هذا الملف.
+    details: يستخدم Omni Start Soft ملفاً محلياً من جهاز الكمبيوتر الخاص بك ويحفظ جميع المعاملات والقيود في هذا الملف.
   - title: التقارير المالية
-    details: يأتي فريبي بوكس مع تقارير مالية قياسية مثل قائمة الدخل والخسارة، وميزان المراجعة، وقائمة المركز المالي.
+    details: يأتي Omni Start Soft مع تقارير مالية قياسية مثل قائمة الدخل والخسارة، وميزان المراجعة، وقائمة المركز المالي.
   - title: قوالب الفواتير
     details: قوالب فواتير جميلة يمكنك تخصيصها بشكل أكبر مع لون وشعار علامتك التجارية.
 ---
 
 <style>
 :root {
-  /* Frappe Books CSS Color Variables */
+  /* Omni Start Soft CSS Color Variables */
   --gray-25: #FCFCFD;
   --gray-50: #F8F9FC;
   --gray-100: #F2F4F8;

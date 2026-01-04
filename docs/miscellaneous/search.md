@@ -1,6 +1,6 @@
 # Quick Search
 
-The Quick Search interface is a quick way to navigate around in Frappe Books. To
+The Quick Search interface is a quick way to navigate around in Omni Start Soft. To
 activate it you can click on the search button in the header:
 
 ![Quick Search Bar](./images/search-bar.png)

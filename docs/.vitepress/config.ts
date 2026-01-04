@@ -7,7 +7,7 @@ const taglineAr = 'محاسبة سطح المكتب الحديثة والمجا�
 export default defineConfig({
   lang: 'ar-SA',
   base: '/books/',
-  title: 'فريبي بوكس',
+  title: 'Omni Start Soft',
   description: taglineAr,
   titleTemplate: taglineAr,
   appearance: false,
@@ -39,7 +39,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'تم الإصدار بموجب ترخيص MIT.',
-      copyright: 'حقوق النشر © 2022-حاضر شركة فريبي تكنولوجيز المحدودة.',
+      copyright: 'حقوق النشر © 2022-حاضر Omni Start Soft.',
     },
   },
 });
