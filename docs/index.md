@@ -1,28 +1,28 @@
 ---
 layout: home
-title: Frappe Books
+title: فريبي بوكس
 hero:
-  name: Frappe Books
-  text: Documentation And User Guide
-  tagline: 'Welcome to the Frappe Books Documentation and User Guide.
-    Learn how to create entries, make transactions, read reports, and more!'
+  name: فريبي بوكس
+  text: التوثيق ودليل المستخدم
+  tagline: 'مرحباً بك في توثيق فريبي بوكس ودليل المستخدم.
+    تعلم كيفية إنشاء القيود، وإجراء المعاملات، وقراءة التقارير، والمزيد!'
   actions:
     - theme: brand
-      text: Get Started
+      text: ابدأ الآن
       link: /setting-up/getting-started
     - theme: alt
-      text: Get Frappe Books
+      text: احصل على فريبي بوكس
       link: https://frappebooks.com/download
 
 features:
-  - title: Portable
-    details: Frappe Books uses the lightweight SQLite database which uses a single file to store it's data.
-  - title: Works Offline
-    details: Frappe Books uses a local file from your computer and saves all transactions and entries to this file.
-  - title: Financial Reports
-    details: Frappe Books comes with standard financial reports like Profit and Loss, Trial Balance and Balance Sheet.
-  - title: Invoice Templates
-    details: Beautiful Invoice templates that you can further customize with the color and logo of your brand.
+  - title: قابل للنقل
+    details: يستخدم فريبي بوكس قاعدة بيانات SQLite خفيفة الوزن والتي تستخدم ملفاً واحداً لتخزين بياناتها.
+  - title: يعمل دون اتصال
+    details: يستخدم فريبي بوكس ملفاً محلياً من جهاز الكمبيوتر الخاص بك ويحفظ جميع المعاملات والقيود في هذا الملف.
+  - title: التقارير المالية
+    details: يأتي فريبي بوكس مع تقارير مالية قياسية مثل قائمة الدخل والخسارة، وميزان المراجعة، وقائمة المركز المالي.
+  - title: قوالب الفواتير
+    details: قوالب فواتير جميلة يمكنك تخصيصها بشكل أكبر مع لون وشعار علامتك التجارية.
 ---
 
 <style>

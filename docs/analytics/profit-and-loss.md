@@ -1,97 +1,75 @@
-# Profit and Loss Statement
+# قائمة الدخل والخسارة
 
-All of the money that your business earned from when it started minus the
-expenses that it incurred will be the total profit (or loss) the business has
-generated. But we aren’t interested in the total amount, but the amount that is
-generated last month or last quarter or last year. Hence, Profit and Loss
-statement is always viewed for a specific time period.
+جميع المال الذي كسبه عملك منذ بدأه ناقصاً المصروفات التي تكبدها سيكون إجمالي الربح (أو الخسارة) الذي ولده عملك. لكننا لسنا مهتمين بالمبلغ الإجمالي، بل بالمبلغ الذي تم توليده الشهر الماضي أو الربع الماضي أو العام الماضي. لذلك، يتم دائماً عرض قائمة الدخل والخسارة لفترة زمنية محددة.
 
-Here are some insights you can gain from this report:
+إليك بعض الرؤى التي يمكنك الحصول عليها من هذا التقرير:
 
-1. Compare this month’s profit with last month.
-2. Compare quarter wise or year wise profits or losses.
-3. Find out the total profit or loss for a specific time window.
+1. قارن ربح هذا الشهر مع الشهر الماضي.
+2. قارن الأرباح أو الخسائر ربعياً أو سنوياً.
+3. اكتشف إجمالي الربح أو الخسارة لنافذة زمنية محددة.
 
-The P&L statement for any period reflects all the income minus all the expenses
-in that period. At the end of the period, (a fiscal year) the total profit (or
-loss) goes into Owner’s Equity because the profit in the business belongs to the
-owners. The owner’s account is a liability to the company since the company has
-to pay out the profits/losses.
+تعكس قائمة الدخل والخسارة لأي فترة جميع الدخل ناقصاً جميع المصروفات في تلك الفترة. في نهاية الفترة، (سنة مالية) يذهب إجمالي الربح (أو الخسارة) إلى حقوق ملكية المالك لأن الربح في العمل يعود للمالكين. حساب المالك هو التزام للشركة لأن الشركة يجب أن تدفع الأرباح/الخسائر.
 
-To check your P&L statement, navigate to it using the sidebar:
-`Reports > Profit And Loss`
+للتحقق من قائمة الدخل والخسارة الخاصة بك، انتقل إليها باستخدام الشريط الجانبي:
+`التقارير > الدخل والخسارة`
 
-![Profit and Loss](./images/profit-and-loss.png)
+![الدخل والخسارة](./images/profit-and-loss.png)
 
-By default the Profit and Loss report will show P&L values for the last 3
-months.
+بشكل افتراضي سيعرض تقرير الدخل والخسارة قيم الدخل والخسارة لآخر 3 أشهر.
 
-As you can clearly see, we have the total Income in the first part which also
-shows the income coming from each Income account split Monthly so you have a
-better understanding of your income. The same is done with the Expense section.
-The report is concluded by the total profit (or loss) incurred which is also
-split Monthly.
+كما يمكنك رؤية بوضوح، لدينا إجمالي الدخل في الجزء الأول الذي يعرض أيضاً الدخل القادم من كل حساب دخل مقسماً شهرياً بحيث يكون لديك فهم أفضل لدخلك. نفس الشيء يتم مع قسم المصروفات.
+يختتم التقرير بإجمالي الربح (أو الخسارة) المتكبد الذي يتم أيضاً تقسيمه شهرياً.
 
-## Filters
+## التصفيات
 
-The Profit and Loss report has several filters which can help you narrow the
-date range between which to display the report.
+يحتوي تقرير الدخل والخسارة على عدة تصفيات يمكن أن تساعدك في تضييق نطاق التاريخ بينه عرض التقرير.
 
-### Based On
+### بناءً على
 
-This allows for toggling betwee the kind of filters used set the date range. It has 2 values:
+هذا يسمح بالتبديل بين نوع التصفيات المستخدمة لتعيين نطاق التاريخ. لديه قيمتين:
 
-1. Until Date
-2. Fiscal Year
+1. حتى التاريخ
+2. السنة المالية
 
-### Periodicity
+### الدورية
 
-This selects the interval for which the Profit and Loss has to be calculated.
+هذا يحدد الفاصل الذي يجب حساب الدخل والخسارة له.
 
-Example setting this to Monthly will display columns on a monthly basis.
+مثال تعيين هذا إلى شهري سيعرض الأعمدة على أساس شهري.
 
-### Date Range Filters
+### تصفيات نطاق التاريخ
 
-These filters depend on the value of Based On
+هذه التصفيات تعتمد على قيمة بناءً على
 
-| Based On    | Date Range Filters    |
+| بناءً على    | تصفيات نطاق التاريخ    |
 | ----------- | --------------------- |
-| Until Date  | To Date and Count     |
-| Fiscal Year | To Year and From Year |
+| حتى التاريخ  | إلى التاريخ والعدد     |
+| السنة المالية | إلى السنة ومن السنة |
 
-#### To Date and Count
+#### إلى التاريخ والعدد
 
-**To Date** is the final date until which the report is to be displayed, by default
-the values is tomorrow's date.
+**إلى التاريخ** هو التاريخ النهائي حتى يجب عرض التقرير، بشكل افتراضي القيم هي تاريخ الغد.
 
-**Count** depends on Periodicity so if Count is 3 and Periodicity is Monthly
-then the report will display Profit and Loss columns for the last three months
-starting from **To Date**
+**العدد** يعتمد على الدورية لذلك إذا كان العدد 3 والدورية شهرياً فسيعرض التقرير أعمدة الدخل والخسارة للأشهر الثلاثة الأخيرة بدءاً من **إلى التاريخ**
 
-#### To Year and From Year
+#### إلى السنة ومن السنة
 
-These decide the fiscal year between which the Profit and Loss report has to be
-displayed. The number of columns will depend on the Periodicity.
+هذه تقرر السنة المالية بينها يجب عرض تقرير الدخل والخسارة. عدد الأعمدة سيعتمد على الدورية.
 
-### Consolidate Columns
+### دمج الأعمدة
 
-Checking this this will sum up all the values for each row and display a single
-column.
+تحديد هذا سيقوم بجمع جميع القيم لكل صف وعرض عمود واحد.
 
-### Hide Group Amounts
+### إخفاء مبالغ المجموعة
 
-The Profit and Loss report format displays the group accounts such as Direct
-Income along with the non group accounts such as Sales and Services.
+تنسيق تقرير الدخل والخسارة يعرض حسابات المجموعة مثل الدخل المباشر جنباً إلى جنب مع حسابات غير المجموعة مثل المبيعات والخدمات.
 
-Group account balances depend on the non group account balances under them,
-group account balances are not directly updated.
+تعتمد أرصدة حساب المجموعة على أرصدة حسابات غير المجموعة تحتها، أرصدة حساب المجموعة لا يتم تحديثها مباشرة.
 
-So clicking on **Hide Group Amounts** will display only the non group account
-amounts making the report a bit easier to read.
+لذلك النقر على **إخفاء مبالغ المجموعة** سيعرض فقط مبالغ حساب غير المجموعة مما يجعل التقرير أسهل في القراءة قليلاً.
 
-## Folding Rows
+## طي الصفوف
 
-![Profit and Loss Folded Rows](./images/pnl-folded.png)
+![صفوف الدخل والخسارة المطوية](./images/pnl-folded.png)
 
-Rows in the Profit and Loss report which display group accounts can be clicked
-to fold all the rows underneath them.
+يمكن النقر على الصفوف في تقرير الدخل والخسارة التي تعرض حسابات المجموعة لطي جميع الصفوف تحتها.

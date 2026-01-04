@@ -1,77 +1,63 @@
-# General Ledger
+# دفتر الأستاذ العام
 
-The General Ledger is a detailed report for all transactions posted to each
-account and for every transaction there is a Credit and Debit account so it
-lists them all up.
+دفتر الأستاذ العام هو تقرير مفصل لجميع المعاملات المرسلة إلى كل حساب ولكل معاملة هناك حساب دائن ومدين لذلك يسردونها جميعاً.
 
-This helps you to get a full update for all entries posted in a period against
-any account.
+يساعدك هذا على الحصول على تحديث كامل لجميع القيود المرسلة في فترة مقابل أي حساب.
 
-![General Ledger](./images/general-ledger.png)
+![دفتر الأستاذ العام](./images/general-ledger.png)
 
-Navigate to the General Ledger from the sidebar: `Report > General Ledger`
+انتقل إلى دفتر الأستاذ العام من الشريط الجانبي: `التقارير > دفتر الأستاذ العام`
 
-## Filters
+## التصفيات
 
-The General Ledger has several filters which can help you narrow the generated
-report to the entries you would like to see.
+يحتوي دفتر الأستاذ العام على عدة تصفيات يمكن أن تساعدك في تضييق التقرير الذي تم إنشاؤه إلى القيود التي ترغب في رؤيتها.
 
-### Ref Type
+### نوع المرجع
 
-Setting Ref Type as anything other than All will display entries only of that
-Transactional entry type.
+تعيين نوع المرجع كأي شيء غير الكل سيعرض القيود فقط من ذلك النوع من القيد المعاملاتي.
 
-Example setting Ref Type as Journal Entry will display only entries created due
-to Journal Entries.
+مثال تعيين نوع المرجع كقيد يومي سيعرض فقط القيود التي تم إنشاؤها بسبب القيود اليومية.
 
-### Ref Name
+### اسم المرجع
 
-Ref Name filter allows to display all ledger entries that were generated due to a
-single Transactional Entry.
+يسمح تصفية اسم المرجع بعرض جميع قيود دفتر الأستاذ التي تم إنشاؤها بسبب قيد معاملاتي واحد.
 
-To enable this you need to first set Ref Type.
+لتمكين هذا تحتاج أولاً إلى تعيين نوع المرجع.
 
-### Account
+### الحساب
 
-Selecting an Account will display only entries where an amount is being credited
-or debited from this account.
+تحديد حساب سيعرض فقط القيود التي يتم فيها دائن أو مدين مبلغ من هذا الحساب.
 
-### Party
+### الطرف
 
-Selecting a Party will display only entries involving them.
+تحديد طرف سيعرض فقط القيود التي تتضمنهم.
 
-### From Date
+### من التاريخ
 
-The initial date after which all the entries are to be displayed. The default
-value is one year before tomorrow.
+التاريخ الأولي بعده يجب عرض جميع القيود. القيمة الافتراضية هي سنة واحدة قبل الغد.
 
-### To Date
+### إلى التاريخ
 
-The final date before which all the entries are to be displayed. The default
-value is one day after today.
+التاريخ النهائي قبله يجب عرض جميع القيود. القيمة الافتراضية هي يوم واحد بعد اليوم.
 
-### Group By
+### تجميع حسب
 
-Selecting a Group By option other than None groups the entry according to the
-selected option.
+تحديد خيار تجميع حسب غير لا يقوم بتجميع القيود حسب الخيار المحدد.
 
-![Group By Reference](./images/groupby-ref.png)
+![تجميع حسب المرجع](./images/groupby-ref.png)
 
-For instance setting Group By as Reference will group the entries by the Name of
-the transactional entry.
+على سبيل المثال تعيين تجميع حسب كمرجع سيقوم بتجميع القيود حسب اسم القيد المعاملاتي.
 
-### Include Cancelled
+### تضمين الملغي
 
-Checking this will include the cancelled entries in the report.
+تحديد هذا سيتضمن القيود الملغاة في التقرير.
 
-::: info Reverted Column
-A new column **Reverted** is added to indicate which of the entries have been
-cancelled.
+::: info عمود المرتجع
+يتم إضافة عمود جديد **مرتجع** للإشارة إلى أي من القيود تم إلغاؤها.
 :::
 
-### Ascending Order
+### الترتيب التصاعدي
 
-By default the entries are displayed by newest entry first, i.e. descending
-order of Date.
+بشكل افتراضي يتم عرض القيود أولاً بأحدث قيد، أي ترتيب تنازلي للتاريخ.
 
-Checking this will display the entries in ascending order of entry date.
+تحديد هذا سيعرض القيود بترتيب تصاعدي لتاريخ القيد.

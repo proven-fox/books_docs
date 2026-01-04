@@ -1,43 +1,34 @@
-# Getting Started with Frappe Books
+# البدء مع فريبي بوكس
 
-Let’s start applying what we have learned so far by setting up your company in
-Frappe Books.
+لنبدأ بتطبيق ما تعلمناه حتى الآن عن طريق إعداد شركتك في فريبي بوكس.
 
-If you have not downloaded Frappe Books, you can download it from here
+إذا لم تقم بتحميل فريبي بوكس، يمكنك تحميله من هنا
 [frappebooks.com/download](https://frappebooks.com/download).
 
-## Setup Instance
+## إعداد النسخة
 
-When you open Frappe Books, you’ll be presented two options: **New File** and
-**Existing File**. If this is the first time you are opening Frappe Books, click on
-**New File**.
+عند فتح فريبي بوكس، سيتم عرض خيارين: **ملف جديد** و**ملف موجود**. إذا كانت هذه هي المرة الأولى التي تفتح فيها فريبي بوكس، انقر على **ملف جديد**.
 
-Now select an appropriate location where you want to store the file and give it
-a name.
+الآن حدد موقعاً مناسباً حيث تريد تخزين الملف وأعطه اسماً.
 
-![New File](./images/new-file.png)
+![ملف جديد](./images/new-file.png)
 
-::: tip File Location
-Frappe Books stores all your company data and transactions on a local `.db` file on
-your computer.
+::: tip موقع الملف
+يخزن فريبي بوكس جميع بيانات شركتك ومعاملاتك في ملف `.db` محلي على جهاز الكمبيوتر الخاص بك.
 
-You can change the location of this `.db` file. If you have done so you can find it
-again by selecting the **Existing File** option.
+يمكنك تغيير موقع ملف `.db` هذا. إذا قمت بذلك، يمكنك العثور عليه مرة أخرى عن طريق تحديد خيار **ملف موجود**.
 :::
 
-Now, enter your Business Name, Business Email and Country Information. This will
-help set up the correct Chart of Accounts based on your country.
+الآن، أدخل اسم العمل، البريد الإلكتروني للعمل ومعلومات الدولة. سيساعد هذا في إعداد دليل الحسابات الصحيح بناءً على دولتك.
 
-![Setup Wizard](./images/setup-wizard.png)
+![معالج الإعداد](./images/setup-wizard.png)
 
-::: tip Chart of Accounts
-If you don't find the Chart of Accounts of your country, you can select the
-**Standard Chart of Accounts**.
+::: tip دليل الحسابات
+إذا لم تجد دليل الحسابات لبلدك، يمكنك تحديد **دليل الحسابات القياسي**.
 :::
 
 ---
 
-Congratulations! You now have a company set up on Frappe Books.
+تهانينا! لديك الآن شركة تم إعدادها على فريبي بوكس.
 
-You can now move onto the next step to create some initial entries before you
-can start recording your invoices and transactions.
+يمكنك الآن الانتقال إلى الخطوة التالية لإنشاء بعض القيود الأولية قبل أن تتمكن من البدء في تسجيل فواتيرك ومعاملاتك.

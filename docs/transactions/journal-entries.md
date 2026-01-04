@@ -1,69 +1,56 @@
-# Journal Entries
+# القيود اليومية
 
-Journal Entries are transactional entries used to record transactions that don’t
-strictly identify as a Sale or Purchase. Such as the transfer of funds from a
-Bank Account to a Cash Account.
+القيود اليومية هي قيود معاملاتية تستخدم لتسجيل المعاملات التي لا تحدد بدقة كبيع أو شراء. مثل نقل الأموال من حساب بنكي إلى حساب نقدي.
 
-## Creating Journal Entries
+## إنشاء القيود اليومية
 
-To create a Journal Entry first navigate to the Journal Entry page
+لإنشاء قيد يومي أولاً انتقل إلى صفحة القيد اليومي
 
-`Common > Journal Entry`
+`عام > القيد اليومي`
 
-Then click on the blue `+` button to open a new Journal Entry form.
+ثم انقر على الزر الأزرق `+` لفتح نموذج قيد يومي جديد.
 
-![Journal Entry Form](./images/journal-entry.png)
+![نموذج القيد اليومي](./images/journal-entry.png)
 
-1. Set the type of Journal Entry.
-2. Add rows for each Account and set the amounts being credited and
-   debited.
-3. Click on Save and then Submit.
+1. تعيين نوع القيد اليومي.
+2. إضافة صفوف لكل حساب وتعيين المبالغ التي يتم دائنها ومدينها.
+3. انقر على حفظ ثم إرسال.
 
-::: info Double Entry Bookkeeping
-When making a Journal Entry, you must ensure that the total amount in the Debit
-column should equal the total amount in the Credit column.
+::: info القيد المزدوج
+عند إنشاء قيد يومي، يجب التأكد من أن المبلغ الإجمالي في عمود المدين يجب أن يساوي المبلغ الإجمالي في عمود الدائن.
 :::
 
-After clicking Submit, Frappe Books will the make ledger entries and update the
-account balances.
+بعد النقر على إرسال، سيقوم فريبي بوكس بإنشاء قيود دفتر الأستاذ وتحديث أرصدة الحسابات.
 
-You can check the entries by clicking Ledger Entries under the `...` menu.
+يمكنك التحقق من القيود بالنقر على قيود دفتر الأستاذ تحت القائمة `...`.
 
-## Examples
+## أمثلة
 
-These are two examples of how you can make direct Journal Entries to account for
-transactions that are different from Sales or Purchases.
+هذان مثالان لكيفية إنشاء قيود يومية مباشرة لحساب المعاملات التي تختلف عن المبيعات أو المشتريات.
 
-### Recording Expenses
+### تسجيل المصروفات
 
-When you have expenses that you pay at the time of purchase, you can record an
-Expense directly using Journal Entry.
+عندما تكون لديك مصروفات تدفعها في وقت الشراء، يمكنك تسجيل مصروف مباشرة باستخدام القيد اليومي.
 
-To do so add two rows to a new Journal Entry form, one for Debit and one for
-Credit.
+للقيام بذلك أضف صفين إلى نموذج قيد يومي جديد، واحد للمدين وواحد للدائن.
 
-Let’s say you incur an expense of ₹5,000 for traveling to a client site, and you
-paid it directly from your Bank Account, then you must add the following rows:
+لنفترض أنك تكبدت مصروفاً قدره 5,000 روبية هندية للسفر إلى موقع عميل، ودفعته مباشرة من حساب البنك الخاص بك، عندئذ يجب عليك إضافة الصفوف التالية:
 
-| Account         | Debit  | Credit |
+| الحساب         | مدين  | دائن |
 | --------------- | ------ | ------ |
-| Bank Account    |        | ₹5,000 |
-| Travel Expenses | ₹5,000 |        |
+| حساب البنك    |        | 5,000 روبية هندية |
+| مصروفات السفر | 5,000 روبية هندية |        |
 
-### Recording Prepayments
+### تسجيل المدفوعات المقدمة
 
-When a customer pays for a product or service that you haven’t delivered yet, it
-cannot be booked as Income yet. This is a Liability for your business to fulfill
-later.
+عندما يدفع العميل لمنتج أو خدمة لم تسلمها بعد، لا يمكن حجزها كدخل بعد. هذا التزام لعملك للوفاء به لاحقاً.
 
-To make an entry that reflects this, add two rows to a new Journal Entry form.
+لإنشاء قيد يعكس هذا، أضف صفين إلى نموذج قيد يومي جديد.
 
-1. One which Debits the amount into the Bank Account because you have received
-   the payment.
-2. Another which Credits the amount into a Liability account you may create
-   known as Prepayments.
+1. واحد يدين المبلغ في حساب البنك لأنك استلمت الدفع.
+2. آخر يدين المبلغ في حساب التزامات قد تنشئه يسمى المدفوعات المقدمة.
 
-| Account      | Debit  | Credit |
+| الحساب      | مدين  | دائن |
 | ------------ | ------ | ------ |
-| Bank Account | ₹5,000 |        |
-| Prepayment   |        | ₹5,000 |
+| حساب البنك | 5,000 روبية هندية |        |
+| الدفع المقدم   |        | 5,000 روبية هندية |

@@ -1,45 +1,39 @@
-# Reports
+# التقارير
 
-Frappe Books has 4 financial reports. Each report is calculated using the
-General Ledger Entries that are created when any
-[Transactional Entry](/transactions/transactional-entries) is made.
+يحتوي فريبي بوكس على 4 تقارير مالية. يتم حساب كل تقرير باستخدام قيود دفتر الأستاذ العام التي يتم إنشاؤها عند إجراء أي [قيد معاملاتي](/transactions/transactional-entries).
 
-## Sections
+## الأقسام
 
-All reports have two sections:
+جميع التقارير لديها قسمين:
 
-1. Filter Section
-2. Report Section
+1. قسم التصفية
+2. قسم التقرير
 
-![Report Sections](./images/report-sections.png)
+![أقسام التقرير](./images/report-sections.png)
 
-The **Filter Section** allows for setting filters such as the Date Range between
-which a report is to be generated.
+يسمح **قسم التصفية** بتعيين التصفيات مثل نطاق التاريخ بينه سيتم إنشاء تقرير.
 
-::: tip Setting Filters
-To generate a report after setting a filter, just click outside the filter box.
+::: tip تعيين التصفيات
+لإنشاء تقرير بعد تعيين تصفية، فقط انقر خارج مربع التصفية.
 :::
 
-The **Report Section** shows the generated report.
+يعرض **قسم التقرير** التقرير الذي تم إنشاؤه.
 
-::: info Pagination
-The **General Ledger** report also shows a paginator at the bottom which allows
-for viewing only sections of the report.
+::: info الترقيم
+يعرض تقرير **دفتر الأستاذ العام** أيضاً مقيماً في الأسفل الذي يسمح بعرض أقسام من التقرير فقط.
 :::
 
-## Exporting a Report
+## تصدير تقرير
 
-All reports can be exported as a `CSV` or a `JSON` file. To do so just click on
-the blue Export button and select the file path.
+يمكن تصدير جميع التقارير كملف `CSV` أو `JSON`. للقيام بذلك فقط انقر على زر التصدير الأزرق وحدد مسار الملف.
 
-After exporting the report you may open it in any software of your choice such
-as Libreoffice Calc, Google Sheets or Microsoft Excel.
+بعد تصدير التقرير يمكنك فتحه في أي برنامج تختاره مثل Libreoffice Calc أو Google Sheets أو Microsoft Excel.
 
-## Report Links
+## روابط التقارير
 
-Check the following links to understand these reports:
+تحقق من الروابط التالية لفهم هذه التقارير:
 
-1. [General Ledger](/analytics/general-ledger)
-2. [Profit and Loss](/analytics/profit-and-loss)
-3. [Balance Sheet](/analytics/balance-sheet)
-4. [Trial Balance](/analytics/trial-balance)
+1. [دفتر الأستاذ العام](/analytics/general-ledger)
+2. [قائمة الدخل والخسارة](/analytics/profit-and-loss)
+3. [قائمة المركز المالي](/analytics/balance-sheet)
+4. [ميزان المراجعة](/analytics/trial-balance)

@@ -1,119 +1,98 @@
-# Purchase Invoices
+# فواتير المشتريات
 
-Purchase Invoices are bills that your supplier sends you when you make a
-purchase.
+فواتير المشتريات هي الفواتير التي يرسلها المورد لك عند إجراء شراء.
 
-It is a transactional entry that denotes a purchase.
+هي قيد معاملاتي يدل على شراء.
 
-## Creating Purchase Invoices
+## إنشاء فواتير المشتريات
 
-If you have set up your Frappe Books with Accounts, Taxes, Purchase Items, and
-Suppliers, creating a Purchase Invoice is as simple as it gets.
+إذا قمت بإعداد فريبي بوكس الخاص بك مع الحسابات والضرائب وعناصر المشتريات والموردين، فإن إنشاء فاتورة مشتريات بسيط للغاية.
 
-First navigate to the Purchase Invoices page
+أولاً انتقل إلى صفحة فواتير المشتريات
 
-`Purchases > Purchase Invoices`
+`المشتريات > فواتير المشتريات`
 
-Then click on the blue `+` button to open the Purchase Invoice form.
+ثم انقر على الزر الأزرق `+` لفتح نموذج فاتورة المشتريات.
 
-![Purchase Invoice Form](./images/purchase-invoice.png)
+![نموذج فاتورة المشتريات](./images/purchase-invoice.png)
 
-1. Select the Supplier from whom you will be making a purchase.
-2. Click on Add Row and select the Item being purchased. Default Tax will be
-   fetched you can change it if required.
-3. Enter the Quantity.
-4. You can add more items or if you are done, click on Save.
-5. Once finalized, click on Submit. Frappe Books will do the required ledger
-   entries against the appropriate accounts.
+1. حدد المورد الذي ستقوم بالشراء منه.
+2. انقر على إضافة صف وحدد العنصر الذي يتم شراؤه. سيتم جلب الضريبة الافتراضية يمكنك تغييرها إذا لزم الأمر.
+3. أدخل الكمية.
+4. يمكنك إضافة المزيد من العناصر أو إذا انتهيت، انقر على حفظ.
+5. بمجرد الانتهاء، انقر على إرسال. سيقوم فريبي بوكس بإنشاء قيود دفتر الأستاذ المطلوبة مقابل الحسابات المناسبة.
 
-This invoice is now in _“Submitted”_ state, it cannot be edited. The purchase
-transaction has been recorded.
+هذه الفاتورة الآن في حالة _"مقدم"_، لا يمكن تعديلها. تم تسجيل معاملة الشراء.
 
-## Making Purchase Payments
+## إجراء مدفوعات المشتريات
 
-Once a purchase invoice has been submitted, you’ll need to record payment
-against it to denote that you’ve paid the money.
+بمجرد تقديم فاتورة المشتريات، ستحتاج إلى تسجيل دفع مقابلها للإشارة إلى أنك دفعت المال.
 
-To make a Payment first navigate to the Purchase Invoice, then click on the
-`...` menu button. Then click the Make Payment option.
+لإجراء دفع أولاً انتقل إلى فاتورة المشتريات، ثم انقر على زر القائمة `...`. ثم انقر على خيار إجراء الدفع.
 
-![Purchase Invoice Status](./images/purchase-payment.png)
+![حالة فاتورة المشتريات](./images/purchase-payment.png)
 
-This will open the Payment quick edit form with the outstanding amount
-auto-filled.
+سيفتح هذا نموذج التعديل السريع للدفع مع المبلغ المستحق الملء التلقائي.
 
-![Purchase Invoice Payment](./images/purchase-payment-quickedit.png)
+![دفع فاتورة المشتريات](./images/purchase-payment-quickedit.png)
 
-You can change the values and click on Save. This will Save and Submit the
-Payment.
+يمكنك تغيير القيم والنقر على حفظ. سيقوم هذا بحفظ وإرسال الدفع.
 
-On making the Payment, Frappe Books will make the necessary ledger entries to
-increase the payment amount in Accounts Payable and decrease the amount in your
-Bank or Cash Account.
+عند إجراء الدفع، سيقوم فريبي بوكس بإنشاء قيود دفتر الأستاذ اللازمة لزيادة مبلغ الدفع في الحسابات الدائنة وتقليل المبلغ في حساب البنك أو النقد الخاص بك.
 
-It will also update the Outstanding Amount on the invoice form.
+سيقوم أيضاً بتحديث المبلغ المستحق في نموذج الفاتورة.
 
-::: info Purchase Invoice Status
-Until Payments are made to settel the Outstanding Amount, the Purchase Invoice
-will be in the **Unpaid** state.
+::: info حالة فاتورة المشتريات
+حتى يتم إجراء المدفوعات لتسوية المبلغ المستحق، ستكون فاتورة المشتريات في حالة **غير مدفوعة**.
 
-Once the Outstanding Amount reaches 0, the status will change to **Paid**.
+بمجرد أن يصل المبلغ المستحق إلى 0، ستتغير الحالة إلى **مدفوعة**.
 :::
 
-### Auto Payments
+### المدفوعات التلقائية
 
-You can simplify the _Purchase Invoice → Payment_ workflow by using Auto
-Payments. For this you just need to set the default accounts for Purchase Payment.
+يمكنك تبسيط سير عمل _فاتورة المشتريات → الدفع_ باستخدام المدفوعات التلقائية.
+لهذا تحتاج فقط إلى تعيين الحسابات الافتراضية لدفع المشتريات.
 
-This can be done in `Setup > Settings > Defaults > Auto Payments`:
-![Payment Accounts](./images/payment-accounts.png)
+يمكن القيام بذلك في `الإعداد > الإعدادات > الافتراضيات > المدفوعات التلقائية`:
+![حسابات الدفع](./images/payment-accounts.png)
 
-Once this is set, whenever you Submit a Purchase Invoice a Payment entry will
-automatically be created.
+بمجرد تعيين هذا، كلما قدمت فاتورة مشتريات سيتم إنشاء قيد دفع تلقائياً.
 
-::: tip Disable Auto Payment for a Purchase Invoice
+::: tip تعطيل الدفع التلقائي لفاتورة المشتريات
 
-You can disable Auto Payment for a single Purchase Invoice by unchecking the Make
-Payment On Submit check box in the Settings tab before Submitting the Purchase
-Invoice entry.
+يمكنك تعطيل الدفع التلقائي لفاتورة مشتريات واحدة عن طريق إلغاء تحديد مربع الاختيار إجراء الدفع عند الإرسال في علامة التبويب الإعدادات قبل تقديم قيد فاتورة المشتريات.
 
-![Disable Auto Payment](./images/auto-payment.png)
+![تعطيل الدفع التلقائي](./images/auto-payment.png)
 :::
 
 
-## Purchase Invoice Return
+## إرجاع فاتورة المشتريات
 
-The user can create a Purchase Invoice Return directly from the original Purchase
-Invoice document or manually from the New Purchase Invoice Entry.
+يمكن للمستخدم إنشاء إرجاع فاتورة المشتريات مباشرة من وثيقة فاتورة المشتريات الأصلية أو يدوياً من قيد فاتورة مشتريات جديدة.
 
-### Creating a Purchase Invoice Return
+### إنشاء إرجاع فاتورة المشتريات
 
-1. Open the original Purchase Invoice document.
-2. Click on **Create > Return**.
-   ![Create Purchase Invoice Return](./images/pinv-create-return.png)
-3. The Party and Item details will be fetched as set in the original Purchase
-   Invoice document. You can set the quantity of Items returned in negative
-   numbers.
-   ![Purchase Invoice Return Form](./images/pinv-return-form.png)
-4. Save and Submit.
+1. افتح وثيقة فاتورة المشتريات الأصلية.
+2. انقر على **إنشاء > إرجاع**.
+   ![إنشاء إرجاع فاتورة المشتريات](./images/pinv-create-return.png)
+3. سيتم جلب تفاصيل الطرف والعنصر كما هو معين في وثيقة فاتورة المشتريات الأصلية. يمكنك تعيين كمية العناصر المرتجعة في أرقام سالبة.
+   ![نموذج إرجاع فاتورة المشتريات](./images/pinv-return-form.png)
+4. حفظ وإرسال.
 
 ::: info
-The Item quantity and Payment amount will be in negative figures to indicate
-that it's a return.
+ستكون كمية العنصر ومبلغ الدفع في أرقام سالبة للإشارة إلى أنه إرجاع.
 :::
 
-### Creating Manually
+### إنشاء يدوياً
 
-1. Navigate to the Purchase Invoice page `Purchases > Purchase Invoice`
-2. Click on **Return Against** then select the target Purchase Invoice against
-   which you returned the Items.
-   ![Set Is Return](./images/pinv-select-return-against-invoice.png)
-3. Fill Item details.
-4. Save and Submit.
+1. انتقل إلى صفحة فاتورة المشتريات `المشتريات > فاتورة المشتريات`
+2. انقر على **إرجاع مقابل** ثم حدد فاتورة المشتريات المستهدفة التي قمت بإرجاع العناصر مقابلها.
+   ![تعيين هو إرجاع](./images/pinv-select-return-against-invoice.png)
+3. املأ تفاصيل العنصر.
+4. حفظ وإرسال.
 
-## Purchase Invoice impact on General Ledger
+## تأثير فاتورة المشتريات على دفتر الأستاذ العام
 
-The Purchase Invoice Return entry will create General Ledger entries to reverse
-the impact of the original Purchase Invoice.
+سيقوم قيد إرجاع فاتورة المشتريات بإنشاء قيود دفتر الأستاذ العام لعكس تأثير فاتورة المشتريات الأصلية.
 
-![Purchase Invoice Return in General Ledger](./images/pinv-return-in-gl.png)
+![إرجاع فاتورة المشتريات في دفتر الأستاذ العام](./images/pinv-return-in-gl.png)

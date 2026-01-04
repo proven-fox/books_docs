@@ -1,135 +1,123 @@
-# Transactional Entries
+# القيود المعاملاتية
 
-In Frappe Books transactions are a special type of entry. These are entries that
-change an Accounts balance.
+في فريبي بوكس، المعاملات هي نوع خاص من القيود. هذه هي القيود التي تغير رصيد الحساب.
 
-The following are transactional entries in Frappe Books
+التالي هي القيود المعاملاتية في فريبي بوكس
 
-- Sales Invoice
-- Purchase Invoice
-- Payments
-- Journal Entries
+- فاتورة المبيعات
+- فاتورة المشتريات
+- المدفوعات
+- القيود اليومية
 
-## States of a Transactional Entry
+## حالات القيد المعاملاتي
 
-A transactional entry goes through the following states
+يمر القيد المعاملاتي بالحالات التالية
 
-|   # | State     | In Database | Editable | In Analytics |
+|   # | الحالة     | في قاعدة البيانات | قابل للتعديل | في التحليلات |
 | --: | :-------- | ----------: | -------: | -----------: |
-|   1 | Draft     |          No |      Yes |           No |
-|   2 | Saved     |         Yes |      Yes |           No |
-|   3 | Not Saved |          No |      Yes |           No |
-|   4 | Submitted |         Yes |       No |          Yes |
-|   5 | Cancelled |         Yes |       No |           No |
-|   6 | Deleted   |          No |       No |           No |
+|   1 | مسودة     |          لا |      نعم |           لا |
+|   2 | محفوظ     |         نعم |      نعم |           لا |
+|   3 | غير محفوظ |          لا |      نعم |           لا |
+|   4 | مقدم     |         نعم |       لا |          نعم |
+|   5 | ملغي     |         نعم |       لا |           لا |
+|   6 | محذوف   |          لا |       لا |           لا |
 
-Check the sections below on more details about these states.
+تحقق من الأقسام أدناه لمزيد من التفاصيل حول هذه الحالات.
 
-## Creating an Entry
+## إنشاء قيد
 
-To create an entry, first navigate to the page, then click the blue `+` button.
+لإنشاء قيد، أولاً انتقل إلى الصفحة، ثم انقر على الزر الأزرق `+`.
 
-::: info Transaction Form
-Other than Payments all other transactional entries are displayed in full page forms.
-Payments are displayed in a quick edit form.
+::: info نموذج المعاملة
+باستثناء المدفوعات، يتم عرض جميع القيود المعاملاتية الأخرى في نماذج الصفحة الكاملة.
+يتم عرض المدفوعات في نموذج التعديل السريع.
 :::
 
-To record an entry it needs to first be _Saved_ then _Submitted_.
+لتسجيل قيد، يجب أولاً أن يكون _محفوظاً_ ثم _مقدماً_.
 
-### Draft
+### مسودة
 
-Initially the Entry is in the **Draft** state. This means that its values can
-still be edited.
+في البداية يكون القيد في حالة **مسودة**. هذا يعني أنه لا يزال يمكن تعديل قيمه.
 
-![Before Save](./images/not-saved.png)
+![قبل الحفظ](./images/not-saved.png)
 
-Before the entry has been saved by clicking the blue Save button
+قبل أن يتم حفظ القيد بالنقر على زر الحفظ الأزرق
 
-1. No name is assigned to the entry
-2. The entry has not yet been stored in the database
+1. لم يتم تعيين اسم للقيد
+2. لم يتم تخزين القيد في قاعدة البيانات بعد
 
-### Saved
+### محفوظ
 
-After a transactional entry is saved, it is still in the **Draft** state.
+بعد حفظ القيد المعاملاتي، لا يزال في حالة **مسودة**.
 
-![Saved](./images/saved.png)
+![محفوظ](./images/saved.png)
 
-1. A name has been assigned to the entry
-2. The entry has been stored in the database
-3. The entry can still be edited
+1. تم تعيين اسم للقيد
+2. تم تخزين القيد في قاعدة البيانات
+3. لا يزال يمكن تعديل القيد
 
-::: info Not Saved
-On editing a saved entry, the status changes to **Not Saved**.
+::: info غير محفوظ
+عند تعديل قيد محفوظ، تتغير الحالة إلى **غير محفوظ**.
 
-Save needs to be clicked to store the changes at which point the status goes
-back to **Saved**.
+يجب النقر على حفظ لتخزين التغييرات وعند هذه النقطة تعود الحالة إلى **محفوظ**.
 :::
 
-### Submitted
+### مقدم
 
-After saving the entry, Submit needs to be clicked for the entry to be recorded.
-The entry will now be in the **Submitted** state.
+بعد حفظ القيد، يجب النقر على إرسال ليتم تسجيل القيد.
+سيكون القيد الآن في حالة **مقدم**.
 
-![Submitted](./images/submitted.png)
+![مقدم](./images/submitted.png)
 
-The status badge highlighed above will reflect the state of the transaction.
+ستعكس شارة الحالة المميزة أعلاه حالة المعاملة.
 
-::: info Status Badge
-Some transactions such as the Sales and Purchase Invoices will show a different
-status badge. This is to indicate whether a Payment has been made.
+::: info شارة الحالة
+بعض المعاملات مثل فواتير المبيعات والمشتريات ستعرض شارة حالة مختلفة. هذا للإشارة إلى ما إذا تم إجراء دفع.
 :::
 
-Whenever a transactional entry is submitted few things happen
+عند تقديم قيد معاملاتي تحدث عدة أشياء
 
-1. Account balances are updated
-2. General Ledger Entries are made
+1. يتم تحديث أرصدة الحسابات
+2. يتم إنشاء قيود دفتر الأستاذ
 
-On Submitting a few options become available such as Ledger Entries
+عند التقديم تصبح بعض الخيارات متاحة مثل قيود دفتر الأستاذ
 
-![Show Ledger Entries](./images/show-ledger-entries.png)
+![عرض قيود دفتر الأستاذ](./images/show-ledger-entries.png)
 
-## Checking Ledger Entries
+## التحقق من قيود دفتر الأستاذ
 
-Clicking on Ledger Entries from the `...` menu will display the accounts that
-have been affected by this transaction in the General Ledger.
+النقر على قيود دفتر الأستاذ من القائمة `...` سيعرض الحسابات التي تأثرت بهذه المعاملة في دفتر الأستاذ العام.
 
-![General Ledger](./images/general-ledger.png)
+![دفتر الأستاذ العام](./images/general-ledger.png)
 
-## Cancelling and Deleting an Entry
+## إلغاء وحذف قيد
 
-For an entry to be deleted it needs to first be cancelled.
+لحذف قيد يجب أولاً إلغاؤه.
 
-![Cancel and Delete](./images/cancel.png)
+![إلغاء وحذف](./images/cancel.png)
 
-### Cancel
+### إلغاء
 
-On clicking **Cancel**, Account balances and General Ledger Entries are
-reverted. Now the entries won't be included in any of the analytics but they
-will still be present in the system and can be duplicated.
+عند النقر على **إلغاء**، يتم التراجع عن أرصدة الحسابات وقيود دفتر الأستاذ. الآن لن يتم تضمين القيود في أي من التحليلات ولكنها ستظل موجودة في النظام ويمكن تكرارها.
 
-To view these cancelled entries in the General Ledger, click on the Include
-Cancelled checkmark.
+لعرض هذه القيود الملغاة في دفتر الأستاذ العام، انقر على علامة الاختيار تضمين الملغي.
 
-![Include Cancelled](./images/gl-cancelled.png)
+![تضمين الملغي](./images/gl-cancelled.png)
 
-In the above image you can see reverse entries that have been made on
-cancellation.
+في الصورة أعلاه يمكنك رؤية القيود العكسية التي تم إنشاؤها عند الإلغاء.
 
-### Delete
+### حذف
 
-On clicking **Delete**, a confirmation is required to carry out the action.
+عند النقر على **حذف**، مطلوب تأكيد لتنفيذ الإجراء.
 
-![Delete](./images/delete.png)
+![حذف](./images/delete.png)
 
-When an entry is deleted all traces of it are removed from the system, this
-includes all the reverted entries.
+عند حذف قيد، تتم إزالة جميع آثاره من النظام، وهذا يشمل جميع القيود المرتجعة.
 
-::: danger Deletion
-Deletion is an action that cannot be undone. Make sure you really want to delete
-an entry before you go ahead with it.
+::: danger الحذف
+الحذف هو إجراء لا يمكن التراجع عنه. تأكد أنك تريد حقاً حذف قيد قبل المضي قدماً فيه.
 :::
 
 ---
 
-Now that you are well versed with Transactional Entries in Frappe Books, you can
-move on to learning about the individual types of Transactional Entries.
+الآن أنت متمرس جيداً مع القيود المعاملاتية في فريبي بوكس، يمكنك الانتقال إلى تعلم الأنواع الفردية من القيود المعاملاتية.

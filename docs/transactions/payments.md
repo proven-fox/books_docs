@@ -1,63 +1,56 @@
-# Payments
+# المدفوعات
 
-Payments are a type of transactional entry that indicates the transfer of funds.
+المدفوعات هي نوع من القيود المعاملاتية التي تشير إلى نقل الأموال.
 
-Payments usually follow a sale or a purchase, depending on this a Payment entry
-can be made to either Receive or Pay funds.
+المدفوعات عادة تتبع البيع أو الشراء، بناءً على ذلك يمكن إجراء قيد دفع لاستلام أو دفع الأموال.
 
-|   # | Transaction | Payment Type | To Account          | From Account        |
+|   # | المعاملة | نوع الدفع | إلى الحساب          | من الحساب        |
 | --: | :---------- | :----------- | :------------------ | :------------------ |
-|   1 | Sale        | Receive      | Bank, Cash Accounts | Accounts Receivable |
-|   2 | Purchase    | Pay          | Accounts Payable    | Bank, Cash Accounts |
+| |   1 | البيع        | استلام      | حسابات البنك والنقد | الحسابات المدينة |
+| |   2 | الشراء    | دفع          | الحسابات الدائنة    | حسابات البنك والنقد |
 
-## Making Payments
+## إجراء المدفوعات
 
-To make a Payment first navigate to the Payment page
+لإجراء دفع أولاً انتقل إلى صفحة الدفع
 
-- For Sales: `Sales > Sales Payments`
-- For Purchases: `Purchases > Purchase Payments`
+- للمبيعات: `المبيعات > مدفوعات المبيعات`
+- للمشتريات: `المشتريات > مدفوعات المشتريات`
 
-Then click on the blue `+` button. This will open the Payment quick edit form.
+ثم انقر على الزر الأزرق `+`. سيفتح هذا نموذج التعديل السريع للدفع.
 
-![Payment Quick Edit Form](./images/payment-quick-edit.png)
+![نموذج التعديل السريع للدفع](./images/payment-quick-edit.png)
 
-You can select the Party and enter other the details of the Payment.
+يمكنك تحديد الطرف وإدخال تفاصيل أخرى للدفع.
 
-Once the details have been set you can click on Save and then Submit to record
-the Payment.
+بمجرد تعيين التفاصيل يمكنك النقر على حفظ ثم إرسال لتسجيل الدفع.
 
-### Payment Reference
+### مرجع الدفع
 
-If the Payment is being made for an invoice, you can add a reference to the
-invoice in the table at the bottom.
+إذا تم إجراء الدفع لفاتورة، يمكنك إضافة مرجع للفاتورة في الجدول في الأسفل.
 
-This will update the Outstanding Amount on the invoice.
+سيقوم هذا بتحديث المبلغ المستحق في الفاتورة.
 
-::: tip Invoice Payment
-A more convenient way of settling an Invoice Payment is to do so using the Make
-Payment option from the Invoice Form.
+::: tip دفع الفاتورة
+طريقة أكثر ملاءمة لتسوية دفع الفاتورة هي القيام بذلك باستخدام خيار إجراء الدفع من نموذج الفاتورة.
 :::
 
-### Write Off Amount
+### مبلغ الإلغاء
 
-The write off amount is a deduction on the payment.
+مبلغ الإلغاء هو خصم على الدفع.
 
-![Payment Write Off](./images/payment-writeoff.png)
+![إلغاء الدفع](./images/payment-writeoff.png)
 
-This amount is booked under the Write Off Account that can set under General
-settings: `Setup > Settings > General`
+يتم حجز هذا المبلغ تحت حساب الإلغاء الذي يمكن تعيينه تحت الإعدادات العامة: `الإعداد > الإعدادات > عام`
 
-::: info Transfered Amount
-The final amount to be paid or received = Amount - Write Off
+::: info المبلغ المنقول
+المبلغ النهائي الذي سيتم دفعه أو استلامه = المبلغ - الإلغاء
 :::
 
-## Making Payments from Invoices
+## إجراء المدفوعات من الفواتير
 
-To make an Invoice Payment to settle the Outstanding Amount of a Sales Invoice
-or a Purchase Invoice, you can navigate to the Invoice form and click on the Make
-Payment button under the `...` menu.
+لإجراء دفع فاتورة لتسوية المبلغ المستحق لفاتورة مبيعات أو فاتورة مشتريات، يمكنك الانتقال إلى نموذج الفاتورة والنقر على زر إجراء الدفع تحت القائمة `...`.
 
-For more information check these links:
+لمزيد من المعلومات تحقق من هذه الروابط:
 
-- [Making Sales Payments](/transactions/sales-invoices#making-sales-payments)
-- [Making Purchase Payments](/transactions/purchase-invoices#making-purchase-payments)
+- [إجراء مدفوعات المبيعات](/transactions/sales-invoices#making-sales-payments)
+- [إجراء مدفوعات المشتريات](/transactions/purchase-invoices#making-purchase-payments)

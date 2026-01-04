@@ -1,156 +1,124 @@
-# Sales Invoices
+# فواتير المبيعات
 
-Sales Invoices are bills that are sent to your customers when an income is
-booked.
+فواتير المبيعات هي الفواتير المرسلة لعملائك عند تسجيل الدخل.
 
-It is a transactional entry that denotes a sale.
+هي قيد معاملاتي يدل على بيع.
 
-## Creating Sales Invoices
+## إنشاء فواتير المبيعات
 
-If you have set up your Frappe Books with Accounts, Taxes, Sales Items, and
-Customers, creating a Sales Invoice is as simple as it gets. If not you can the
-follow the steps [here](/setting-up/getting-started).
+إذا قمت بإعداد فريبي بوكس الخاص بك مع الحسابات والضرائب وعناصر المبيعات والعملاء، فإن إنشاء فاتورة مبيعات بسيط للغاية. إذا لم تقم بذلك، يمكنك اتباع الخطوات [هنا](/setting-up/getting-started).
 
-First navigate to the Sales Invoices page
+أولاً انتقل إلى صفحة فواتير المبيعات
 
-`Sales > Sales Invoices`
+`المبيعات > فواتير المبيعات`
 
-Then click on the blue `+` button to open the Sales Invoice form.
+ثم انقر على الزر الأزرق `+` لفتح نموذج فاتورة المبيعات.
 
-![Sales Invoice Form](./images/sales-invoice.png)
+![نموذج فاتورة المبيعات](./images/sales-invoice.png)
 
-1. Select the Customer to whom you will be making a sale.
-2. Click on Add Row and select the Item being sold. Default Tax will be fetched
-   you can change it if required.
-3. Enter the Quantity.
-4. You can add more items or if you are done, click on Save.
-5. Once finalized, click on Submit. Frappe Books will do the required ledger
-   entries against the appropriate accounts.
+1. حدد العميل الذي ستقوم ببيع له.
+2. انقر على إضافة صف وحدد العنصر الذي يتم بيعه. سيتم جلب الضريبة الافتراضية يمكنك تغييرها إذا لزم الأمر.
+3. أدخل الكمية.
+4. يمكنك إضافة المزيد من العناصر أو إذا انتهيت، انقر على حفظ.
+5. بمجرد الانتهاء، انقر على إرسال. سيقوم فريبي بوكس بإنشاء قيود دفتر الأستاذ المطلوبة مقابل الحسابات المناسبة.
 
-This invoice is now in _“Submitted”_ state, it cannot be edited. The sales
-transaction has been recorded.
+هذه الفاتورة الآن في حالة _"مقدم"_، لا يمكن تعديلها. تم تسجيل معاملة المبيعات.
 
-## Editing an Invoice Item
+## تعديل عنصر الفاتورة
 
-To edit the values of an Invoice Item click on the edit button on the item row
-![Edit Invoice Item](./images/invoice-item.png)
+لتعديل قيم عنصر الفاتورة انقر على زر التعديل في صف العنصر
+![تعديل عنصر الفاتورة](./images/invoice-item.png)
 
-From here you can change the item description, HSN code check the Taxed Amount,
-etc.
+من هنا يمكنك تغيير وصف العنصر، رمز HSN التحقق من المبلغ الضريبي، إلخ.
 
-::: tip Setting the Taxed Amount
-You can directly set the Taxed Amount, Frappe Books will calculate the Rate of
-the Item automatically.
+::: tip تعيين المبلغ الضريبي
+يمكنك تعيين المبلغ الضريبي مباشرة، سيقوم فريبي بوكس بحساب معدل العنصر تلقائياً.
 :::
 
-## Making Sales Payments
+## إجراء مدفوعات المبيعات
 
-Once a sales invoice has been submitted, you’ll need to record payment against
-it to denote that you’ve received the money.
+بمجرد تقديم فاتورة المبيعات، ستحتاج إلى تسجيل دفع مقابلها للإشارة إلى أنك استلمت المال.
 
-To make a Payment first navigate to the Sales Invoice, then click on the `...`
-menu button. Then click the Make Payment option.
+لإجراء دفع أولاً انتقل إلى فاتورة المبيعات، ثم انقر على زر القائمة `...`. ثم انقر على خيار إجراء الدفع.
 
-![Sales Invoice Status](./images/sales-payment.png)
+![حالة فاتورة المبيعات](./images/sales-payment.png)
 
-This will open the Payment quick edit form with the outstanding amount
-auto-filled.
+سيفتح هذا نموذج التعديل السريع للدفع مع المبلغ المستحق الملء التلقائي.
 
-![Sales Invoice Payment](./images/sales-payment-quickedit.png)
+![دفع فاتورة المبيعات](./images/sales-payment-quickedit.png)
 
-You can change the values and click on Save. This will Save and Submit the
-Payment.
+يمكنك تغيير القيم والنقر على حفظ. سيقوم هذا بحفظ وإرسال الدفع.
 
-On making the Payment, Frappe Books will make the necessary ledger entries to
-reduce the payment amount from Accounts Receivable and increase the amount in
-your Bank or Cash Account.
+عند إجراء الدفع، سيقوم فريبي بوكس بإنشاء قيود دفتر الأستاذ اللازمة لتقليل مبلغ الدفع من الحسابات المدينة وزيادة المبلغ في حساب البنك أو النقد الخاص بك.
 
-It will also update the Outstanding Amount on the invoice form.
+سيقوم أيضاً بتحديث المبلغ المستحق في نموذج الفاتورة.
 
-::: info Sales Invoice Status
-Until Payments are made to settle the Outstanding Amount, the Sales Invoice
-will be in the **Unpaid** state.
+::: info حالة فاتورة المبيعات
+حتى يتم إجراء المدفوعات لتسوية المبلغ المستحق، ستكون فاتورة المبيعات في حالة **غير مدفوعة**.
 
-Once the Outstanding Amount reaches 0, the status will change to **Paid**.
+بمجرد أن يصل المبلغ المستحق إلى 0، ستتغير الحالة إلى **مدفوعة**.
 :::
 
-### Auto Payments
+### المدفوعات التلقائية
 
-You can simplify the _Sales Invoice → Payment_ workflow by using Auto Payments.
-For this you just need to set the default accounts for Sales Payment.
+يمكنك تبسيط سير عمل _فاتورة المبيعات → الدفع_ باستخدام المدفوعات التلقائية.
+لهذا تحتاج فقط إلى تعيين الحسابات الافتراضية لدفع المبيعات.
 
-This can be done in `Setup > Settings > Defaults > Auto Payments`:
-![Payment Accounts](./images/payment-accounts.png)
+يمكن القيام بذلك في `الإعداد > الإعدادات > الافتراضيات > المدفوعات التلقائية`:
+![حسابات الدفع](./images/payment-accounts.png)
 
-Once this is set, whenever you Submit a Sales Invoice a Payment entry will
-automatically be created.
+بمجرد تعيين هذا، كلما قدمت فاتورة مبيعات سيتم إنشاء قيد دفع تلقائياً.
 
-::: tip Disable Auto Payment for a Sales Invoice
+::: tip تعطيل الدفع التلقائي لفاتورة المبيعات
 
-You can disable Auto Payment for a single Sales Invoice by unchecking the Make
-Payment On Submit check box in the Settings tab before Submitting a Sales
-Invoice entry.
+يمكنك تعطيل الدفع التلقائي لفاتورة مبيعات واحدة عن طريق إلغاء تحديد مربع الاختيار إجراء الدفع عند الإرسال في علامة التبويب الإعدادات قبل تقديم قيد فاتورة المبيعات.
 
-![Disable Auto Payment](./images/auto-payment.png)
+![تعطيل الدفع التلقائي](./images/auto-payment.png)
 :::
 
-## Sales Invoice Return
+## إرجاع فاتورة المبيعات
 
-The customer could return an already sold Item due to quality issues or any
-other reasons.
+قد يقوم العميل بإرجاع عنصر تم بيعه بالفعل بسبب مشاكل الجودة أو أي أسباب أخرى.
 
-To reflect this you can create a Sales Invoice Return from the original Sales
-Invoice entry or manually create one from a new Sales Invoice Entry.
+لعكس هذا، يمكنك إنشاء إرجاع فاتورة المبيعات من قيد فاتورة المبيعات الأصلية أو إنشاء واحدة يدوياً من قيد فاتورة مبيعات جديدة.
 
-### Creating a Sales Invoice Return
+### إنشاء إرجاع فاتورة المبيعات
 
-1. Open the original Sales Invoice document, against which customer returned
-   the Items.
-2. Click on **Create > Return**.
-   ![Create Sales Invoice Return](./images/sinv-create-return.png)
-3. The Party and Item details will be fetched as set in the original Sales
-   Invoice document. You can set the quantity of Items returned in negative
-   numbers.
-   ![Sales Invoice Return Form](./images/sinv-return-form.png)
-4. Save and Submit.
+1. افتح وثيقة فاتورة المبيعات الأصلية، التي قام العميل بإرجاع العناصر مقابلها.
+2. انقر على **إنشاء > إرجاع**.
+   ![إنشاء إرجاع فاتورة المبيعات](./images/sinv-create-return.png)
+3. سيتم جلب تفاصيل الطرف والعنصر كما هو معين في وثيقة فاتورة المبيعات الأصلية. يمكنك تعيين كمية العناصر المرتجعة في أرقام سالبة.
+   ![نموذج إرجاع فاتورة المبيعات](./images/sinv-return-form.png)
+4. حفظ وإرسال.
 
 ::: info
-The Item quantity and Payment amount will be in negative figures to indicate
-that it's a return.
+ستكون كمية العنصر ومبلغ الدفع في أرقام سالبة للإشارة إلى أنه إرجاع.
 :::
 
-### Creating Manually
+### إنشاء يدوياً
 
-1. Navigate to the Sales Invoice page `Sales > Sales Invoice`
-2. Click on **Return Against** then select the target Sales Invoice against
-   which customer returned the Items.
-   ![Select return invoice](./images/sinv-select-return-against.png)
-3. Fill Item details.
-4. Save and Submit.
+1. انتقل إلى صفحة فاتورة المبيعات `المبيعات > فاتورة المبيعات`
+2. انقر على **إرجاع مقابل** ثم حدد فاتورة المبيعات المستهدفة التي قام العميل بإرجاع العناصر مقابلها.
+   ![اختيار فاتورة الإرجاع](./images/sinv-select-return-against.png)
+3. املأ تفاصيل العنصر.
+4. حفظ وإرسال.
 
-## Sales Invoice Return impact on General Ledger
+## تأثير إرجاع فاتورة المبيعات على دفتر الأستاذ العام
 
-The Sales Invoice Return entry will create General Ledger entries to reverse
-the impact of the original Sales Invoice.
+سيقوم قيد إرجاع فاتورة المبيعات بإنشاء قيود دفتر الأستاذ العام لعكس تأثير فاتورة المبيعات الأصلية.
 
-![Sales Invoice Return in General Ledger](./images/sinv-return-in-gl.png)
+![إرجاع فاتورة المبيعات في دفتر الأستاذ العام](./images/sinv-return-in-gl.png)
 
-## Printing the Sales Invoice
+## طباعة فاتورة المبيعات
 
-To export the Sales Invoice as a PDF, click on the Print button next to the
-`...` menu above the Sales Invoice Form.
+لتصدير فاتورة المبيعات كملف PDF، انقر على زر الطباعة بجانب القائمة `...` أعلى نموذج فاتورة المبيعات.
 
-This will open the Print View, you can click on the Customize button to
-customize it.
+سيفتح هذا عرض الطباعة، يمكنك النقر على زر التخصيص لتخصيصه.
 
-![Print View](./images/print-view.png)
+![عرض الطباعة](./images/print-view.png)
 
-You can now add your company logo and select a brand color that matches your
-business’ primary color. You can also change the style by selecting one of the
-given Templates. Choose any that fits your style.
+يمكنك الآن إضافة شعار شركتك واختيار لون علامة تجارية يطابق اللون الأساسي لعملك. يمكنك أيضاً تغيير النمط عن طريق تحديد أحد القوالب المحددة. اختر أي منها يناسب أسلوبك.
 
-Once you have completed customizing, click on Save as PDF to save the Sales
-Invoice.
+بمجرد الانتهاء من التخصيص، انقر على حفظ كـ PDF لحفظ فاتورة المبيعات.
 
-After saving the PDF you can take a print out of it using your printer's
-software.
+بعد حفظ ملف PDF يمكنك أخذ نسخة مطبوعة منه باستخدام برنامج الطابعة الخاص بك.

@@ -1,136 +1,111 @@
-# Accounting Basics
+# أساسيات المحاسبة
 
-A small primer to get you up to speed on the concepts of accounting.
+مقدمة صغيرة لتسريعك في مفاهيم المحاسبة.
 
-Let's understand the concept of accounting with the example of an imaginary
-business that is just starting out.
+لنفهم مفهوم المحاسبة بمثال عمل خيالي للتو.
 
-**Owner Investment**: Let’s say we’re starting a Home Interior business and we have ₹5,00,000 of
-capital to start our business.
+**استثمار المالك**: لنفترض أننا نبدأ عمل داخلي منزلي ولدينا رأس مال قدره 500,000 روبية هندية لبدء عملنا.
 
-> Bank balance will initially be ₹5,00,000.
+> رصيد البنك سيكون في البداية 500,000 روبية هندية.
 
-**First Expense**: We will need an operating place where we can work and meet clients. For
-this, we rent out a co-working space for ₹40,000 per month. This is our first
-expense.
+**المصروف الأول**: سنحتاج إلى مكان تشغيل حيث يمكننا العمل والاجتماع مع العملاء. لهذا، نستأجر مساحة عمل مشتركة بمبلغ 40,000 روبية هندية شهرياً. هذا هو مصروفنا الأول.
 
-> Bank balance will now be ₹5,00,000 - ₹40,000 = ₹4,60,000.
+> رصيد البنك سيكون الآن 500,000 - 40,000 = 460,000 روبية هندية.
 
-**First Income**: We have invested some cash, and we have a working place. Now
-we make our first sale having a value of ₹30,000. We earned ₹30,000 from our
-first customer. This is our first income.
+**الدخل الأول**: استثمرنا بعض النقد، ولدينا مكان عمل. الآن نقوم بأول بيع بقيمة 30,000 روبية هندية. كسبنا 30,000 روبية هندية من أول عميل لنا. هذا هو دخولنا الأول.
 
-> Bank balance at this point will be ₹4,60,000 + ₹30,000 = ₹4,90,000.
+> رصيد البنك في هذه المرحلة سيكون 460,000 + 30,000 = 490,000 روبية هندية.
 
-**Accounts Payable**: Finally, Let’s say we decided to hire a Web Agency to build a website for us,
-they charge ₹50,000 which will be paid after 2 months from current date.
+**الحسابات الدائنة**: أخيراً، لنفترض أننا قررنا توظيف وكالة ويب لبناء موقع ويب لنا، يتقاضون 50,000 روبية هندية سيتم دفعها بعد شهرين من التاريخ الحالي.
 
-At this point we haven’t paid them any money, but we are liable to pay them in
-the future. This is a liability and will be recorded under Accounts Payable.
+في هذه المرحلة لم ندفع لهم أي مال، لكننا ملزمون بدفعهم في المستقبل. هذا هو التزام وسيتم تسجيله تحت الحسابات الدائنة.
 
-## Events and Accounts
+## الأحداث والحسابات
 
-Let’s list these events down in a table:
+لنقوم بإدراج هذه الأحداث في جدول:
 
-|   # | Event            |      Amount |
+|   # | الحدث            |      المبلغ |
 | --: | ---------------- | ----------: |
-|   1 | Owner Investment | + ₹5,00,000 |
-|   2 | Rent             |   - ₹40,000 |
-|   3 | Sales            |   + ₹30,000 |
-|   4 | Accounts Payable |   - ₹50,000 |
-|   5 | _Total_          | _₹4,40,000_ |
+|   1 | استثمار المالك | + 500,000 روبية هندية |
+|   2 | الإيجار             |   - 40,000 روبية هندية |
+|   3 | المبيعات            |   + 30,000 روبية هندية |
+|   4 | الحسابات الدائنة |   - 50,000 روبية هندية |
+|   5 | _المجموع_          | _440,000 روبية هندية_ |
 
-Now, let's categorize these into the five types of Accounts and list their final
-balances:
+الآن، لنقوم بتصنيف هذه إلى الأنواع الخمسة من الحسابات ونقوم بإدراج أرصدتها النهائية:
 
-|   # | Account                        |    Amount |
+|   # | الحساب                        |    المبلغ |
 | --: | ------------------------------ | --------: |
-|   1 | Asset (Bank)                   | ₹4,90,000 |
-|   2 | Liabilities (Accounts Payable) |   ₹50,000 |
-|   3 | Equity (Owner Investment)      | ₹5,00,000 |
-|   4 | Income (Sales)                 |   ₹30,000 |
-|   5 | Expense (Rent)                 |   ₹40,000 |
+|   1 | الأصول (البنك)                   | 490,000 روبية هندية |
+|   2 | الالتزامات (الحسابات الدائنة) |   50,000 روبية هندية |
+|   3 | حقوق الملكية (استثمار المالك)      | 500,000 روبية هندية |
+|   4 | الدخل (المبيعات)                 |   30,000 روبية هندية |
+|   5 | المصروفات (الإيجار)                 |   40,000 روبية هندية |
 
-## Impact on Accounts
+## التأثير على الحسابات
 
-Let’s take a look at each transaction and understand which accounts will get
-affected, from an accounting point-of-view:
+لنلقي نظرة على كل معاملة ونفهم أي الحسابات سيتأثر، من وجهة نظر محاسبية:
 
-### 1. Cash Investment
+### 1. استثمار نقدي
 
-Since you, the owner, invested money into the business, it is a liability.
-So, Accounts Payable, which is a Liability account, is increased by
-₹5,00,000.
+بما أنك، المالك، استثمرت المال في العمل، فهذا التزام. لذلك، الحسابات الدائنة، وهو حساب التزامات، يزداد بمبلغ 500,000 روبية هندية.
 
-Also, the money in the Bank Account, which is an Asset account, is increased
-by ₹5,00,000.
+أيضاً، المال في حساب البنك، وهو حساب أصول، يزداد بمبلغ 500,000 روبية هندية.
 
-| Account          |    Credit |     Debit |
+| الحساب          |    دائن |     مدين |
 | ---------------- | --------: | --------: |
-| Accounts Payable | ₹5,00,000 |         0 |
-| Bank Account     |         0 | ₹5,00,000 |
+| الحسابات الدائنة | 500,000 روبية هندية |         0 |
+| حساب البنك     |         0 | 500,000 روبية هندية |
 
-### 2. Rent
+### 2. الإيجار
 
-Rent is an immediate expense, so it is recorded in the Rent Account, which is
-an Expense account, it is increased by ₹40,000.
+الإيجار هو مصروف فوري، لذلك يتم تسجيله في حساب الإيجار، وهو حساب مصروفات، يزداد بمبلغ 40,000 روبية هندية.
 
-Also, the money is spent from the Bank Account, which is an Asset account, it
-is decreased by ₹40,000.
+أيضاً، يتم إنفاق المال من حساب البنك، وهو حساب أصول، ينقص بمبلغ 40,000 روبية هندية.
 
-| Account      |  Credit |   Debit |
+| الحساب      |  دائن |   مدين |
 | ------------ | ------: | ------: |
-| Rent Account |       0 | ₹40,000 |
-| Bank Account | ₹40,000 |       0 |
+| حساب الإيجار |       0 | 40,000 روبية هندية |
+| حساب البنك | 40,000 روبية هندية |       0 |
 
-### 3. First Sale
+### 3. أول بيع
 
-We got an immediate payment, it is recorded in Sales Account, which is an
-Income account, the balance is increased by ₹30,000.
+حصلنا على دفع فوري، يتم تسجيله في حساب المبيعات، وهو حساب دخل، الرصيد يزداد بمبلغ 30,000 روبية هندية.
 
-Also, we received the money in our Bank Account directly, so it’s balance
-increases by ₹30,000.
+أيضاً، استلمنا المال في حساب البنك مباشرة، لذلك يزداد رصيده بمبلغ 30,000 روبية هندية.
 
-| Account        |  Credit |   Debit |
+| الحساب        |  دائن |   مدين |
 | -------------- | ------: | ------: |
-| Income Account | ₹30,000 |       0 |
-| Bank Account   |       0 | ₹30,000 |
+| حساب الدخل | 30,000 روبية هندية |       0 |
+| حساب البنك   |       0 | 30,000 روبية هندية |
 
-### 4. Hiring a Web Agency
+### 4. توظيف وكالة ويب
 
-We hired a Web Agency for some work, and we are liable to pay them in the
-future. This is recorded in Accounts Payable by increasing the amount by
-₹50,000.
+وظفنا وكالة ويب لبعض العمل، ونحن ملزمون بدفعهم في المستقبل. يتم تسجيل هذا في الحسابات الدائنة بزيادة المبلغ بمقدار 50,000 روبية هندية.
 
-Since this is an expense for us, we also increase the balance in the Vendor
-Expense Account by ₹50,000.
+بما أن هذا مصروف لنا، نحن أيضاً نزيد الرصيد في حساب مصروفات المورد بمقدار 50,000 روبية هندية.
 
-| Account          |  Credit |   Debit |
+| الحساب          |  دائن |   مدين |
 | ---------------- | ------: | ------: |
-| Accounts Payable | ₹50,000 |       0 |
-| Expense Account  |       0 | ₹50,000 |
+| الحسابات الدائنة | 50,000 روبية هندية |       0 |
+| حساب المصروفات  |       0 | 50,000 روبية هندية |
 
 ---
 
-As you might have noticed, every transaction we do in our business affects two
-accounts. This is the basis of double-entry bookkeeping system.
+كما قد تكون لاحظت، كل معاملة نقوم بها في عملنا تؤثر على حسابين. هذا هو أساس نظام القيد المزدوج.
 
-You can test this out by creating a **Sales Invoice** in Frappe Books, and then
-check the **General Ledger Report** to see which accounts were affected.
+يمكنك اختبار هذا عن طريق إنشاء **فاتورة مبيعات** في فريبي بوكس، ثم التحقق من **تقرير دفتر الأستاذ العام** لرؤية أي الحسابات تأثرت.
 
-## Credit and Debit
+## الدائن والمدين
 
-The words Credit and Debit mean different things when applied to different
-accounts.
+كلمات الدائن والمدين تعني أشياء مختلفة عند تطبيقها على حسابات مختلفة.
 
-- For **Assets** and **Expense** accounts Credit implies a decrease in balance and Debit
-  implies an increase in balance.
+- لحسابات **الأصول** و**المصروفات** الدائن يعني نقصاً في الرصيد والمدين يعني زيادة في الرصيد.
 
-- For **Liabilities** and **Income** accounts Credit implies an increase in balance and Debit
-  implies and decrease in balance.
+- لحسابات **الالتزامات** و**الدخل** الدائن يعني زيادة في الرصيد والمدين يعني نقصاً في الرصيد.
 
 ::: tip AEDLIC
-You can remember this by the abbreviation **AEDLIC** which would stand for:
+يمكنك تذكر هذا بالاختصار **AEDLIC** الذي يعني:
 
-**A**ssets and **E**xpenses **D**ebit, **L**iabilities and **I**ncome **C**redit
+**الأصول** و**المصروفات** **مدين**، **الالتزامات** و**الدخل** **دائن**
 :::

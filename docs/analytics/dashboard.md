@@ -1,81 +1,73 @@
-# Dashboard
+# لوحة التحكم
 
-Dashboard show an overview of Cash Flow, Profit and Loss, Pending Payments and
-Expenses.
+تعرض لوحة التحكم نظرة عامة على التدفق النقدي، الدخل والخسارة، المدفوعات المعلقة، والمصروفات.
 
-You can access the Dashboard from the sidebar.
+يمكنك الوصول إلى لوحة التحكم من الشريط الجانبي.
 
-![Dashboard](./images/dashboard.png)
+![لوحة التحكم](./images/dashboard.png)
 
-## Period Selector
+## محدد الفترة
 
-All sections of the Dashboard have a Period Selector. The default value is
-**This Year**. There are three options.
+جميع أقسام لوحة التحكم لديها محدد فترة. القيمة الافتراضية هي **هذا العام**. هناك ثلاثة خيارات.
 
-Consider today's date as 16 Jun, 2022. The three options will show analytics for
-the given range:
+اعتبر تاريخ اليوم هو 16 يونيو، 2022. الخيارات الثلاثة ستعرض التحليلات للنطاق المعطى:
 
-|   # | Option       | From         | Until (Today) |
+|   # | الخيار       | من         | حتى (اليوم) |
 | --: | :----------- | :----------- | :------------ |
-|   1 | This Year    | 16 Jun, 2021 | 16 Jun, 2022  |
-|   2 | This Quarter | 16 Mar, 2022 | 16 Jun, 2022  |
-|   3 | This Month   | 16 May, 2022 | 16 Jun, 2022  |
+|   1 | هذا العام    | 16 يونيو، 2021 | 16 يونيو، 2022  |
+|   2 | هذا الربع | 16 مارس، 2022 | 16 يونيو، 2022  |
+|   3 | هذا الشهر   | 16 مايو، 2022 | 16 يونيو، 2022  |
 
-::: info Options
-The Cashflow and the Profit and Loss chart don't show the **This Month** option.
+::: info الخيارات
+رسم التدفق النقدي ورسم الدخل والخسارة لا يعرضان خيار **هذا الشهر**.
 :::
 
-## Cashflow
+## التدفق النقدي
 
-![Cashflow](./images/cashflow.png)
+![التدفق النقدي](./images/cashflow.png)
 
-The Cashflow chart shows the total amount of money being transferred into and
-out of your company over a period.
+يعرض رسم التدفق النقدي المبلغ الإجمالي للمال الذي يتم نقله إلى ومن شركتك خلال فترة.
 
-::: tip Cashflow
-The Cashflow chart is calculated from the Cash and Bank account balances.
+::: tip التدفق النقدي
+يتم حساب رسم التدفق النقدي من أرصدة الحسابات النقدية والبنكية.
 :::
 
-::: info Hover
-Hover tooltip shows the Inflow or Outflow amount for that month.
+::: info التمرير
+تلميح التمرير يعرض مبلغ التدفق الداخلي أو الخارجي لهذا الشهر.
 :::
 
-## Pending Payments
+## المدفوعات المعلقة
 
-![Pending Payments](./images/pending-payments.png)
+![المدفوعات المعلقة](./images/pending-payments.png)
 
-Pending Payments shows the invoice paid and unpaid (outstanding) amounts. It has
-two sub-sections
+تعرض المدفوعات المعلقة فواتير مدفوعة وغير مدفوعة (مستحقة) المبالغ. لديها قسمين فرعيين
 
-1. The Sales Invoice section shows the total outstanding amount which is pending
-   from your customers for your sales.
-2. The Purchase Invoice section shows the total outstanding amount that you have
-   to pay to your suppliers for your purchases.
+1. يعرض قسم فاتورة المبيعات المبلغ الإجمالي المستحق المعلق من عملائك لمبيعاتك.
+2. يعرض قسم فاتورة المشتريات المبلغ الإجمالي المستحق الذي يجب عليك دفعه لمورديك لمشترياتك.
 
-::: info Hover
-Hover tooltip shows the number of Paid and Unpaid invoices.
+::: info التمرير
+تلميح التمرير يعرض عدد الفواتير المدفوعة وغير المدفوعة.
 :::
 
-## Profit and Loss
+## الدخل والخسارة
 
-![Profit and Loss Bar](./images/pnl-bar.png)
-This chart shows the profit (or loss) per month for a given period.
+![شريط الدخل والخسارة](./images/pnl-bar.png)
+يعرض هذا الرسم الربح (أو الخسارة) لكل شهر لفترة معينة.
 
-::: tip Profit and Loss
-Profit and Loss is the difference between the Income and Expense accounts.
+::: tip الدخل والخسارة
+الدخل والخسارة هو الفرق بين حسابات الدخل والمصروفات.
 :::
 
-::: info Hover
-Hover tooltip shows the Profit or Loss amount for that month.
+::: info التمرير
+تلميح التمرير يعرض مبلغ الربح أو الخسارة لهذا الشهر.
 :::
 
-## Top Expenses
+## أعلى المصروفات
 
-![Top Expenses](./images/top-expenses.png)
+![أعلى المصروفات](./images/top-expenses.png)
 
-This section shows your top five expenses sorted from your highest expenses to
-lowest expenses by category.
+يعرض هذا القسم أعلى خمسة مصروفات مرتبة من أعلى مصروفاتك إلى أقل مصروفات حسب الفئة.
 
-::: tip Expenses
-The Top Expenses chart is calculated from the Expense account balances.
+::: tip المصروفات
+يتم حساب رسم أعلى المصروفات من أرصدة حساب المصروفات.
 :::

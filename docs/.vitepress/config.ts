@@ -2,18 +2,24 @@ import { defineConfig } from 'vitepress';
 import sidebar from './sidebar';
 
 const tagline = 'Free, Modern Desktop Accounting';
+const taglineAr = 'محاسبة سطح المكتب الحديثة والمجانية';
 
 export default defineConfig({
-  lang: 'en-US',
+  lang: 'ar-SA',
   base: '/books/',
-  title: 'Frappe Books',
-  description: tagline,
-  titleTemplate: tagline,
+  title: 'فريبي بوكس',
+  description: taglineAr,
+  titleTemplate: taglineAr,
   appearance: false,
   outDir: '../dist',
   lastUpdated: true,
 
-  head: [['link', { rel: 'icon', type: 'image/x-icon', href: '/books/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/books/favicon.ico' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+    ['meta', { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' }],
+    ['link', { rel: 'stylesheet', href: '/books/.vitepress/theme/style.css' }],
+  ],
 
   themeConfig: {
     logo: '/books/logo.svg',
@@ -22,7 +28,7 @@ export default defineConfig({
     sidebar: sidebar(),
     editLink: {
       pattern: 'https://github.com/frappe/books_docs/edit/master/docs/:path',
-      text: 'Edit this page on GitHub',
+      text: 'تعديل هذه الصفحة على GitHub',
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/frappe/books' },
@@ -32,8 +38,8 @@ export default defineConfig({
       },
     ],
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present Frappe Technologies Pvt. Ltd.',
+      message: 'تم الإصدار بموجب ترخيص MIT.',
+      copyright: 'حقوق النشر © 2022-حاضر شركة فريبي تكنولوجيز المحدودة.',
     },
   },
 });
@@ -41,15 +47,15 @@ export default defineConfig({
 function nav() {
   return [
     {
-      text: 'Home',
+      text: 'الرئيسية',
       link: 'https://frappebooks.com/',
     },
     {
-      text: 'Download',
+      text: 'تحميل',
       link: 'https://frappebooks.com/download',
     },
     {
-      text: 'Community',
+      text: 'المجتمع',
       link: 'https://t.me/frappebooks',
     },
   ];

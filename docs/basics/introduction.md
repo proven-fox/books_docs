@@ -1,46 +1,43 @@
-# Introduction
+# مقدمة
 
-Welcome to the Frappe Books User Guide. This guide will teach you how to look
-after your accounting in Frappe Books. We will go through the basics that’ll
-equip you to use the product. However, knowing the basics of accounting is
-recommended.
+مرحباً بك في دليل مستخدم فريبي بوكس. سيعلمك هذا الدليل كيفية إدارة محاسبتك في فريبي بوكس. سنمر بالأساسيات التي ستجهزك لاستخدام المنتج. ومع ذلك، يُنصح بمعرفة أساسيات المحاسبة.
 
-## Basics and Setup
+## الأساسيات والإعداد
 
-Learn the basics of accounting and get started with Frappe Books.
+تعلم أساسيات المحاسبة وابدأ مع فريبي بوكس.
 
-### [Accounting Basics](/basics/accounting-basics)
+### [أساسيات المحاسبة](/basics/accounting-basics)
 
-A small primer to get you up to speed on the concepts of accounting.
+مقدمة صغيرة لتسريعك في مفاهيم المحاسبة.
 
-### [Getting Started](/setting-up/getting-started)
+### [البدء](/setting-up/getting-started)
 
-Learn how to configure Frappe Books for your company to get started.
+تعلم كيفية تكوين فريبي بوكس لشركتك للبدء.
 
-## Transactions
+## المعاملات
 
-Learn about the various transactions that you can do in Frappe Books.
+تعلم عن المعاملات المختلفة التي يمكنك القيام بها في فريبي بوكس.
 
-### [Sales Invoices](/transactions/sales-invoices)
+### [فواتير المبيعات](/transactions/sales-invoices)
 
-Sales Invoices are bills that are sent to your customers and income is booked.
+فواتير المبيعات هي الفواتير المرسلة لعملائك ويتم تسجيل الدخل.
 
-### [Purchase Invoices](/transactions/purchase-invoices)
+### [فواتير المشتريات](/transactions/purchase-invoices)
 
-Purchase Invoices are bills that your supplier sends you for products or services you have purchased.
+فواتير المشتريات هي الفواتير التي يرسلها المورد لك عن المنتجات أو الخدمات التي اشتريتها.
 
-### [Journal Entries](/transactions/journal-entries)
+### [القيود اليومية](/transactions/journal-entries)
 
-Use journal entries to record transactions that can't be categorized as a sale or purchase.
+استخدم القيود اليومية لتسجيل المعاملات التي لا يمكن تصنيفها كبيع أو شراء.
 
-## Analytics and Reports
+## التحليلات والتقارير
 
-Learn about the available analytics and reports in Frappe Books
+تعلم عن التحليلات والتقارير المتاحة في فريبي بوكس
 
-### [Dashboard](/analytics/dashboard)
+### [لوحة التحكم](/analytics/dashboard)
 
-Dashboards show an overview of cashflow, profit or loss and expenses.
+تعرض لوحات التحكم نظرة عامة على التدفق النقدي، الربح أو الخسارة، والمصروفات.
 
-### [Accounting Reports](/analytics/reports)
+### [التقارير المحاسبية](/analytics/reports)
 
-Reports include Profit and Loss Statement, Balance Sheet and General Ledger.
+تشمل التقارير قائمة الدخل والخسارة، وقائمة المركز المالي، ودفتر الأستاذ العام.

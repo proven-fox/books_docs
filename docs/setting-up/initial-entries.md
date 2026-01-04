@@ -1,83 +1,72 @@
-# Create Initial Entries
+# إنشاء القيود الأولية
 
-Let’s create some initial entries before you can start recording your
-transactions.
+لنقم بإنشاء بعض القيود الأولية قبل أن تتمكن من البدء في تسجيل معاملاتك.
 
-## Add Additional Bank Accounts
+## إضافة حسابات بنكية إضافية
 
-Add any bank accounts your business has apart from the one already added in the Setup.
+أضف أي حسابات بنكية يمتلكها عملك بالإضافة إلى الحساب المضاف بالفعل في الإعداد.
 
-Navigate to the **Chart of Accounts** page from the sidebar.
+انتقل إلى صفحة **دليل الحسابات** من الشريط الجانبي.
 
-`Setup > Chart of Accounts`
+`الإعداد > دليل الحسابات`
 
-![Chart of Accounts](./images/coa.png)
+![دليل الحسابات](./images/coa.png)
 
-Then open the **Bank Accounts** group and click on **Add Account**.
+ثم افتح مجموعة **الحسابات البنكية** وانقر على **إضافة حساب**.
 
-`Application of Funds (Assets) > Current Assets > Bank Accounts > Add Account`
+`تطبيق الأموال (الأصول) > الأصول المتداولة > الحسابات البنكية > إضافة حساب`
 
-Enter the bank account name and press enter to create it. You can now transfer
-funds in and out of this bank account.
+أدخل اسم الحساب البنكي واضغط Enter لإنشائه. يمكنك الآن نقل الأموال من وإلى هذا الحساب البنكي.
 
-## Add Taxes
+## إضافة الضرائب
 
-If your company charges or will recover Sales Taxes, add any taxes that you will
-use. First navigate to the **Taxes** page.
+إذا كانت شركتك تتقاضى أو ستسترد ضرائب المبيعات، أضف أي ضرائب ستستخدمها. أولاً انتقل إلى صفحة **الضرائب**.
 
-`Setup > Taxes`
+`الإعداد > الضرائب`
 
-![Tax](./images/tax.png)
+![الضريبة](./images/tax.png)
 
-1. **Create a New Tax Entry**: Click on the blue `+` button. Enter a name which will make
-   it easier to identify. You can also mention the rate in the name. for e.g.
-   Service Tax - 5%.
-2. **Select the Tax Account and Rate**: You can add multiple rows with different
-   Tax Accounts. This will make it easier to apply a set of Taxes which are
-   frequently applied together on an Item. You can even create different taxes for
-   different Items or a class of Items.
-3. **Click on Save**
+1. **إنشاء قيد ضريبي جديد**: انقر على الزر الأزرق `+`. أدخل اسماً سيجعله من السهل التعرف عليه. يمكنك أيضاً ذكر المعدل في الاسم. على سبيل المثال، ضريبة الخدمة - 5%.
+2. **تحديد حساب الضريبة والمعدل**: يمكنك إضافة صفوف متعددة بحسابات ضريبية مختلفة. سيجعل هذا من السهل تطبيق مجموعة من الضرائب التي يتم تطبيقها بشكل متكرر معاً على عنصر. يمكنك حتى إنشاء ضرائب مختلفة لعناصر مختلفة أو فئة من العناصر.
+3. **انقر على حفظ**
 
-For more information on Taxes in Frappe Books click [here](/entries/taxes).
+لمزيد من المعلومات حول الضرائب في فريبي بوكس انقر [هنا](/entries/taxes).
 
-## Add Sales Items
+## إضافة عناصر المبيعات
 
-One of the most important things you will add in Books are your products or
-services that you provide to your customers. Navigate to **Sales Items**
+أحد أهم الأشياء التي ستضيفها في الكتب هي منتجاتك أو الخدمات التي تقدمها لعملائك. انتقل إلى **عناصر المبيعات**
 
-`Sales > Sales Items`
+`المبيعات > عناصر المبيعات`
 
-![Sales Item](./images/sales-item.png)
+![عنصر المبيعات](./images/sales-item.png)
 
-1. **Create a New Item Entry**: Click on the blue `+` button. Enter the Name and the Rate
-2. **Select Type**: Select if your Item is a Product or Service.
-3. **Set Default Tax**: Setting the default Tax for your Item will fetch it
-   automatically when you create an Invoice.
-4. **Click on Save**
+1. **إنشاء قيد عنصر جديد**: انقر على الزر الأزرق `+`. أدخل الاسم والمعدل
+2. **تحديد النوع**: حدد ما إذا كان عنصرك منتجاً أو خدمة.
+3. **تعيين الضريبة الافتراضية**: تعيين الضريبة الافتراضية لعنصرك سيجلبها تلقائياً عند إنشاء فاتورة.
+4. **انقر على حفظ**
 
-You can set or change the other details for the item. Such as the Income or
-Expense accounts.
+يمكنك تعيين أو تغيير التفاصيل الأخرى للعنصر. مثل حسابات الدخل أو المصروفات.
 
-You can even set an image for the item.
+يمكنك حتى تعيين صورة للعنصر.
 
-For more information on Sales Items in Frappe Books click [here](/entries/items).
+لمزيد من المعلومات حول عناصر المبيعات في فريبي بوكس انقر [هنا](/entries/items).
 
-## Add Customers
+## إضافة العملاء
 
-Add your Customers to record their details and select them in Sales Invoices. First navigate to Customers
+أضف عملاءك لتسجيل تفاصيلهم واختيارهم في فواتير المبيعات. أولاً انتقل إلى العملاء
 
-`Sales > Customers`
+`المبيعات > العملاء`
 
-![Customer](./images/customer.png)
+![العميل](./images/customer.png)
 
-1. **Create a New Customer Entry**: Click on the blue `+` button. Enter the name of of the customer
-2. **Click on Save**
+1. **إنشاء قيد عميل جديد**: انقر على الزر الأزرق `+`. أدخل اسم العميل
+2. **انقر على حفظ**
 
-You can enter additional details such as Email and Phone in the Customer entry.
-This will be shown when creating a Sales Invoice PDF.
+يمكنك إدخال تفاصيل إضافية مثل البريد الإلكتروني والهاتف في قيد العميل.
+سيتم عرض هذا عند إنشاء ملف PDF لفاتورة المبيعات.
 
-For more information on Customers in Frappe Books click [here](/entries/party).
+لمزيد من المعلومات حول العملاء في فريبي بوكس انقر [هنا](/entries/party).
 
 ---
 
-You can now move onto the next step to set your Opening Balances.
+يمكنك الآن الانتقال إلى الخطوة التالية لتعيين أرصدتك الافتتاحية.

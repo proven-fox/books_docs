@@ -1,49 +1,42 @@
-# Setup Opening Balances
+# إعداد الأرصدة الافتتاحية
 
-If you are moving from an existing accounting system over to Frappe Books, you
-will need to enter the account balances from your previous system.
+إذا كنت تنتقل من نظام محاسبي موجود إلى فريبي بوكس، ستحتاج إلى إدخال أرصدة الحسابات من نظامك السابق.
 
-To set the Opening Balances you can follow the steps below.
+لتعيين الأرصدة الافتتاحية يمكنك اتباع الخطوات أدناه.
 
-## Get The Starting Balances
+## الحصول على الأرصدة الأولية
 
-Get the starting balances from your previous accounting system in the form of
-Trial Balances report.
+احصل على الأرصدة الأولية من نظامك المحاسبي السابق في شكل تقرير ميزان المراجعة.
 
-## Add Additional Accounts
+## إضافة حسابات إضافية
 
-Add any accounts from your previous system that do not exist in Frappe Books by
-navigating to the Chart of Accounts.
+أضف أي حسابات من نظامك السابق التي لا موجودة في فريبي بوكس عن طريق الانتقال إلى دليل الحسابات.
 
-You can follow the steps shown
-[here](/setting-up/initial-entries#add-additional-bank-accounts). Make sure you create
-the Accounts under the correct Account groups.
+يمكنك اتباع الخطوات المعروضة
+[هنا](/setting-up/initial-entries#add-additional-bank-accounts). تأكد من إنشاء الحسابات تحت مجموعات الحسابات الصحيحة.
 
-## Create a Journal Entry
+## إنشاء قيد يومي
 
-First navigate to the **Journal Entry** page.
+أولاً انتقل إلى صفحة **القيد اليومي**.
 
-`Common > Journal Entry`
+`عام > القيد اليومي`
 
-Then click on the blue `+` button to open the **Journal Entry** form.
+ثم انقر على الزر الأزرق `+` لفتح نموذج **القيد اليومي**.
 
-![Journal Entry Form](./images/journal-entry.png)
+![نموذج القيد اليومي](./images/journal-entry.png)
 
-1. Set the Entry Type as Opening Entry.
-2. Add a row for each line from your Trial Balances report, select the
-   appropriate Account and the Debit or Credit amount.
-3. Click on Save. Review it once before clicking on Submit.
+1. تعيين نوع القيد كقيد افتتاحي.
+2. إضافة صف لكل سطر من تقرير ميزان المراجعة الخاص بك، حدد الحساب المناسب ومبلغ المدين أو الدائن.
+3. انقر على حفظ. راجعه مرة واحدة قبل النقر على إرسال.
 
-You can set a Reference Number and Reference Date to mark the entry.
+يمكنك تعيين رقم مرجعي وتاريخ مرجعي لوضع علامة على القيد.
 
-This will create a Journal Transaction in the system with all your previous
-statements.
+سيقوم هذا بإنشاء معاملة يومية في النظام مع جميع بياناتك السابقة.
 
 ---
 
-Congratulations! You have now set your Opening Balances. :tada:
+تهانينا! لقد قمت الآن بتعيين أرصدتك الافتتاحية. :tada:
 
-This brings your books to the same position that was present in your previous
-accounting system.
+هذا يجلب كتبك إلى نفس الموقف الذي كان موجوداً في نظامك المحاسبي السابق.
 
-You are now ready to record your business activities by making transactions.
+أنت الآن جاهز لتسجيل أنشطة عملك عن طريق إجراء المعاملات.

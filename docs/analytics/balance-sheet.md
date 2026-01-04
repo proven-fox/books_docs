@@ -1,76 +1,63 @@
-# Balance Sheet
+# قائمة المركز المالي
 
-A Balance Sheet is the financial statement of a company which states assets,
-liabilities and equity at a particular point in time.
+قائمة المركز المالي هي بيان مالي لشركة توضح الأصول والالتزامات وحقوق الملكية في نقطة زمنية محددة.
 
-In Frappe Books, you can view the balance sheet for your accounts based on
-monthly, quarterly, half-yearly, and yearly periods.
+في فريبي بوكس، يمكنك عرض قائمة المركز المالي لحساباتك بناءً على فترات شهرية وربع سنوية ونصف سنوية وسنوية.
 
-Navigate to this report from the sidebar: `Reports > Balance Sheet`
+انتقل إلى هذا التقرير من الشريط الجانبي: `التقارير > قائمة المركز المالي`
 
-![Balance Sheet](./images/balance-sheet.png)
+![قائمة المركز المالي](./images/balance-sheet.png)
 
-## Filters
+## التصفيات
 
-The Balance Sheet report has several filters which can help you narrow the date
-range between which to display the report.
+يحتوي تقرير قائمة المركز المالي على عدة تصفيات يمكن أن تساعدك في تضييق نطاق التاريخ بينه عرض التقرير.
 
-### Based On
+### بناءً على
 
-This allows for toggling betwee the kind of filters used set the date range. It has 2 values:
+هذا يسمح بالتبديل بين نوع التصفيات المستخدمة لتعيين نطاق التاريخ. لديه قيمتين:
 
-1. Until Date
-2. Fiscal Year
+1. حتى التاريخ
+2. السنة المالية
 
-### Periodicity
+### الدورية
 
-This selects the interval for which the Balance Sheet values have to be
-calculated.
+هذا يحدد الفاصل الذي يجب حساب قيم قائمة المركز المالي له.
 
-Example setting this to Monthly will display columns on a monthly basis.
+مثال تعيين هذا إلى شهري سيعرض الأعمدة على أساس شهري.
 
-### Date Range Filters
+### تصفيات نطاق التاريخ
 
-These filters depend on the value of Based On
+هذه التصفيات تعتمد على قيمة بناءً على
 
-| Based On    | Date Range Filters    |
+| بناءً على    | تصفيات نطاق التاريخ    |
 | ----------- | --------------------- |
-| Until Date  | To Date and Count     |
-| Fiscal Year | To Year and From Year |
+| حتى التاريخ  | إلى التاريخ والعدد     |
+| السنة المالية | إلى السنة ومن السنة |
 
-#### To Date and Count
+#### إلى التاريخ والعدد
 
-**To Date** is the final date until which the report is to be displayed, by default
-the values is tomorrow's date.
+**إلى التاريخ** هو التاريخ النهائي حتى يجب عرض التقرير، بشكل افتراضي القيم هي تاريخ الغد.
 
-**Count** depends on Periodicity so if Count is 3 and Periodicity is Monthly
-then the report will display Balance Sheet columns for the last three months
-starting from **To Date**
+**العدد** يعتمد على الدورية لذلك إذا كان العدد 3 والدورية شهرياً فسيعرض التقرير أعمدة قائمة المركز المالي للأشهر الثلاثة الأخيرة بدءاً من **إلى التاريخ**
 
-#### To Year and From Year
+#### إلى السنة ومن السنة
 
-These decide the fiscal year between which the Balance Sheet report has to be
-displayed. The number of columns will depend on the Periodicity.
+هذه تقرر السنة المالية بينها يجب عرض تقرير قائمة المركز المالي. عدد الأعمدة سيعتمد على الدورية.
 
-### Consolidate Columns
+### دمج الأعمدة
 
-Checking this this will sum up all the values for each row and display a single
-column.
+تحديد هذا سيقوم بجمع جميع القيم لكل صف وعرض عمود واحد.
 
-### Hide Group Amounts
+### إخفاء مبالغ المجموعة
 
-The Balance Sheet report format displays the group accounts such as Current Assets
-along with the non group accounts such as Cash and Debtors.
+تنسيق تقرير قائمة المركز المالي يعرض حسابات المجموعة مثل الأصول المتداولة جنباً إلى جنب مع حسابات غير المجموعة مثل النقد والمدينون.
 
-Group account balances depend on the non group account balances under them,
-group account balances are not directly updated.
+تعتمد أرصدة حساب المجموعة على أرصدة حسابات غير المجموعة تحتها، أرصدة حساب المجموعة لا يتم تحديثها مباشرة.
 
-So clicking on **Hide Group Amounts** will display only the non group account
-amounts making the report a bit easier to read.
+لذلك النقر على **إخفاء مبالغ المجموعة** سيعرض فقط مبالغ حساب غير المجموعة مما يجعل التقرير أسهل في القراءة قليلاً.
 
-## Folding Rows
+## طي الصفوف
 
-![Balance Sheet Folded Rows](./images/balance-sheet-folded.png)
+![صفوف قائمة المركز المالي المطوية](./images/balance-sheet-folded.png)
 
-Rows in the Balance Sheet report which display group accounts can be clicked
-to fold all the rows underneath them.
+يمكن النقر على الصفوف في تقرير قائمة المركز المالي التي تعرض حسابات المجموعة لطي جميع الصفوف تحتها.

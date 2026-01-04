@@ -1,0 +1,526 @@
+/* RTL Support for Arabic */
+:root {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Ensure all text is right-aligned */
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust margins and padding for RTL */
+.VPDoc {
+  direction: rtl;
+}
+
+.VPSidebar {
+  direction: rtl;
+}
+
+/* Adjust list markers for RTL */
+ul, ol {
+  padding-right: 2em;
+  padding-left: 0;
+}
+
+/* Adjust table alignment for RTL */
+table {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust code blocks for RTL */
+pre {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Adjust inline code for RTL */
+code {
+  direction: ltr;
+}
+
+/* Adjust navigation for RTL */
+.VPNav {
+  direction: rtl;
+}
+
+/* Adjust footer for RTL */
+.VPFooter {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust search input for RTL */
+.DocSearch-Input {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust breadcrumbs for RTL */
+.VPBreadcrumb {
+  direction: rtl;
+}
+
+/* Adjust pagination for RTL */
+.VPDocFooter {
+  direction: rtl;
+}
+
+/* Adjust next/prev buttons for RTL */
+.VPDocFooter .pager-link .title {
+  direction: rtl;
+}
+
+/* Adjust headings for RTL */
+h1, h2, h3, h4, h5, h6 {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust blockquotes for RTL */
+blockquote {
+  border-right: 4px solid var(--vp-c-brand);
+  border-left: none;
+  padding-right: 1em;
+  padding-left: 0;
+}
+
+/* Adjust dropdown menus for RTL */
+.VPFlyout {
+  direction: rtl;
+}
+
+/* Adjust menu items for RTL */
+.VPMenu {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust alert boxes for RTL */
+.custom-block {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust tip, warning, danger blocks for RTL */
+.custom-block.tip,
+.custom-block.warning,
+.custom-block.danger {
+  border-right: 4px solid;
+  border-left: none;
+  padding-right: 1rem;
+  padding-left: 0;
+}
+
+/* Adjust tip block */
+.custom-block.tip {
+  border-right-color: #42b883;
+}
+
+/* Adjust warning block */
+.custom-block.warning {
+  border-right-color: #e7c000;
+}
+
+/* Adjust danger block */
+.custom-block.danger {
+  border-right-color: #cc0000;
+}
+
+/* Adjust details/summary for RTL */
+details {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust badge styles for RTL */
+.VPBadge {
+  direction: rtl;
+}
+
+/* Adjust edit link for RTL */
+.VPDocEditLink {
+  direction: rtl;
+}
+
+/* Adjust last updated for RTL */
+.VPDocLastUpdated {
+  direction: rtl;
+}
+
+/* Adjust outline for RTL */
+.VPDocOutline {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust outline items for RTL */
+.VPDocOutlineItem {
+  direction: rtl;
+}
+
+/* Adjust hero section for RTL */
+.VPHero {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust features section for RTL */
+.VPFeatures {
+  direction: rtl;
+}
+
+/* Adjust feature items for RTL */
+.VPFeature {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust home section for RTL */
+.VPHome {
+  direction: rtl;
+}
+
+/* Adjust content for RTL */
+.content {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust container for RTL */
+.container {
+  direction: rtl;
+}
+
+/* Adjust main for RTL */
+main {
+  direction: rtl;
+}
+
+/* Adjust article for RTL */
+article {
+  direction: rtl;
+}
+
+/* Adjust section for RTL */
+section {
+  direction: rtl;
+}
+
+/* Adjust div for RTL */
+div {
+  direction: rtl;
+}
+
+/* Adjust span for RTL */
+span {
+  direction: rtl;
+}
+
+/* Adjust p for RTL */
+p {
+  direction: rtl;
+}
+
+/* Adjust a for RTL */
+a {
+  direction: rtl;
+}
+
+/* Adjust button for RTL */
+button {
+  direction: rtl;
+}
+
+/* Adjust input for RTL */
+input {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust textarea for RTL */
+textarea {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust select for RTL */
+select {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust label for RTL */
+label {
+  direction: rtl;
+}
+
+/* Adjust form for RTL */
+form {
+  direction: rtl;
+}
+
+/* Adjust fieldset for RTL */
+fieldset {
+  direction: rtl;
+}
+
+/* Adjust legend for RTL */
+legend {
+  direction: rtl;
+}
+
+/* Adjust dl, dt, dd for RTL */
+dl, dt, dd {
+  direction: rtl;
+}
+
+/* Adjust figure, figcaption for RTL */
+figure, figcaption {
+  direction: rtl;
+}
+
+/* Adjust hr for RTL */
+hr {
+  direction: rtl;
+}
+
+/* Adjust br for RTL */
+br {
+  direction: rtl;
+}
+
+/* Adjust strong for RTL */
+strong {
+  direction: rtl;
+}
+
+/* Adjust em for RTL */
+em {
+  direction: rtl;
+}
+
+/* Adjust small for RTL */
+small {
+  direction: rtl;
+}
+
+/* Adjust sub, sup for RTL */
+sub, sup {
+  direction: rtl;
+}
+
+/* Adjust mark for RTL */
+mark {
+  direction: rtl;
+}
+
+/* Adjust del, ins for RTL */
+del, ins {
+  direction: rtl;
+}
+
+/* Adjust abbr, acronym for RTL */
+abbr, acronym {
+  direction: rtl;
+}
+
+/* Adjust address for RTL */
+address {
+  direction: rtl;
+}
+
+/* Adjust bdo for RTL */
+bdo[dir="rtl"] {
+  direction: rtl;
+}
+
+/* Adjust bdi for RTL */
+bdi {
+  direction: rtl;
+}
+
+/* Adjust q for RTL */
+q {
+  direction: rtl;
+}
+
+/* Adjust cite for RTL */
+cite {
+  direction: rtl;
+}
+
+/* Adjust dfn for RTL */
+dfn {
+  direction: rtl;
+}
+
+/* Adjust time for RTL */
+time {
+  direction: rtl;
+}
+
+/* Adjust data for RTL */
+data {
+  direction: rtl;
+}
+
+/* Adjust code, kbd, samp for RTL */
+code, kbd, samp {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Adjust var for RTL */
+var {
+  direction: rtl;
+}
+
+/* Adjust pre for RTL */
+pre {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Adjust progress for RTL */
+progress {
+  direction: rtl;
+}
+
+/* Adjust meter for RTL */
+meter {
+  direction: rtl;
+}
+
+/* Adjust output for RTL */
+output {
+  direction: rtl;
+}
+
+/* Adjust picture for RTL */
+picture {
+  direction: rtl;
+}
+
+/* Adjust source for RTL */
+source {
+  direction: rtl;
+}
+
+/* Adjust iframe for RTL */
+iframe {
+  direction: rtl;
+}
+
+/* Adjust embed for RTL */
+embed {
+  direction: rtl;
+}
+
+/* Adjust object for RTL */
+object {
+  direction: rtl;
+}
+
+/* Adjust param for RTL */
+param {
+  direction: rtl;
+}
+
+/* Adjust video for RTL */
+video {
+  direction: rtl;
+}
+
+/* Adjust audio for RTL */
+audio {
+  direction: rtl;
+}
+
+/* Adjust track for RTL */
+track {
+  direction: rtl;
+}
+
+/* Adjust map for RTL */
+map {
+  direction: rtl;
+}
+
+/* Adjust area for RTL */
+area {
+  direction: rtl;
+}
+
+/* Adjust canvas for RTL */
+canvas {
+  direction: rtl;
+}
+
+/* Adjust svg for RTL */
+svg {
+  direction: rtl;
+}
+
+/* Adjust math for RTL */
+math {
+  direction: rtl;
+}
+
+/* Adjust script for RTL */
+script {
+  direction: rtl;
+}
+
+/* Adjust noscript for RTL */
+noscript {
+  direction: rtl;
+}
+
+/* Adjust template for RTL */
+template {
+  direction: rtl;
+}
+
+/* Adjust style for RTL */
+style {
+  direction: rtl;
+}
+
+/* Adjust link for RTL */
+link {
+  direction: rtl;
+}
+
+/* Adjust meta for RTL */
+meta {
+  direction: rtl;
+}
+
+/* Adjust title for RTL */
+title {
+  direction: rtl;
+}
+
+/* Adjust base for RTL */
+base {
+  direction: rtl;
+}
+
+/* Adjust head for RTL */
+head {
+  direction: rtl;
+}
+
+/* Adjust body for RTL */
+body {
+  direction: rtl;
+}
+
+/* Adjust html for RTL */
+html {
+  direction: rtl;
+}
