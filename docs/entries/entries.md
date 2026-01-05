@@ -1,53 +1,52 @@
-# Entries
+# القيود
 
-Besides [Transactional Entries](/transactions/transactional-entries) Omni Start
-Soft has regular entries for documents that don't affect any account's balance
-directly.
+بصلاً عن [القيود المعاملية](/transactions/transactional-entries) يملك Omni Start
+Soft قيود عادية للمستندات التي لا تؤثر على رصيد أي حساب
+بشكل مباشر.
 
-Examples of these are:
+أمثلة على هذه:
 
-- [Items](/entries/items)
-- [Party](/entries/party)
-- [Taxes](/entries/taxes)
+- [الأصناف](/entries/items)
+- [الطرف](/entries/party)
+- [الضرائب](/entries/taxes)
 
-## Creating a New Entry
+## إنشاء قيد جديد
 
-To create an entry navigate to it's page first, for example for
-Taxes: `Setup > Taxes`
+لإنشاء قيد انتقل أولاً إلى صفحته، مثال للضرائب:
+`الإعداد > الضرائب`
 
-And click on the blue `+` button, this will open the Quick Edit Form.
+وانقر على الزر الأزرق `+`، سيقوم هذا بفتح نموذج التعديل السريع.
 
-![Quick Edit Form](./images/quick-edit.png)
+![نموذج التعديل السريع](./images/quick-edit.png)
 
-Enter the values and click the blue Save button. The entry will now be made and
-can be used in transactions.
+أدخل القيم وانقر على الزر الأزرق حفظ. سيتم الآن إنشاء القيد ويمكن
+استخدامه في المعاملات.
 
-## Duplicating an Entry
+## تكرير قيد
 
-To create the duplicate of an entry, click on the `...` menu button and select
-Duplicate.
+لإنشاء نسخة من قيد، انقر على زر القائمة `...` وحدد تكرير.
 
-![Duplicate Button](./images/duplicate.png)
+![زر التكرير](./images/duplicate.png)
 
-This will create a Draft entry, i.e. it is not yet saved, you can change the
-values and click on Save.
+سيقوم هذا بإنشاء قيد مسودة، أي أنه لم يتم حفظه بعد، يمكنك تغيير
+القيم والنقر على حفظ.
 
-After the entry has been Saved you can use it in transactions.
+بعد حفظ القيد يمكنك استخدامه في المعاملات.
 
-## Deleting an Entry
+## حذف قيد
 
-To delete an entry, click on the `...` menu button and select Delete.
+لحذف قيد، انقر على زر القائمة `...` وحدد حذف.
 
-![Delete Button](./images/delete.png)
+![زر الحذف](./images/delete.png)
 
-::: warning Entry Deletion
-Entries used in transactions cannot be deleted.
+::: warning حذف القيد
 
-To delete these entries the Transactions where they are used will have to be
-deleted first.
+لا يمكن حذف القيود المستخدمة في المعاملات.
+
+لحذف هذه القيود يجب أولاً حذف المعاملات التي تم استخدامه فيها.
 :::
 
 ---
 
-Now that you know the basics of entries you can learn about specific types of
-entries.
+الآن بعد أن عرفت أساسيات القيود يمكنك التعرف عن أنواع محددة من
+القيود.

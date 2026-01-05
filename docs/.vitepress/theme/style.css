@@ -1,13 +1,18 @@
+/* Import Cairo Font */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+
 /* RTL Support for Arabic */
 :root {
   direction: rtl;
   text-align: right;
+  font-family: 'Cairo', sans-serif;
 }
 
 /* Ensure all text is right-aligned */
 body {
   direction: rtl;
   text-align: right;
+  font-family: 'Cairo', sans-serif;
 }
 
 /* Adjust margins and padding for RTL */

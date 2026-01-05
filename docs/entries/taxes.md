@@ -1,25 +1,26 @@
-# Taxes
+# الضرائب
 
-To calculate the amount of tax on an Item's purchase or sale, a Tax entry has to
-be selected on the invoice row.
+لحساب مبلغ الضريبة على شراء أو بيع صنف، يجب تحديد قيد ضريبي
+على صف الفاتورة.
 
-![Invoice Row](./images/invoice-row.png)
+![صف الفاتورة](./images/invoice-row.png)
 
-::: tip Auto Set Tax
-If the Tax has been set on the Item then it will be auto set in the invoice row.
+::: tip تعيين الضريبة تلقائياً
+
+إذا تم تعيين ضريبة على الصنف فسيتم تعيينها تلقائياً في صف الفاتورة.
 :::
 
-Tax entries can be made from the Tax page: `Setup > Taxes`
+يمكن إنشاء قيود الضريبة من صفحة الضرائب: `الإعداد > الضرائب`
 
-## Tax Fields
+## حقول الضريبة
 
-A Tax entry has just two fields
+يحتوي قيد الضريبة على حقول فقط
 
-1. Tax Name: a unique name to identify the tax by.
-2. Tax Detail: a table where the Tax account along with the Tax rate is set. 
+1. اسم الضريبة: اسم فريد للتعرف على الضريبة.
+2. تفاصيل الضريبة: جدول يتم فيه تعيين حساب الضريبة مع معدل الضريبة.
 
+::: info تفاصيل الضريبة
 
-::: info Tax Detail
-Tax Detail is a table as a single tax can have multiple components each with a
-separate account and rate.
+تفاصيل الضريبة هو جدول حيث يمكن لضريبة واحدة أن تحتوي على مكونات متعددة لكل منها
+حساب ومعدل منفصل.
 :::

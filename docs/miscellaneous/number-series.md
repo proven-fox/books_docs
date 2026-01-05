@@ -1,60 +1,60 @@
-# Number Series
+# السلسل الرقمي
 
-Number Series is used as the naming scheme for
-[transactional entries](/transactions/transactional-entries). Multiple
-transactions of a single type for example Journal Entry can be grouped under a
-single Number Series.
+يستخدم السلسل الرقمي كمخط تسمية للـ
+[القيود المعاملية](/transactions/transactional-entries). يمكن تجميع
+معاملات متعددة من نوع واحد مثال القيد اليومي تحت سلسل
+رقمي واحد.
 
-![Number Series](./images/number-series.png)
+![السلسل الرقمي](./images/number-series.png)
 
-## Default Number Series
+## السلسل الرقمي الافتراضي
 
-By default Omni Start Soft comes with a single Number Series for each of the
-transactional entry types
+بشكل افتراضي يأتي Omni Start Soft مع سلسل رقمي واحد لكل من
+أنواع القيود المعاملية
 
-| Type             | Number Series |
+| النوع             | السلسل الرقمي |
 | ---------------- | ------------- |
-| Sales Invoice    | SINV-         |
-| Purchase Invoice | PINV-         |
-| Payment          | PAY-          |
-| Journal Entry    | JE-           |
+| فاتورة المبيعات    | SINV-         |
+| فاتورة الشراء | PINV-         |
+| الدفع          | PAY-          |
+| القيد اليومي    | JE-           |
 
-These are selected by default when making a transactional entry. You can create
-new a Number Series to suit your needs.
+يتم تحديد هذه افتراضياً عند إنشاء قيد معامل. يمكنك إنشاء
+سلسل رقمي جديد ليناسب احتياجاتك.
 
 ::: warning
-The Number Series of a transactional entry cannot be changed once Save is
-clicked.
+
+لا يمكن تغيير السلسل الرقمي للقيد المعامل بمجرد النقر على حفظ.
 :::
 
-## Creating a New Number Series
+## إنشاء سلسل رقمي جديد
 
-To create a new Number Series for a specific transactional entry
+لإنشاء سلسل رقمي جديد لقيد معامل معين
 
-1. Find the Number Series field on the entry form or the Quick Edit Form.
-2. Enter the new Number Series you would like to use in the field.
-3. Click on Create
+1. ابحث عن حقل السلسل الرقمي في نموذج القيد أو نموذج التعديل السريع.
+2. أدخل السلسل الرقمي الجديد الذي تود استخدامه في الحقل.
+3. انقر على إنشاء
 
-![Number Series Field](./images/number-series-field.png)
+![حقل السلسل الرقمي](./images/number-series-field.png)
 
-This will take you to the Number Series Quick Edit Form where you can change the
-number series configuration.
+سيأخذك هذا إلى نموذج التعديل السريع للسلسل الرقمي حيث يمكنك تغيير
+تكوين السلسل الرقمي.
 
-![Number Series Form](./images/new-number-series.png)
+![نموذج السلسل الرقمي](./images/new-number-series.png)
 
-Once you are done editing, click on Save, now you can use the new
-Number Series for the entry.
+بمجرد الانتهاء من التعديل، انقر على حفظ، والآن يمكنك استخدام السلسل
+الرقمي الجديد للقيد.
 
-## Number Series Fields
+## حقول السلسل الرقمي
 
-The fields decide how the Number Series is set
+تقرر الحقول كيفية تعيين السلسل الرقمي
 
-1. Prefix: The base prefix applied to the number series for example: _SINV-_
-2. Reference Type: The transactional entry type to which this Number Series belongs.
-3. Start: The number given to the first entry in the Number Series.
-4. Pad Zeros: The number of given as padding to the number part of the Number Series.
+1. البادئة: البادئة الأساسية المطبقة على السلسل الرقمي مثال: _SINV-_
+2. نوع المرجع: نوع القيد المعامل الذي ينتمي إليه هذا السلسل الرقمي.
+3. البدء: الرقم المعطى للقيد الأول في السلسل الرقمي.
+4. حشو الأصفار: الرقم المعطى كحشو لجزء الرقم من السلسل الرقمي.
 
-For example, if Name is _SALES-PAY-_, Start is 0, and Pad Zeros is 3, then the
-Number Series values assigned to the transactional entries would be:
+مثال، إذا كان الاسم _SALES-PAY-_، والبدء هو 0، وحشو الأصفار هو 3، فستكون
+قيم السلسل الرقمي المعينة للقيود المعاملية:
 
-_SALES-PAY-000_, _SALES-PAY-001_, _SALES-PAY-002_, _SALES-PAY-003_, etc.
+_SALES-PAY-000_، _SALES-PAY-001_، _SALES-PAY-002_، _SALES-PAY-003_، إلخ.

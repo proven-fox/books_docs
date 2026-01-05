@@ -1,63 +1,62 @@
-# Stock Movement
+# حركة المخزون
 
-Stock Movement is an inventory transaction that records the movement of stock to
-and from a location.
+حركة المخزون هي معاملة مخزون تسلم حركة المخزون إلى
+ومن موقع.
 
-Unlike the other inventory transactions, stock movement is not linked to a
-Customer or a Supplier through a Sale or a Purchase.
+على عكس معاملات المخزون الأخرى، حركة المخزون غير مرتبطة بـ
+عميل أو مورد عبر بيع أو شراء.
 
-## Movement Types
+## أنواع الحركة
 
-Before creating a Stock Movement you need to know about its Movement Types.
-There are three types of Stock Movements that you can create:
+قبل إنشاء حركة مخزون تحتاج إلى معرفة أنواع الحركة الخاصة بها.
+هناك ثلاثة أنواع من حركات المخزون التي يمكنك إنشاؤها:
 
-1. Material Issue: stock is moved out of a location.
-2. Material Receipt: stock is moved into a location.
-3. Material Transfer: stock is moved from one location to another.
-4. Manufacture: stock of items are moved out of a location and stock of different items are moved into a location.
+1. إصدار المواد: يتم نقل المخزون خارج موقع.
+2. استلام المواد: يتم نقل المخزون إلى موقع.
+3. نقل المواد: يتم نقل المخزون من موقع إلى آخر.
+4. التصنيع: يتم نقل مخزون الأصناف خارج موقع ونقل مخزون أصناف مختلفة إلى موقع.
 
-Depending on the Movement Type you have to set the From and To movement locations
+بناءً على نوع الحركة يجب عليك تعيين من وإلى مواقع الحركة
 
-| Movement Type     | From      | To        |
+| نوع الحركة     | من      | إلى        |
 | ----------------- | --------- | --------- |
-| Material Issue    | `set`     | `not set` |
-| Material Receipt  | `not set` | `set`     |
-| Material Transfer | `set`     | `set`     |
-| Manufacture       | `set`     | `set`     |
+| إصدار المواد    | `معين`     | `غير معين` |
+| استلام المواد  | `غير معين` | `معين`     |
+| نقل المواد | `معين`     | `معين`     |
+| التصنيع       | `معين`     | `معين`     |
 
-::: tip Manufacture
-For the Manufacture type, both From and To are set but for **different items**.
+::: tip التصنيع
+لنوع التصنيع، يتم تعيين كل من من وإلى ولكن لـ **أصناف مختلفة**.
 
-This reflects the stock movements of a manufacturing process where a set of raw
-materials are converted into finished goods.
+يعكس هذا حركات مخزون عملية تصنيع حيث يتم تحويل مجموعة من
+المواد الخام إلى بضائع منتهية.
 
-The inventory quantities of the raw material will go down and that of the
-finished goods will go up.
+ستنخفض كميات المخزون للمادة الخام وستزداد
+للبضائع المنتهية.
 :::
 
-## Creating Stock Movements
+## إنشاء حركات المخزون
 
-To create a Stock Movement, first navigate to the stock movement List View:
-`Inventory > Stock Movement` then click on the blue `+` button in the title bar.
+لإنشاء حركة مخزون، انتقل أولاً إلى عرض قائمة حركة المخزون:
+`المخزون > حركة المخزون` ثم انقر على الزر الأزرق `+` في شريط العنوان.
 
-![Stock Movement](./images//stock-movement.png)
+![حركة المخزون](./images//stock-movement.png)
 
-After clicking the blue `+` button:
+بعد النقر على الزر الأزرق `+`:
 
-1. Select the Movement Type
-2. Add a row by clicking on Add Row
-3. Select an Item
-4. Select the movement locations
-5. Set the quantity and rate
-6. Click on Save and then on Submit
+1. حدد نوع الحركة
+2. أضف صفاً عن طريق النقر على إضافة صف
+3. حدد صنفاً
+4. حدد مواقع الحركة
+5. عين الكمية والمعدل
+6. انقر على حفظ ثم على إرسال
 
-After clicking on submit the Stock Movement entry will be recorded.
+بعد النقر على إرسال سيتم تسجيل قيد حركة المخزون.
 
-## View Stock Entries
+## عرض قيود المخزون
 
-New entries will be created in the Stock Ledger and the Stock Balance will be
-updated.
+سيتم إنشاء قيود جديدة في دفتر المخزون وسيتم تحديث رصيد المخزون.
 
-To View the Stock Ledger entries click on Stock Entries under the `...` menu
+لعرض قيود دفتر المخزون انقر على قيود المخزون تحت قائمة `...`
 
-![View Stock Entries](./images/view-stock-entries.png)
+![عرض قيود المخزون](./images/view-stock-entries.png)

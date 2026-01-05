@@ -1,48 +1,49 @@
-# Party
+# الطرف
 
-_Party_ is a term used in Omni Start Soft for any entity to whom a Sale or from
-whom a Purchase is made.
+_الطرف_ هو مصطلح يُستخدم في Omni Start Soft لأي كيان يتم إليه بيع أو منه
+شراء.
 
-## Types of Party
+## أنواع الطرف
 
-A Party is classified by their Role it's used for.
+يتم تصنيف الطرف حسب الدور الذي يُستخدم لأجله.
 
-|   # | Role     | Name     | Invoice                     | Navigation              |
+|   # | الدور     | الاسم     | الفاتورة                     | التنقل              |
 | --: | :------- | :------- | :-------------------------- | :---------------------- |
-|   1 | Customer | Customer | Sales Invoices              | `Sales > Customers`     |
-|   2 | Supplier | Supplier | Purchase Invoices           | `Purchases > Suppliers` |
-|   3 | Both     | Party    | Sales and Purchase Invoices | `Common > Party`        |
+|   1 | العميل | العميل | فواتير المبيعات              | `المبيعات > العملاء`     |
+|   2 | المورد | المورد | فواتير الشراء           | `المشتريات > الموردين` |
+|   3 | كلاهما     | الطرف    | فواتير المبيعات والشراء | `المشترك > الطرف`        |
 
-::: warning Usage
-Make sure that you create the Party under the correct Navigation as this cannot
-be changed after creation.
+::: warning الاستخدام
+
+تأكد من إنشاء الطرف تحت التنقل الصحيح حيث لا يمكن
+تغييره بعد الإنشاء.
 :::
 
-## Party Fields
+## حقول الطرف
 
-1. Party Image: an image to identify the Party by.
-2. Party Name: a name to identify the Party by, each Party should have a unique name.
-3. Email: the Party's email address that may be displayed when printing the invoice.
-4. Phone: the Party's phone number that may be displayed when printing the invoice.
-5. Address: the Party's address that may be displayed when printing the invoice.
-6. Default Account: default account that may be credited or debited when a
-   transaction involving the part is made.
-7. Currency: the currency in which to create the invoice for the Party.
-8. Role: the role of the Party, whether they are a Customer, Supplier or Both.
+1. صورة الطرف: صورة للتعرف على الطرف.
+2. اسم الطرف: اسم للتعرف على الطرف، يجب أن يكون لكل طرف اسم فريد.
+3. البريد الإلكتروني: عنوان البريد الإلكتروني للطرف الذي قد يُعرض عند طباعة الفاتورة.
+4. رقم الهاتف: رقم هاتف الطرف الذي قد يُعرض عند طباعة الفاتورة.
+5. العنوان: عنوان الطرف الذي قد يُعرض عند طباعة الفاتورة.
+6. الحساب الافتراضي: الحساب الافتراضي الذي قد يُدائن أو يُمدين عند
+   إنشاء معاملة تتضمن الطرف.
+7. العملة: العملة التي سيتم إنشاء الفاتورة بها للطرف.
+8. الدور: دور الطرف، سواء كان عميلاً أو مورداً أو كلاهما.
 
-## Recent Invoices
+## الفواتير الأخيرة
 
-The Party Quick Edit Form has a Recent Invoices widget. This shows the last
-three invoices made for a Party.
+يحتوي نموذج التعديل السريع للطرف على ودجت الفواتير الأخيرة. يعرض هذا
+آخر ثلاث فواتير تم إنشاؤها لطرف.
 
-![Recent Invoices Widget](./images/recent-invoices.png)
+![ودجت الفواتير الأخيرة](./images/recent-invoices.png)
 
-Each row shows the following information
+يعرض كل صف المعلومات التالية
 
-- Invoice Name
-- Invoice Status
-- Date
-- Paid Amount
-- Outstanding Amount
+- اسم الفاتورة
+- حالة الفاتورة
+- التاريخ
+- المبلغ المدفوع
+- المبلغ المتبقي
 
-Clicking on a row will take you to the Invoice from where [Payments can be made](/transactions/payments#making-payments-from-invoices).
+النقر على صف سيأخذك إلى الفاتورة من حيث يمكن [إنشاء الدفعات](/transactions/payments#making-payments-from-invoices).

@@ -1,187 +1,185 @@
-# Print Templates
+# قوالب الطباعة
 
-The Print Template feature in Omni Start Soft allows you to create personalized
-print templates for
-[Invoices](/transactions/sales-invoices#printing-the-sales-invoice) and a few
-other [Entries](/transactions/transactional-entries).
+تتيح لك ميزة قوالب الطباعة في Omni Start Soft إنشاء قوالب طباعة مخصصة
+لـ
+[الفواتير](/transactions/sales-invoices#printing-the-sales-invoice) وعدة
+[قيود](/transactions/transactional-entries) أخرى.
 
-To view and create Print Templates navigate to its page using the sidebar:
-`Setup > Print Templates`. Or alternatively open the Quick Search, type "Print
-Template" and hit enter.
+لعرض وإنشاء قوالب الطباعة انتقل إلى صفحتها باستخدام الشريط الجانبي:
+`الإعداد > قوالب الطباعة`. أو بدلاً من ذلك افتح البحث السريع، اكتب "قالب
+الطباعة" واضغط Enter.
 
-![Print Templates](./images/print-templates.png)
+![قوالب الطباعة](./images/print-templates.png)
 
-:::tip Preloaded Templates
+:::tip القوالب المحملة مسبقاً
 
-When you create a new instance of Omni Start Soft, it comes preloaded with a few
-templates.
+عند إنشاء مثيل جديد من Omni Start Soft، يأتي محملاً بضعة
+قوالب.
 
-You use these as they are, or you can _Duplicate_ and customize them.
+يمكنك استخدام هذه كما هي، أو يمكنك _تكريرها_ وتخصيصها.
 :::
 
-If you would like to familiarize yourself with the Template Builder interface
-before learning how to create a Print Template, click
-[here](/miscellaneous/print-templates#template-builder-interface).
+إذا كنت ترغب في التعرف على واجهة باني القوالب
+قبل تعلم كيفية إنشاء قالب طباعة، انقر
+[هنا](/miscellaneous/print-templates#template-builder-interface).
 
-## Creating a Print Template
+## إنشاء قالب طباعة
 
-To create a Print Template, first navigate to the Print Template list and click
-on the blue `+` button.
+لإنشاء قالب طباعة، انتقل أولاً إلى قائمة قوالب الطباعة وانقر
+على الزر الأزرق `+`.
 
-You will now see the [Template Builder](/miscellaneous/print-templates#template-builder-interface) tool.
+سترى الآن أداة [باني القوالب](/miscellaneous/print-templates#template-builder-interface).
 
-You can enable the _Edit Mode_ by clicking the edit button next to the _Save as
-PDF_ button.
+يمكنك تفعيل _وضع التعديل_ عن طريق النقر على زر التعديل بجانب _حفظ كـ
+PDF_.
 
-Next, select the template type. Sales Invoice is selected by default, but you
-can create Print Templates for other entry types too.
+بعد ذلك، حدد نوع القالب. يتم تحديد فاتورة المبيعات افتراضياً، ولكن يمكنك
+إنشاء قوالب طباعة لأنواع القيود الأخرى أيضاً.
 
-![Template Type](./images/template-type.png)
+![نوع القالب](./images/template-type.png)
 
-:::tip Display Entry
+:::tip عرض القيد
 
-You can change the example Entry being displayed. By default Omni Start Soft
-selects the latest entry that has been created.
+يمكنك تغيير القيد المثال المعروض. افتراضياً يقوم Omni Start Soft
+بتحديد أحدث قيد تم إنشاؤه.
 :::
 
-:::tip Custom Sizes
+:::tip أحجام مخصصة
 
-You can adjust the size of the Print Template by clicking on the Set Print Size
-option in the `···` menu.
+يمكنك تعديل حجم قالب الطباعة عن طريق النقر على خيار تعيين حجم الطباعة
+في قائمة `···`.
 
-![Custom Print Template Size](./images/custom-print-size.png)
+![حجم قالب طباعة مخصص](./images/custom-print-size.png)
 :::
 
-Now you are ready to edit the Print Template
+الآن أنت جاهز لتعديل قالب الطباعة
 
-## Editing the Template
+## تعديل القالب
 
-The left pane contains the Template Editor which is used to edit the template.
-You can remove the preset template and write the template that you want here.
+يحتوي اللوحة اليسرى على محرر القوالب الذي يُستخدم لتعديل القالب.
+يمكنك إزالة القالب المسبق وكتابة القالب الذي تريده هنا.
 
-![Template Editor](./images/template-editor.png)
+![محرر القوالب](./images/template-editor.png)
 
-:::info Template Syntax
+:::info بناء جملة القالب
 
-The templates follow the Vue.js template syntax. You can learn more about it
-[here](https://vuejs.org/guide/essentials/template-syntax.html).
+تتبع القوالب بناء جملة قوالب Vue.js. يمكنك التعرف أكثر عنها
+[هنا](https://vuejs.org/guide/essentials/template-syntax.html).
 :::
 
-:::tip Resizing the Template Editor
+:::tip تعديل حجم محرر القوالب
 
-You can resize the Template Editor by clicking on the border and dragging it.
+يمكنك تعديل حجم محرر القوالب عن طريق النقر على الحد وسحبه.
 
-![Resize Template Editor](./images/resize-template-editor.png)
+![تعديل حجم محرر القوالب](./images/resize-template-editor.png)
 :::
 
-### Displaying Values
+### عرض القيم
 
-Values can be displayed by mentioning their keys inside curly braces. For example:
+يمكن عرض القيم عن طريق ذكر مفاتيحها داخل الأقواس المنحنية. مثال:
 
 ```html
 <h1>{{ doc.name }}</h1>
 ```
 
-Here `doc.name` is the key for Invoice No and it will be displayed in an `h1`
-element.
+هنا `doc.name` هو المفتاح لرقم الفاتورة وسيتم عرضه في عنصر `h1`.
 
-The Template Editor can help you by autocompleting the keys as you type the
-name.
+يمكن لمحرر القوالب مساعدتك عن طريق الإكمال التلقائي للمفاتيح أثناء كتابتك
+الاسم.
 
-There are two sets of keys to display values:
+هناك مجموعتان من المفاتيح لعرض القيم:
 
-1. `doc`: these keys are used to display values from the entry such as Invoice No,
-   Account, Date, etc. These keys vary depending on the Entry Type.
-2. `print`: these keys are used to read Print Settings values such as Logo,
-   Email, Color, etc.
+1. `doc`: تُستخدم هذه المفاتيح لعرض القيم من القيد مثل رقم الفاتورة،
+   الحساب، التاريخ، إلخ. تختلف هذه المفاتيح حسب نوع القيد.
+2. `print`: تُستخدم هذه المفاتيح لقراءة قيم إعدادات الطباعة مثل الشعار،
+   البريد الإلكتروني، اللون، إلخ.
 
-:::tip Key Hints
-If you want to see the available values you can click on the **Key Hints**
-section below the Template Editor.
+:::tip تلميحات المفاتيح
 
-![Key Hints](./images/key-hints.png)
+إذا أردت رؤية القيم المتاحة يمكنك النقر على قسم **تلميحات المفاتيح**
+أسفل محرر القوالب.
+
+![تلميحات المفاتيح](./images/key-hints.png)
 :::
 
-### Template Styling
+### تنسيق القالب
 
-You can either use [inline CSS
-styles](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)
-or utility classes from
-[tailwindcss](https://tailwindcss.com/docs/utility-first) to style the different
-components of your templates.
+يمكنك استخدام إما [أنماط CSS المضمنة](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)
+أو فئات الأدوات المساعدة من
+[tailwindcss](https://tailwindcss.com/docs/utility-first) لتنسيق
+مكونات مختلفة من قوالبك.
 
-### Applying Changes
+### تطبيق التغييرات
 
-To apply the changes made in the editor, you can:
+لتطبيق التغييرات التي تم إجراؤها في المحرر، يمكنك:
 
-1. Click outside the template editor
-2. Press the shortcut keys (`⌃ return` for macOS and `Ctrl Enter` for other
-   operating systems).
+1. النقر خارج محرر القالب
+2. الضغط على مفاتيح الاختصار (`⌃ return` لنظام macOS و `Ctrl Enter` للأنظمة
+   الأخرى).
 
-## Using the Template
+## استخدام القالب
 
-After you have edited your template and clicked on the blue Save button to save
-the changes you have made. You can use the templates save your entries as PDFs
-which you can send to your customers.
+بعد تعديل قالبك والنقر على الزر الأزرق حفظ لحفظ
+التغييرات التي قمت بها. يمكنك استخدام القوالب لحفظ قيودك كملفات PDF
+التي يمكنك إرسالها إلى عملائك.
 
-To use the template, navigate to the entry and click on the Print button.
+لاستخدام القالب، انتقل إلى القيد وانقر على زر الطباعة.
 
-![Print Button](./images/print-button.png)
+![زر الطباعة](./images/print-button.png)
 
-You will now see the print preview. You can change the template to be used from
-the list on the left.
+سترى الآن معاينة الطباعة. يمكنك تغيير القالب الذي سيتم استخدامه من
+القائمة على اليسار.
 
-![Print View](./images/print-view.png)
+![عرض الطباعة](./images/print-view.png)
 
-Once you are satisfied with your selection click on the blue Save as PDF button
-to save it.
+بمجرد أن تكون راضياً عن اختيارك، انقر على الزر الأزرق حفظ كـ PDF
+لحفظه.
 
-## Template Builder Interface
+## واجهة باني القوالب
 
-When you open any of the Print Templates or when you click on the blue `+`
-button to create a new Template, you will be shown the Template Builder tool.
+عند فتح أي من قوالب الطباعة أو عند النقر على الزر الأزرق `+`
+لإنشاء قالب جديد، سيتم عرض أداة باني القوالب.
 
-![Template Builder Interface](./images/template-builder-interface.png)
+![واجهة باني القوالب](./images/template-builder-interface.png)
 
-Here's a list of what each component does:
+إليك قائمة بما يفعله كل مكون:
 
-1. **Template Name**: text input to edit the Print Template name if it has not been saved.
-2. **Save as PDF**: button to save the selected entry as a PDF file.
-3. **Toggle Edit Mode**: button to toggle edit mode.
-4. **More**: dropdown menu with options such as view the print settings, and selecting and saving the template file.
-5. **Save**: button to save the Print Template after editing its values.
-6. **Template Preview**: preview template after editing without saving it.
-7. **Template Editor**: text input to edit the template.
-8. **Template Type**: drop selector to set the template type.
-9. **Display Entry**: entry to show in the preview area.
-10. **Display Scale**: number input to change the Template Preview scale.
-11. **Key Hints**: component that shows the available keys (such as `doc.name`,
-    `doc.date`, etc) that can be used in the template.
+1. **اسم القالب**: إدخال نص لتعديل اسم قالب الطباعة إذا لم يتم حفظه.
+2. **حفظ كـ PDF**: زر لحفظ القيد المحدد كملف PDF.
+3. **تبديل وضع التعديل**: زر لتبديل وضع التعديل.
+4. **المزيد**: قائمة منسدلة مع خيارات مثل عرض إعدادات الطباعة، وتحديد وحفظ ملف القالب.
+5. **حفظ**: زر لحفظ قالب الطباعة بعد تعديل قيمه.
+6. **معاينة القالب**: معاينة القالب بعد تعديله دون حفظه.
+7. **محرر القوالب**: إدخال نص لتعديل القالب.
+8. **نوع القالب**: محدد منسدل لتعيين نوع القالب.
+9. **عرض القيد**: القيد الذي سيتم عرضه في منطقة المعاينة.
+10. **مقياس العرض**: إدخال رقم لتغيير مقياس معاينة القالب.
+11. **تلميحات المفاتيح**: مكون يعرض المفاتيح المتاحة (مثل `doc.name`،
+    `doc.date`، إلخ) التي يمكن استخدامهالقالب.
 
-## Tips for Creating Templates
+## نصائح لإنشاء القوالب
 
-Here are a few tips to help you create custom print templates.
+إليك بضعة نصائح لمساعدتك في إنشاء قوالب طباعة مخصصة.
 
-### Duplicating preloaded templates
+### تكرير القوالب المحملة مسبقاً
 
-If you are not familiar with HTML, CSS and Vue.js Template Syntax then you might
-find creating a custom template to be a bit challenging.
+إذا لم تكن مألوفاً بـ HTML و CSS وبناء جملة قوالب Vue.js فقد تجد
+إنشاء قالب مخصص أمراً صعباً قليلاً.
 
-If this is the case, we suggest duplicating one of the Preloaded Templates and
-editing the duplicate.
+إذا كان هذا هو الحال، نقترح تكرير واحد من القوالب المحملة مسبقاً وتعديل
+التكرار.
 
-![Duplicating the Templates](./images/duplicate-template.png)
+![تكرير القوالب](./images/duplicate-template.png)
 
-This way you can make and apply small changes and see how it affects the Preview
-and step by step make the template like how you want it to look.
+بهذه الطريقة يمكنك إجراء وتطبيق تغييرات صغيرة ورؤية كيف يؤثر ذلك على المعاينة
+وبشكل خطوة بخطوة جعل القالب كما تود أن يبدو.
 
-### Precaution when using tailwindcss
+### الحذر عند استخدام tailwindcss
 
-A few of the tailwindcss defaults (for example colors) used in Omni Start Soft have
-been overriden using the
-[`tsconfig.js`](https://github.com/frappe/books/blob/master/tailwind.config.js)
-file.
+تم تجاوز بضعة من افتراضيات tailwindcss (مثال الألوان) المستخدمة في Omni Start Soft
+باستخدام
+ملف [`tsconfig.js`](https://github.com/muthallathat/books/blob/master/tailwind.config.js).
 
-Since these values are subject to change we suggest not relying on the overriden
-tailwindcss styles. Not doing this may cause your templates to change when we
-update the defaults.
+بما أن هذه القيم خاضعة للتغيير، نقترح عدم الاعتماد على أنماط tailwindcss
+المجاوزة. عدم القيام بذلك قد يؤدي إلى تغيير قوالبك عند قيامنا
+بتحديث الافتراضيات.

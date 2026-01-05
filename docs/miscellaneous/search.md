@@ -1,119 +1,123 @@
-# Quick Search
+# البحث السريع
 
-The Quick Search interface is a quick way to navigate around in Omni Start Soft. To
-activate it you can click on the search button in the header:
+واجهة البحث السريع هي طريقة سريعة للتنقل في Omni Start Soft. لـ
+تفعيلها يمكنك النقر على زر البحث في الشريط العلوي:
 
-![Quick Search Bar](./images/search-bar.png)
+![شريط البحث السريع](./images/search-bar.png)
 
-Or you can press `Ctrl + K` or `Cmd + K` depending on your operating system.
+أويمكنك الضغط على `Ctrl + K` أو `Cmd + K` حسب نظام التشغيل الخاص بك.
 
-## Dialog
+## الحوار
 
-![Quick Search Dialog](./images/search-dialog.png)
+![حوار البحث السريع](./images/search-dialog.png)
 
-To search for anything type what you are looking for in the input bar at the
-top.
+للبحث عن أي شيء، اكتب ما تبحث عنه في شريط الإدخال في
+الأعلى.
 
-::: tip Fuzzy Search
-Because of the fuzzy search method used, you don't have to type the exact name
-of the thing you are searching.
+::: tip البحث الضبابي
 
-So if you make spelling mistakes it is fine, you will still find what you are
-looking for.
+بسبب طريقة البحث الضبابي المستخدمة، لا تحتاج إلى كتابة الاسم الدقيق
+للشيء الذي تبحث عنه.
+
+لذا إذا ارتكبت أخطاء إملائية فلا بأس، ستجد ما تبحث
+عنه على أي حال.
 :::
 
-Each row in the search results is classified as one of the following Types:
+يتم تصنيف كل صف في نتائج البحث كواحد من الأنواع التالية:
 
-|   # | Type   | Color  | Purpose                                            | Example          |
+|   # | النوع   | اللون  | الغرض                                            | المثال          |
 | --: | :----- | :----- | :------------------------------------------------- | :--------------- |
-|   1 | Docs\* | blue   | Opens the selected entry                           | PAY-1001         |
-|   2 | List   | teal   | Opens the List View                                | Sales Items      |
-|   3 | Create | green  | Opens a Form or Quick Edit Form to create an entry | Purchase Invoice |
-|   4 | Report | yellow | Opens the selected report                          | General Ledger   |
-|   5 | Page   | red    | Opens the page                                     | Dashboard        |
+|   1 | المستندات\* | أزرق   | يفتح القيد المحدد                           | PAY-1001         |
+|   2 | القائمة   | تركواز   | يفتح عرض القائمة                                | عناصر المبيعات      |
+|   3 | إنشاء | أخضر  | يفتح نموذج أو نموذج التعديل السريع لإنشاء قيد | فاتورة الشراء |
+|   4 | التقرير | أصفر  | يفتح التقرير المحدد                          | دفتر الأستاذ   |
+|   5 | الصفحة   | أحمر    | يفتح الصفحة                                     | لوحة القيادة        |
 
-::: info Docs\*
-Rows of the _Docs_ type will show they type of entry it is. For example, Item or
-Purchase Invoice.
+::: info المستندات\*
+
+ستعرض صفوف نوع _المستندات_ نوع القيد الذي هو. مثال، صنف أو
+فاتورة الشراء.
 :::
 
-In the bottom section you will find the filters which will help you narrow your
-search results.
+في القسم السفلي ستجد فلاتر ستساعدك في تضييق
+نتائج البحث.
 
-## Filters
+## الفلاتر
 
-Clicking on More Filters will display all the filters.
+النقر على المزيد من الفلاتر سيظهر جميع الفلاتر.
 
-![Quick Search Filters](./images/search-filters.png)
+![فلاتر البحث السريع](./images/search-filters.png)
 
-There are two kinds of filters here.
+هناك نوعان من الفلاتر هنا.
 
-1. Regular Filters: coloured buttons in the first row.
-2. Doc Filters: blue coloured buttons after the first row.
+1. الفلاتر العادية: الأزرار الملونة في الصف الأول.
+2. فلاتر المستندات: الأزرار الملونة بالأزرق بعد الصف الأول.
 
-::: tip Skip Filters
-Skip Child Tables and Skip Transactions are used to toggle multiple Doc Filters
-at once.
+::: tip تخطي الفلاتر
+
+يستخدم تخطي الجداول الفرعية وتخطي المعاملات لتبديل فلاتر المستندات
+المتعددة دفعة واحدة.
 :::
 
-### Regular Filters
+### الفلاتر العادية
 
-Clicking on one of the regular filters will exclude that type from the search.
+النقر على واحد من الفلاتر العادية سيستثني ذلك النوع من البحث.
 
-For example, if you unselect Doc then only List, Create, Report and Page type
-rows will show in the suggestions.
+مثال، إذا قمت بإلغاء تحديد المستند فستظهر فقط صفوف القائمة والإنشاء والتقرير والصفحة
+في الاقتراحات.
 
-### Doc Filters
+### فلاتر المستندات
 
-Clicking on a Doc filter will exclude that kind of entry from the search.
+النقر على فلتر مستند سيستثني ذلك النوع من القيود من البحث.
 
-For example, if you unselect Payment, all Payments will be excluded from the
-search.
+مثال، إذا قمت بإلغاء تحديد الدفع، سيتم استثناء جميع الدفعات من
+البحث.
 
-## Examples
+## أمثلة
 
-The Quick Search functionality is very powerful, you can run various kind of queries
-just by entering a few letters.
+وظيفة البحث السريع قوية جداً، يمكنك تشغيل أنواع مختلفة من الاستعلامات
+بمجرد إدخال بضعة أحرف.
 
-Here are a few examples.
+إليك بضعة أمثلة.
 
 <details>
 <summary>
-1. Finding all the Sales Invoices created for Karen 
+1. البحث عن جميع فواتير المبيعات المنشأة لكارين
 </summary>
 
-![Sales Invoices for Karen](./images/sales-person.png)
+![فواتير المبيعات لكارين](./images/sales-person.png)
 
 </details>
 
 <details>
 <summary>
-2. Finding all the Purchases Invoices with the item Jacket
+2. البحث عن جميع فواتير الشراء مع الصنف جاكيت
 </summary>
 
-![Purchase Invoices for Jacket](./images/purchase-item.png)
+![فواتير الشراء لجاكيت](./images/purchase-item.png)
 
 </details>
 
 <details>
 <summary>
-3. Finding the Payment for Purchase Invoice PINV-1099
+3. البحث عن الدفع لفاتورة الشراء PINV-1099
 </summary>
 
-![Purchase Invoices for Jacket](./images/payment-invoice.png)
+![فواتير الشراء لجاكيت](./images/payment-invoice.png)
 
 </details>
 
 <details>
 <summary>
-4. Finding all Payments received from Jack
+4. البحث عن جميع الدفعات المستلمة من جاك
 </summary>
 
-![Purchase Invoices for Jacket](./images/payment-person.png)
+![فواتير الشراء لجاكيت](./images/payment-person.png)
 
 </details>
 
-::: tip Keyword Order
-The order of the keyword doesn't matter. You can enter the search keywords in
-any order.
+::: tip ترتيب الكلمات المفتاحية
+
+لا يهم ترتيب الكلمات المفتاحية. يمكنك إدخال كلمات البحث في
+أي ترتيب.
 :::

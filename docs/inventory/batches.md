@@ -1,45 +1,45 @@
-# Batches
+# الدفعات
 
-Inventory in Omni Start Soft can be maintained on the basis of Batches. Here a
-Batch of some Item is a uniquely grouped collection of those Items.
+يمكن الحفاظ على المخزون في Omni Start Soft على أساس الدفعات. هنا تكون
+دفعة من某个 صنف عبارة عن مجموعة فريدة من هذه الأصناف.
 
-## Enable Batches
+## تفعيل الدفعات
 
-The Batch feature needs to be enabled first by checking the Enable Batches
-option under [Inventory Settings](/inventory/settings).
+يجب تفعيل ميزة الدفعات أولاً عن طريق تحديد خيار تفعيل الدفعات
+ضمن [إعدادات المخزون](/inventory/settings).
 
-To navigate to the list of Batches, open [Quick Search](/miscellaneous/search)
-and then type "batch list" and select the first option.
+للانتقال إلى قائمة الدفعات، افتح [البحث السريع](/miscellaneous/search)
+ثم اكتب "قائمة الدفعات" وحدد الخيار الأول.
 
-## Batched Items
+## الأصناف المجمعة في دفعات
 
-Once Batch has been enabled, you can mark an Item as a Batched Item by first
-checking Track Item and then Has Batch.
+بمجرد تفعيل الدفعات، يمكنك تمييز صنف كصنف مجمّع في دفعات عن طريق
+تحديد تتبع الصنف أولاً ثم لديه دفعات.
 
-![Enable Has Batch](./images/item-has-batch.png)
+![تفعيل لديه دفعات](./images/item-has-batch.png)
 
-::: info Track Item
+::: info تتبع الصنف
 
-Has Batch can be enabled only if Track Item is set.
+يمكن تفعيل لديه دفعات فقط إذا تم تعيين تتبع الصنف.
 :::
 
-## Mentioning Item Batch
+## ذكر دفعة الصنف
 
-Once Batch has been enabled for an Item, transactions involving the item that
-update inventory such as Stock Movements, Shipments and Purchase
-Receipts will require mentioning the Item's Batch.
+بمجرد تفعيل الدفعات لصنف، ستتطلب المعاملات التي تتضمن الصنف وتحدث
+المخزون مثل حركات المخزون والشحنات وإيصالات الشراء
+ذكر دفعة الصنف.
 
-This can be done by clicking the edit button on the table row and selecting the
-batch.
+يمكن القيام بذلك عن طريق النقر على زر التعديل في صف الجدول وتحديد
+الدفعة.
 
-![Mentioning Batches](./images/mentioning-batches.png)
+![ذكر الدفعات](./images/mentioning-batches.png)
 
-## Batch-wise Reports
+## التقارير حسب الدفعات
 
-After batches have been enabled, the inventory reports i.e. Stock Ledger and
-Stock Balance will both have an additional column that mentions the Item's Batch.
+بعد تفعيل الدفعات، ستكون تقارير المخزون أي دفتر المخزون و
+رصيد المخزون كلاهما يحتويان على عمود إضافي يذكر دفعة الصنف.
 
-You can also set Batch specific filters to show information that relates only to
-the selected Batch.
+يمكنك أيضاً تعيين فلاتر خاصة بالدفعة لإظهار المعلومات التي تتعلق فقط بـ
+الدفعة المحددة.
 
-![Batch-wise Report](./images/batchwise-report.png)
+![تقرير حسب الدفعات](./images/batchwise-report.png)

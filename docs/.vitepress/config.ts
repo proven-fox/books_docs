@@ -27,15 +27,16 @@ export default defineConfig({
     nav: nav(),
     sidebar: sidebar(),
     editLink: {
-      pattern: 'https://github.com/frappe/books_docs/edit/master/docs/:path',
+      pattern: 'https://github.com/muthallathat/books_docs/edit/master/docs/:path',
       text: 'تعديل هذه الصفحة على GitHub',
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/frappe/books' },
+      { icon: 'github', link: 'https://github.com/muthallathat/books' },
       {
         icon: 'youtube',
-        link: 'https://www.youtube.com/channel/UCbaNaml6jBSIACQwc9Nz_0g',
-      },
+          // link: 'https://www.youtube.com/channel/UCbaNaml6jBSIACQwc9Nz_0g',
+      link: 'https://www.youtube.com/@muthallathat',
+        },
     ],
     footer: {
       message: 'تم الإصدار بموجب ترخيص MIT.',
@@ -48,15 +49,15 @@ function nav() {
   return [
     {
       text: 'الرئيسية',
-      link: 'https://frappebooks.com/',
+      link: 'https://muthallathat.com/',
     },
     {
       text: 'تحميل',
-      link: 'https://frappebooks.com/download',
+      link: 'https://muthallathat.com/download',
     },
     {
       text: 'المجتمع',
-      link: 'https://t.me/frappebooks',
+      link: 'https://t.me/muthallathat',
     },
   ];
 }

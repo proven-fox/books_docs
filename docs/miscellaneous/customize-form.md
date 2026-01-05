@@ -1,133 +1,133 @@
-# Customize Form
+# تخصيص النموذج
 
-Omni Start Soft allows you to customize all forms whether it's Invoice, or Party,
-or Item you can use the Customize Form feature to add additional fields to it.
+يسمح لك Omni Start Soft تخصيص جميع النماذج سواء كانت فاتورة، أو طرف،
+أو صنف يمكنك استخدام ميزة تخصيص النموذج لإضافة حقول إضافية إليها.
 
-## Enable Form Customization
+## تفعيل تخصيص النموذج
 
-To be able to customize a form you need to enable it from the General Settings.
+لكي تكون قادراً على تخصيص نموذج تحتاج إلى تفعيله من الإعدادات العامة.
 
-`Setup > Settings > General`
+`الإعداد > الإعدادات > العام`
 
-After you have navigated to the General Settings tab, click on the Enable Form
-Customization checkbox.
+بعد انتقالك إلى تبويب الإعدادات العامة، انقر على مربع اختيار تفعيل تخصيص
+النموذج.
 
-![Enable Form Customization](./images/enable-form-customization.png)
+![تفعيل تخصيص النموذج](./images/enable-form-customization.png)
 
-You will have to reload Omni Start Soft to see the option, you can press
-`Ctrl + R` if you are on Windows or linux, or `command + R` on macOS.
+ستحتاج إلى إعادة تحميل Omni Start Soft لرؤية الخيار، يمكنك الضغط على
+`Ctrl + R` إذا كنت على Windows أو Linux، أو `command + R` على macOS.
 
-::: warning Disabling Form Customization
+::: warning تعطيل تخصيص النموذج
 
-Disabling Form Customization will just hide the form customization option from
-the sidebar and search, it will not disable the customizations.
+تعطيل تخصيص النموذج سيقوم فقط بإخفاء خيار تخصيص النموذج من
+الشريط الجانبي والبحث، لن يقوم بتعطيل التخصيصات.
 :::
 
-## Customizing Forms
+## تخصيص النماذج
 
-After enabling form customization and reloading Omni Start Soft navigate to the
-Customize Form list view using the sidebar.
+بعد تفعيل تخصيص النماذج وإعادة تحميل Omni Start Soft انتقل إلى
+عرض قائمة تخصيص النموذج باستخدام الشريط الجانبي.
 
-`Setup > Customize Form`
+`الإعداد > تخصيص النموذج`
 
-After that click on the blue `+` button to customize a form type. This will open
-a new Custom Form entry.
+بعد ذلك انقر على الزر الأزرق `+` لتخصيص نوع نموذج. سيقوم هذا بفتح
+قيد نموذج مخصص جديد.
 
-![Custom Form](./images/custom-form.png)
+![نموذج مخصص](./images/custom-form.png)
 
-Select a Form Type to customize.
+حدد نوع النموذج لتخصيصه.
 
-::: info Form Type
+::: info نوع النموذج
 
-Form Type refers to the form that you want to add fields to such as Item, Party,
-Sales Invoice, etc.
+يشير نوع النموذج إلى النموذج الذي تود إضافة حقول إليه مثل الصنف، الطرف،
+فاتورة المبيعات، إلخ.
 
-Each Form Type can have only one Custom Form entry associated with it.
+يمكن لنوع النموذج أن يكون له قيد نموذج مخصص واحد مرتبط به.
 :::
 
-Once you select the Form Type you can add Custom Fields
+بمجرد تحديدك لنوع النموذج يمكنك إضافة حقول مخصصة
 
-## Custom Fields
+## الحقول المخصصة
 
-Each Form Type can have multiple custom fields. Click on the Add Row button to
-add a new Custom Field.
+يمكن لنوع النموذج أن يحتوي على حقول مخصصة متعددة. انقر على زر إضافة صف
+لإضافة حقل مخصص جديد.
 
-Enter its Label, for example if we want to add a color field to Item, we will
-set the Label as "Color".
+أدخل تسميته، مثال إذا أردنا إضافة حقل لون للصنف، سنقوم
+بتعيين التسمية كـ "اللون".
 
-:::tip Fieldname
+:::tip اسم الحقل
 
-Setting the Label will auto set the Fieldname value. The Fieldname is a name
-used to refer to the field internally.
+تعيين التسمية سيقوم تلقائياً بتعيين قيمة اسم الحقل. اسم الحقل هو اسم
+يُستخدم للإشارة إلى الحقل داخلياً.
 :::
 
-After setting the Label and the Fieldname, you can select the fieldtype, for
-more information on fieldtype and the other fields that you can set for each
-Custom Field row check the sections below.
+بعد تعيين التسمية واسم الحقل، يمكنك تحديد نوع الحقل، للمزيد
+من المعلومات حول نوع الحقل والحقول الأخرى التي يمكنك تعيينها لكل
+صف حقل مخصص تحقق من الأقسام أدناه.
 
-![Custom Fields](./images/custom-fields.png)
+![الحقول المخصصة](./images/custom-fields.png)
 
-Once you are done click on the blue Save button.
+بمجرد الانتهاء انقر على الزر الأزرق حفظ.
 
-:::warning Reload App
+:::warning إعادة تحميل التطبيق
 
-After customizing a form you must reload Omni Start Soft to view the added fields
-in the forms.
+بعد تخصيص نموذج يجب عليك إعادة تحميل Omni Start Soft لرؤية الحقول
+المضافة في النماذج.
 :::
 
-![Customized Form](./images/customized-form.png)
+![نموذج مخصصة](./images/customized-form.png)
 
-After reloading the app, you will see the new fields in the form.
+بعد إعادة تحميل التطبيق، سترى الحقول الجديدة في النموذج.
 
-## Custom Field Fieldtypes
+## أنواع حقول النموذج المخصصة
 
-Custom Forms support 16 different Fieldtypes, each field type defines the
-behavior and UI of the field.
+تدعم النماذج المخصصة 16 نوعاً مختلفاً من الحقول، يعرّف كل نوع حقل
+سلوك وواجهة المستخدم للحقل.
 
-For some fields you will have to enter additional details, here's a table the
-describes the different Fieldtypes.
+لبعض الحقول ستحتاج إلى إدخال تفاصيل إضافية، إليك جدول يصف
+أنواع الحقول المختلفة.
 
-| Fieldtype    | Description                                                                               | Example                         | Additional |
+| نوع الحقل    | الوصف                                                                               | المثال                         | إضافي |
 | ------------ | ----------------------------------------------------------------------------------------- | ------------------------------- | ---------- |
-| Data         | Field used for regular text input.                                                        | Full Name in Customer           | -          |
-| Text         | Field with larger area of input for longer text.                                          | Notes in Sales Invoice          | -          |
-| Date         | Field used to input only date.                                                            | Date in Sales Invoice           | -          |
-| Date Time    | Field used to input date and time.                                                        | Date in Stock Movement          | -          |
-| Int          | Field used to input integer such as -1, 0, 3, etc.                                        | HSN/SAC Code in Item            | -          |
-| Float        | Field used to input fractional numbers such as 0.12, -9.33, 100.1, etc.                   | Quantity in Sales Invoice Item  | -          |
-| Currency     | Field used to input monetary amounts.                                                     | Amount in Sales Invoice Item    | -          |
-| Check        | Field used to display a checkbox.                                                         | Track Item in Item              | -          |
-| Select       | Field used to select an item from multiple choices. Requires Options value to be set      | Entry Type in Journal Entry     | Options    |
-| Autocomplete | Same as Select but with autocomplete. Used for larger number of options.                  | Country in Address              | Options    |
-| Color        | Field used to select a color. Can set options to select color from.                       | Color in Print Settings         | Options    |
-| Link         | Field used to mention links to other entries. Requires Target to be set.                  | Customer in Sales Invoice       | Target     |
-| Dynamic Link | Field used to mention links depending on a dynamic target. Requires References to be set. | Name in Payment Reference       | References |
-| Attach Image | Field used to select an image.                                                            | Image in Item                   | -          |
-| Attachment   | Field used to select any type of file.                                                    | Add Attachment in Sales Invoice | -          |
-| Table        | Field used to display a Table. This is currently not supported.                           | Items in Sales Invoice          | Target     |
+| البيانات         | حقل يُستخدم لإدخال نص عادي.                                                        | الاسم الكامل في العميل           | -          |
+| النص         | حقل بمنطقة إدخال أكبر للنصوص الأطول.                                          | الملاحظات في فاتورة المبيعات          | -          |
+| التاريخ         | حقل يُستخدم لإدخال التاريخ فقط.                                                            | التاريخ في فاتورة المبيعات           | -          |
+| التاريخ والوقت    | حقل يُستخدم لإدخال التاريخ والوقت.                                                        | التاريخ في حركة المخزون          | -          |
+| عدد صحيح          | حقل يُستخدم لإدخال أعداد صحيحة مثل -1، 0، 3، إلخ.                                        | رمز HSN/SAC في الصنف            | -          |
+| عدد عشري        | حقل يُستخدم لإدخال أعداد كسرية مثل 0.12، -9.33، 100.1، إلخ.                   | الكمية في صنف فاتورة المبيعات  | -          |
+| العملة     | حقل يُستخدم لإدخال مبالغ نقدية.                                                     | المبلغ في صنف فاتورة المبيعات    | -          |
+| مربع اختيار        | حقل يُستخدم لعرض مربع اختيار.                                                         | تتبع الصنف في الصنف              | -          |
+| اختيار       | حقل يُستخدم لتحديد صنف من خيارات متعددة. يتطلب تعيين قيمة الخيارات      | نوع القيد في القيد اليومي     | خيارات    |
+| إكمال تلقائي | مثل الاختيار ولكن مع إكمال تلقائي. يُستخدم لعدد أكبر من الخيارات.                  | الدولة في العنوان              | خيارات    |
+| اللون        | حقل يُستخدم لتحديد لون. يمكن تعيين خيارات لتحديد اللون منها.                       | اللون في إعدادات الطباعة         | خيارات    |
+| رابط         | حقل يُستخدم لذكر روابط إلى قيود أخرى. يتطلب تعيين الهدف.                  | العميل في فاتورة المبيعات       | الهدف     |
+| رابط ديناميكي | حقل يُستخدم لذكر روابط اعتماداً على هدف ديناميكي. يتطلب تعيين المراجع. | الاسم في مرجع الدفع       | المراجع |
+| إرفاق صورة | حقل يُستخدم لتحديد صورة.                                                            | الصورة في الصنف                   | -          |
+| مرفق   | حقل يُستخدم لتحديد أي نوع من الملفات.                                                    | إضافة مرفق في فاتورة المبيعات | -          |
+| جدول        | حقل يُستخدم لعرض جدول. هذا غير مدعوم حالياً.                           | الأصناف في فاتورة المبيعات          | الهدف     |
 
-## Other Custom Form Fields
+## حقول أخرى للنموذج المخصصة
 
-Fields that describe behaviour:
+الحقول التي تصف السلوك:
 
-- **Is Required**: Whether this field is required for a form to be saved.
-- **Options**: New line separated list of options required by Select and Autocomplete and used by Color.
-- **Target**: Form type from which Link field value is selected. If Table then the name of the Table form type.
-- **References**: Fieldname of the reference field which sets the Dynamic Link target type. Eg Type in Payment Reference.
+- **مطلوب**: ما إذا كان هذا الحقل مطلوباً لحفظ النموذج.
+- **الخيارات**: قائمة مفصولة بخطوط جديدة من الخيارات المطلوبة من الاختيار والإكمال التلقائي ويُستخدمها من قبل اللون.
+- **الهدف**: نوع النموذج الذي يتم منه تحديد قيمة حقل الرابط. إذا كان جدول فاسم نوع نموذج الجدول.
+- **المراجع**: اسم حقل المرجع الذي يعرّف نوع هدف الرابط الديناميكي. مثال النوع في مرجع الدفع.
 
-Fields that describe UI:
+الحقول التي تصف واجهة المستخدم:
 
-- **Form Tab**: Tab on the form under which the field is displayed.
-- **Form Section**: Section under the entered tab where the field is displayed.
+- **تبويب النموذج**: التبويب في النموذج الذي يُعرض تحته الحقل.
+- **قسم النموذج**: القسم تحت التبويب المُدخل الذي يُعرض تحته الحقل.
 
-## Deleting Customizations
+## حذف التخصيصات
 
-You can delete a forms customizations by deleting its Custom Form entry:
+يمكنك حذف تخصيصات نموذج عن طريق حذف قيد النموذج المخصص الخاص بها:
 
-![Delete Customizations](./images/delete-customizations.png)
+![حذف التخصيصات](./images/delete-customizations.png)
 
-:::danger Data Loss
+:::danger فقدان البيانات
 
-Deleting customizations will also delete data that had been stored in the custom
-fields.
+حذف التخصيصات سيقوم أيضاً بحذف البيانات التي تم تخزينها في الحقول
+المخصصة.
 :::

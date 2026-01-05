@@ -1,63 +1,63 @@
-# Stock Ledger
+# دفتر المخزون
 
-Stock Ledger is a report that displays all the stock entries that are
-recorded whenever an inventory transaction such as a Shipment or a Stock
-Movement is submitted.
+دفتر المخزون هو تقرير يعرض جميع قيود المخزون التي يتم
+تسجيلها كلما تم إرسال معاملة مخزون مثل الشحنة أو حركة
+المخزون.
 
-The Stock Ledger shows you the change in quantity, value and valuation rate over
-the course of various inventory transactions.
+يوضح لك دفتر المخزون التغيير في الكمية والقيمة ومعدل التقييم على
+مرور معاملات المخزون المختلفة.
 
-![Stock Ledger](./images/stock-ledger.png)
+![دفتر المخزون](./images/stock-ledger.png)
 
-## Filters
+## الفلاتر
 
-The Stock Ledger has several filters which can help you narrow the generated
-report to the entries you would like to see.
+يحتوي دفتر المخزون على عدة فلاتر يمكنها مساعدتك في تضييق التقرير المُنشأ إلى
+القيود التي تود رؤيتها.
 
-### Ref Type
+### نوع المرجع
 
-Setting Ref Type as anything other than All will display entries only of that
-Transactional entry type.
+تعيين نوع المرجع كأي شيء غير الكل سيعرض فقط قيود ذلك
+نوع القيد المعامل.
 
-Example setting Ref Type as Shipment will display only entries created due
-to Shipment.
+مثال تعيين نوع المرجع كشحنة سيعرض فقط القيود المنشأة بسبب
+الشحنة.
 
-### Ref Name
+### اسم المرجع
 
-Ref Name filter allows to display all ledger entries that were generated due to a
-single Transactional Entry.
+يسمح فلتر اسم المرجع بعرض جميع قيود دفتر الأستاذ التي تم إنشاؤها بسبب
+قيد معامل واحد.
 
-To enable this you need to first set Ref Type.
+لتفعيل هذا تحتاج أولاً إلى تعيين نوع المرجع.
 
-### Item
+### الصنف
 
-Selecting a Item will display only entries involving the selected item.
+تحديد صنف سيعرض فقط القيود التي تتضمن الصنف المحدد.
 
-### Location
+### الموقع
 
-Selecting a Location will display only entries involving the selected location.
+تحديد موقع سيعرض فقط القيود التي تتضمن الموقع المحدد.
 
-### From Date
+### من التاريخ
 
-The initial date after which all the entries are to be displayed. The default
-value is one year before tomorrow.
+التاريخ الافتتاحي الذي يتم بعده عرض جميع القيود. القيمة الافتراضية هي
+سنة واحدة قبل الغد.
 
-### To Date
+### إلى التاريخ
 
-The final date before which all the entries are to be displayed. The default
-value is one day after today.
+التاريخ النهائي الذي يتم قبله عرض جميع القيود. القيمة الافتراضية
+هي يوم واحد بعد اليوم.
 
-### Group By
+### تجميع حسب
 
-Selecting a Group By option other than None groups the entry according to the
-selected option.
+تحديد خيار تجميع حسب غير لا يقوم بتجميع القيود حسب
+الخيار المحدد.
 
-For instance setting Group By as Reference will group the entries by the Name of
-the Transactional entry.
+مثال تعيين تجميع حسب كمرجع سيقوم بتجميع القيود حسب اسم
+القيد المعامل.
 
-### Ascending Order
+### الترتيب التصاعدي
 
-By default the entries are displayed by newest entry first, i.e. descending
-order of Date.
+بشكل افتراضي يتم عرض القيود بالقيد الأحدث أولاً، أي ترتيب
+تنازلي للتاريخ.
 
-Checking this will display the entries in ascending order of entry date.
+تحديد هذا سيعرض القيود بالترتيب التصاعدي لتاريخ القيد.

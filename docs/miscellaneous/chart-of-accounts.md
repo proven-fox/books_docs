@@ -1,57 +1,59 @@
-# Chart of Accounts
+# دليل الحسابات
 
-Chart of Accounts is used to refer to the organization of all accounts in a
-financial system.
+يُستخدم دليل الحسابات للإشارة إلى تنظيم جميع الحسابات في النظام
+المالي.
 
-Navigate to the chart of accounts from the Sidebar: `Setup > Chart of Accounts`
+انتقل إلى دليل الحسابات من الشريط الجانبي: `الإعداد > دليل الحسابات`
 
-## Organization of Accounts
+## تنظيم الحسابات
 
-There are two types of accounts in the Chart of Accounts
-1. **Ledger Accounts**: Accounts that are used in the transactional entries and that
-   appear in the General Ledger.
-2. **Group Accounts**: Accounts that are used to group other Group and Ledger
-   accounts.
+هناك نوعان من الحسابات في دليل الحسابات
 
+1. **حسابات دفتر الأستاذ**: الحسابات التي تُستخدم في القيود المعاملية والتي
+   تظهر في دفتر الأستاذ العام.
+2. **حسابات المجموع**: الحسابات التي تُستخدم لتجميع حسابات المجموع وحسابات
+   دفتر الأستاذ الأخرى.
 
-### Root Accounts
+### الحسابات الجذرية
 
-At the upper most level there are 4 Group Accounts. These can be thought of as
-the _Root Accounts_. These _Root Accounts_ have all the other accounts grouped
-underneath them.
+في المستوى الأعلى توجد 4 حسابات مجموع. يمكن التفكير في هذه
+باعتبارها _حسابات جذر_. تحتوي هذه _الحسابات الجذرية_ على جميع
+الحسابات الأخرى المجموعة تحتها.
 
-![Root Accounts](./images/root-accounts.png)
+![الحسابات الجذرية](./images/root-accounts.png)
 
-::: info Number of Root Accounts
-The number of Root Accounts depends on your country's CoA. 
+::: info عدد الحسابات الجذرية
 
-For example: The Indian CoA has only 4. Whereas the Standard Chart of Accounts
-has 5.
+يعتمد عدد الحسابات الجذرية على دولةك. 
+
+مثال: لدولة الهند يوجد 4 حسابات جذرية فقط. بينما يحتوي
+دليل الحسابات القياسي على 5 حسابات جذرية.
 :::
 
-Each Root Account is either a Credit or a Debit account. If a Root Account is a
-Credit account all the accounts underneath it will also be a Credit Account.
-([Credit and Debit](/basics/accounting-basics#credit-and-debit))
+كل حساب جذري هو إما حساب دائن أو حساب مدين. إذا كان الحساب الجذري
+حساباً دائن، فستكون جميع الحسابات تحته أيضاً حسابات دائنة.
+([الدائن والمدين](/basics/accounting-basics#credit-and-debit))
 
-### Other Accounts
+### الحسابات الأخرى
 
-Clicking on a Root Account will reveal the accounts other it. This goes for the
-other Group Accounts too.
+النقر على حساب جذري سيُظهر الحسابات الأخرى تحته. هذا ينطبق أيضاً
+على حسابات المجموع الأخرى.
 
-![Other Accounts](./images/other-accounts.png)
+![الحسابات الأخرى](./images/other-accounts.png)
 
-Clicking on a Ledger Account will open that accounts Quick Edit Form where the
-details of the account can be viewed.
+النقر على حساب دفتر أستاذ سيفتح نموذج التعديل السريع حيث يمكن
+عرض تفاصيل الحساب.
 
-![Ledger Account](./images/ledger-account.png)
+![حساب دفتر الأستاذ](./images/ledger-account.png)
 
-## Creating a New Account
+## إنشاء حساب جديد
 
-To create a new account
-1. Hover over a Group Account
-2. Click on Add Account or Add Group
+لإنشاء حساب جديد
 
-![Create a New Account](./images/create-new-account.png)
+1. التمر فوق حساب مجموع
+2. انقر على إضافة حساب أو إضافة مجموعة
 
-This will display a new row where you can enter the account name. After you are
-done press Save to create the account.
+![إنشاء حساب جديد](./images/create-new-account.png)
+
+سيقوم هذا بعرض صف جديد حيث يمكنك إدخال اسم الحساب. بعد الانتهاء
+اضغط على حفظ لإنشاء الحساب.

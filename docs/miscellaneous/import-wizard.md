@@ -1,161 +1,171 @@
-# Import Wizard
+# معالج الاستيراد
 
-The Import Wizard is a powerful tool that can allow you to:
+معالج الاستيراد هو أداة قوية تسمح لك بـ:
 
-1. Import Data from a `.csv` file
-2. Make multiple entries quickly
+1. استيراد البيانات من ملف `.csv`
+2. إنشاء قيود متعددة بسرعة
 
-## Basics
+## الأساسيات
 
-To use the Import Wizard navigate to it using the sidebar:
-`Setup > Import Wizard`.
-Or alternatively open the Quick Search, type "Import Wizard" and hit enter.
+لاستخدام معالج الاستيراد انتقل إليه باستخدام الشريط الجانبي:
+`الإعداد > معالج الاستيراد`.
 
-### The Interface
+أو بدلاً من ذلك افتح البحث السريع، اكتب "معالج الاستيراد" واضغط Enter.
 
-Once the Import Wizard has been opened you will have to select and Import Type
-which decides the kind of entries to be imported.
+### الواجهة
 
-![Select Import Type](./images/select-import-type.png)
+بمجرد فتح معالج الاستيراد، سيكون عليك تحديد نوع الاستيراد الذي يحدد نوع القيود التي سيتم استيرادها.
 
-After selecting the import type, you'll see the additional controls that are now available.
+![تحديد نوع الاستيراد](./images/select-import-type.png)
 
-![Import Wizard Controls](./images/import-wizard-controls.png)
+بعد تحديد نوع الاستيراد، سترى أدوات تحكم إضافية متاحة الآن.
 
-### Using a Template
+![أدوات التحكم لمعالج الاستيراد](./images/import-wizard-controls.png)
 
-To import data you, it needs to fit some template for this, first click on the
-Save Import Template button.
+### استخدام قالب
 
-This will download a `.csv` template file.
+لاستيراد بيانات، يحتاج إلى ملاء قالب لهذا، أولاً انقر على زر حفظ قالب الاستيراد.
 
-:::tip The Template.csv file
-The Template.csv file can be filled using any spreadsheet software.
+سيقوم هذا بتنزيل ملف `.csv` قالب.
 
-![Import Template CSV](./images/import-template-csv.png)
+::: tip ملف القالب.csv
 
-The Import Template has three rows:
+يمكن تعبئة ملف القالب.csv باستخدام أي برنامج جداول إلكتروني.
 
-1. Entry type row: Some entries have child tables and this indicates whether the
-   column belongs to the child table.
-2. Field label row: This tells us which field of the entry (or its child table)
-   does the column belong to.
-3. Field key row: This row allows the Import Wizard to auto assign the columns
-   when the file is selected. If this row is not present then Column Assignment
-   Bar can be used to assign the fields.
+![قالب استيراد CSV](./images/import-template-csv.png)
+
+يحتوي ملف القالب.csv على ثلاثة صفوف:
+
+1. صف نوع القيد: بعض القيود تحتوي على جداول فرعية وهذا يشير إلى ما إذا كان
+   العمود ينتمي إلى الجدول الفرعية.
+2. صف تسمية الحقل: هذا يخبرنا أي حقل من القيد (أو من جدوله الفرعية)
+   لا ينتمي إلى هذا العمود.
+3. صف مفتاح الحقل: هذا الصف يسمح لمعالج الاستيراد بتخصيص الأعمدة تلقائياً عندما
+   يتم تحديد الملف. إذا لم يكن هذا الصف موجوداً، فسيتم استخدام شريط تعيين الأعمدة
+   لتخصيص الحقول.
 
 :::
 
-To use the Template.csv file you must
+لاستخدام ملف القالب.csv يجب عليك:
 
-1. Import it into your spreadsheet software of choice
-2. Enter the values in the spreadsheet cells
-3. Export the sheet as a `.csv` file
+1. استيراده إلى برنامج جداول إلكتروني المختار
+2. إدخال القيم في خلايا الجدول
+3. تصدير الورقة كملف `.csv`
 
-Once you have exported the `.csv` file, click on Select File to select the file.
-The Import Wizard will read the file and add rows to the table.
+بمجرد تصدير ملف `.csv`، انقر على تحديد ملف لتحديده.
 
-### Verifying and Importing
+سيقوم معالج الاستيراد بقراءة الملف وإضافة صفوف إلى الجدول.
 
-You can now check the imported values and if everything seems right. If you want
-to remove a row, click on the row index to delete it.
+### التحقق والاستيراد
 
-![Import File Selected](./images/import-file-selected.png)
+يمكنك الآن التحقق من القيم المستوردة وإذا بدا كل شيء صحيحاً. إذا أردت إزالة صف، انقر على فهرس الصف لحذفها.
 
-:::tip The Add Row button
-You can click on the Add Row button to add an additional empty row to the bottom
-of the import table which can be edited to enter the required values.
+![تم تحديد الملف](./images/import-file-selected.png)
 
-This feature can be used for making multiple entries quickly without even
-selecting a file.
+::: tip زر إضافة صف
+
+يمكنك النقر على زر إضافة صف لإضافة صف فارغ إضافي في أسفل
+جدول الاستيراد الذي يمكن تعديله لإدخال القيم المطلوبة.
+
+هذه الميزة يمكن استخدامهالإنشاء قيود متعددة بسرعة دون حتى تحديد ملف.
+
 :::
 
-:::info Fixing Conversion Errors
-If the Import Wizard couldn't convert a value then it will be marked with a red border.
+:::info إصلاح أخطاء التحويل
 
-![Conversion Error](./images/import-conversion-error.png)
+إذا لم يستطع معالج الاستيراد تحويل قيمة، فسيتم تمييزها بحد أحمر.
 
-You can hover over the field to view what the raw value was and fix the value to
-remove the error
+![خطأ في التحويل](./images/import-conversion-error.png)
+
+يمكنك التمرير فوق الحقل لرؤية القيمة الأصلية وإصلاح الخطأ وإزالته.
+
 :::
 
-Finally if everything is fine, click on Import Data to begin importing the data.
+أخيراً إذا كان كل شيء على ما يرام، انقر على استيراد البيانات لبدء استيراد البيانات.
 
-### After Importing
+### بعد الاستيراد
 
-Once import is done, you'll see the Import Complete modal
+بمجرد الانتهاء من الاستيراد، سترى نافذة استيراد مكتمل.
 
-![Import Complete](./images/import-complete.png)
+![استيراد مكتمل](./images/import-complete.png)
 
-Clicking on Show Me will take you to the List View of the newly created entries.
-Clicking on Done will reset the Import Wizard allowing you to make more entries.
+النقر على عرضني سيأخذك إلى عرض القائمة للقيود المنشأة حديثاً.
+النقر على منتهى سيقوم بإعادة تعيين معالج الاستيراد مما يسمح لك بإنشاء المزيد من القيود.
 
-:::info Fixing Failed Imports
-If certain entries could not be imported then you can click on the Fix Failed
-button that is visible only on failed imports.
+:::info إصلاح الاستيرادات الفاشلة
 
-Clicking it will clear all the successful imports and allow you to fix the
-failed ones and retry.
+إذا لم يستطع استيراد قيود معينة، يمكنك النقر على زر إصلاح الفاشل الذي يكون مرئياً فقط على الاستيرادات الفاشلة.
+
+النقر عليه سيقوم بمسح جميع الاستيرادات الناجحة والسماح لك بإصلاح الفاشلة وإعادة المحاولة.
+
 :::
 
-## Picking Import Columns
+## تحديد أعمدة الاستيراد
 
-You can pick the specific columns you want to import by clicking on the `...` button
-and then clicking on `Pick Import Columns`.
+يمكنك تحديد أعمدة محددة تريد استيرادها عن طريق النقر على زر `...` ثم
+النقر على `تحديد أعمدة الاستيراد`.
 
-This will open the Pick Import Columns modal
+سيقوم هذا بفتح نافذة تحديد الأعمدة.
 
-![Pick Import Column](./images/picking-import-columns.png)
+![تحديد عمود الاستيراد](./images/picking-import-columns.png)
 
-The fields marked by the red `*` are required fields and cannot be unselected.
-Other than these you can choose to keep or remove the rest of the columns.
+يتم تمييز الحقول المطلوبة بعلامة أحمر `*` ولا يمكن إلغاء تحديدها.
+غير هذه يمكنك اختيار الاحتفاظ بالحقول الأخرى أو إزالة بقية الأعمدة.
 
-Removing a column will:
+إزالة عمود سيؤدي إلى:
 
-1. Remove it from the exported template.
-2. Prevent it from being assigned to a column.
+1. إزالته من القالب المُصدرة.
+2. منع تعيينه من الأعمدة عند استيراد البيانات.
 
-## Column Assignment Bar
+![تعيين عمود الاستيراد](./images/import-column-assignment.png)
 
-The Column Assignment Bar is used to mark a column in the table as a certain
-field. This is useful if the file you have selected doesn't use the Import
-Wizard's template.
+إذا تم تحديد لا شيء، فسيتم تجاهل ذلك العمود أثناء استيراد البيانات.
 
-Along with assigning columns you can even de-assign columns by selecting None
-![Import Column Assignment](./images/import-column-assignment.png)
+## شريط تعيين الأعمدة
 
-If None is selected then that column is ignored while importing data.
+يُستخدم شريط تعيين الأعمدة لتمييز عمود في الجدول كحقل معين. هذا مفيد إذا كان الملف الذي حددته لا يستخدم قالب معالج الاستيراد.
 
-## Importing Entries with Child Tables
+بجانب تعيين الأعمدة، يمكنك حتى إلغاء تعيين الأعمدة عن طريق تحديد لا شيء.
 
-Sales Invoice is an example of an entry with a child table. Here child table
-refers to the items table which lists all the items included in the sale.
+![تعيين عمود الاستيراد](./images/import-column-assignment.png)
 
-When importing entry with a child table:
+إذا تم تحديد لا شيء، فسيتم تجاهل ذلك العمود أثناء استيراد البيانات.
 
-1. Unique placeholder names should be provided even if the entry uses a Number Series.
-2. Each row in the child table should be one row.
-3. All rows of an entry should have the same non child table row data.
+## استيراد قيود مع جداول فرعية
 
-For Example
+فاتورة المبيعات هي مثال على قيد يحتوي على جدول فرعية. هنا يشير الجدول الفرعية إلى جدول الأصناف الذي يسرد جميع الأصناف المضمنة في البيع.
 
-| Invoice Name | Customer | Item (Table Row) | Amount (Table Row) |
+عند استيراد قيد يحتوي على جدول فرعية:
+
+1. يجب توفير أسماء نائبة فريدة حتى إذا كان القيد يستخدم سلسل رقمي.
+2. يجب أن يكون كل صف في جدول الجدول الفرعية صف واحد.
+3. يجب أن تحتوي جميع صفوف القيد على نفس بيانات الجدول الفرعية غير الجدول.
+
+مثال
+
+| اسم الفاتورة | العميل | الصنف (صف الجدول) | المبلغ (صف الجدول) |
 | ------------ | -------- | ---------------- | ------------------ |
-| A            | Lin      | Bat              | 100                |
-| A            | Lin      | Ball             | 50                 |
-| B            | Andy     | Pen              | 200                |
-| B            | Andy     | Pencil           | 10                 |
-| B            | Andy     | Ink              | 80                 |
+| أ           | لين      | كرة             | 100                |
+| أ           | لين      | كرة             | 50                 |
+| ب           | أندي     | قلم             | 200                |
+| ب           | أندي     | قلم             | 10                 |
+| ب           | أندي     | حبر             | 80                 |
 
-Here the import table has two Sales Invoices with unique names A, and B.
+هناك جدول الاستيراد يحتوي على فاتورتي مبيعات بأسماء فريدة أ وب. تحتوي فاتورة أ على صنفين وفاتورة ب على ثلاثة أصناف. كل صنف هو صف واحد في جدول الاستيراد.
 
-Invoice A has two items and Invoice B has three items. Each item is a single row
-in the import table.
-
-And for every child table row in the import table the non child table data, i.e.
-Invoice Name and Customer are repeated.
+ولكل صف في جدول الجدول الفرعية، أي اسم الفاتورة والعميل، يتم تكرارها.
 
 ::: warning
-Not following these guidelines may either cause the data to not be imported
-properly or to fail altogether.
+
+عدم اتباع هذه الإرشادات قد يؤدي إما إلى عدم استيراد البيانات بشكل صحيح أو فشل الاستيراد تماماً.
 :::
+
+## شريط تعيين الأعمدة
+
+يُستخدم شريط تعيين الأعمدة لتمييز عمود في الجدول كحقل معين. هذا مفيد إذا كان الملف الذي حددته لا يستخدم قالب معالج الاستيراد.
+
+بجانب تعيين الأعمدة، يمكنك حتى إلغاء تعيين الأعمدة عن طريق تحديد لا شيء.
+
+![تعيين عمود الاستيراد](./images/import-column-assignment.png)
+
+إذا تم تحديد لا شيء، فسيتم تجاهل ذلك العمود أثناء استيراد البيانات.

@@ -1,65 +1,67 @@
-# Serial Number
+# الرقم التسلسلي
 
-If an Item is serialized, a Serial Number record is maintained for each unit of
-quantity of that Item. This information helps to track the location of the
-Serial Number. The Serial Number status will tell you its current Inventory
-status.
+إذا كان الصنف مسلسلاً، يتم الحفاظ على سجل رقم تسلسلي لكل وحدة من
+كمية ذلك الصنف. تساعد هذه المعلومات في تتبع موقع
+الرقم التسلسلي. ستخبرك حالة الرقم التسلسلي بحالة المخزون
+الحالية له.
 
-## Enable Serial Numbers
+## تفعيل الأرقام التسلسلية
 
-The Serial Number feature needs to be enabled first by checking the Enable Serial Number
-option under [Inventory Settings](/inventory/settings)
+يجب تفعيل ميزة الرقم التسلسلي أولاً عن طريق تحديد خيار تفعيل الرقم التسلسلي
+ضمن [إعدادات المخزون](/inventory/settings)
 
-To navigate to the list of Serial Numbers, open [Quick Search](/miscellaneous/search)
-and then type "serial number list" and select the first option.
+للانتقال إلى قائمة الأرقام التسلسلية، افتح [البحث السريع](/miscellaneous/search)
+ثم اكتب "قائمة الأرقام التسلسلية" وحدد الخيار الأول.
 
-## Serialized Items
+## الأصناف المسلسلة
 
-Once you've [enabled](/inventory/serial-number#enable-serial-number) Serial Number, you
-can mark an item as a serialized item by first checking **Track Item** and then
-**Has Serial Number**
+بمجرد [تفعيلك](/inventory/serial-number#enable-serial-number) الرقم التسلسلي، يمكنك
+تمييز صنف كصنف مسلسل عن طريق تحديد **تتبع الصنف** أولاً ثم
+**لديه رقم تسلسلي**
 
-![Enable Has Serial Number](./images/item-has-serial-number.png)
+![تفعيل لديه رقم تسلسلي](./images/item-has-serial-number.png)
 
-::: info Track Item
-**Has Serial Number** can be enabled only if **Track Item** is set.
+::: info تتبع الصنف
+
+يمكن تفعيل **لديه رقم تسلسلي** فقط إذا تم تعيين **تتبع الصنف**.
 :::
 
-## Mentioning Item Serial Number
+## ذكر رقم تسلسلي للصنف
 
-Once a Serial Number has been enabled for an [Item](/entries/items), transactions involving
-the Item that update Inventory (such as Stock Movements, Shipments, and Purchases) must
-include the Serial Number.
+بمجرد تفعيل الرقم التسلسلي لـ [صنف](/entries/items)، يجب أن تتضمن
+المعاملات التي تتضمن الصنف وتحدث المخزون (مثل حركات المخزون والشحنات والشراءات)
+الرقم التسلسلي.
 
-This can be done by clicking the edit button on the table row and entering the Serial Number
-one per quantity.
+يمكن القيام بذلك عن طريق النقر على زر التعديل في صف الجدول وإدخال الرقم التسلسلي
+واحد لكل كمية.
 
-![Mentioning Serial Numbers](./images/mentioning-serial-number.png)
+![ذكر الأرقام التسلسلية](./images/mentioning-serial-number.png)
 
-::: info Serial Number Entry
-For each unit of quantity of a serialized Item a single Serial Number should be
-provided on a separate line.
+::: info إدخال الرقم التسلسلي
+
+لكل وحدة كمية من صنف مسلسل يجب توفير رقم تسلسلي واحد
+على سطر منفصل.
 :::
 
-## Serial Number Status
+## حالة الرقم التسلسلي
 
-The status of a Serial Number changes depending on whether the transaction is an
-inward transaction (eg Purchase Receipt), or an
-outward transaction (eg Shipment).
+تتغير حالة الرقم التسلسلي بناءً على ما إذا كانت المعاملة معاملة
+داخلة (مثل إيصال الشراء)، أو معاملة
+خارجة (مثل الشحنة).
 
-A Serial Number can have one of three Status:
+يمكن أن يكون للرقم التسلسلي واحدة من ثلاث حالات:
 
-| Status    | Description                                                                 |
+| الحالة    | الوصف                                                                 |
 | --------- | --------------------------------------------------------------------------- |
-| Active    | Serial Number is in stock and can be used only for outward transactions.    |
-| Inactive  | Serial Number is not in stock and can be used only for inward transactions. |
-| Delivered | Serial Number has been used for an outward transaction and cannot be used.  |
+| نشط    | الرقم التسلسلي في المخزون ويمكن استخدامه فقط للمعاملات الخارجة.    |
+| غير نشط  | الرقم التسلسلي ليس في المخزون ويمكن استخدامه فقط للمعاملات الداخلة. |
+| تم التسليم | تم استخدام الرقم التسلسلي لمعاملة خارجة ولا يمكن استخدامه.  |
 
-Here is a table that shows how the status of a Serial Number changes:
+إليك جدول يوضح كيف تتغير حالة الرقم التسلسلي:
 
-| Status Change      | Transaction                                                                                     |
+| تغيير الحالة      | المعاملة                                                                                     |
 | ------------------ | ----------------------------------------------------------------------------------------------- |
-| Inactive → Active  | Inward transactions: Material Receipt or Manufacture (created) Stock Movement, Purchase Receipt |
-| Active → Delivered | Outward transactions: Material Issue or Manufacture (used up) Stock Movement, Shipment          |
+| غير نشط → نشط  | المعاملات الداخلة: استلام المواد أو التصنيع (تم الإنشاء) حركة المخزون، إيصال الشراء |
+| نشط → تم التسليم | المعاملات الخارجة: إصدار المواد أو التصنيع (تم الاستهلاك) حركة المخزون، الشحنة          |
 
-If a transaction is cancelled then the Serial Number status is reverted.
+إذا تم إلغاء معاملة فستتم إعادة حالة الرقم التسلسلي.

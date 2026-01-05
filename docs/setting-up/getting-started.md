@@ -3,7 +3,7 @@
 لنبدأ بتطبيق ما تعلمناه حتى الآن عن طريق إعداد شركتك في Omni Start Soft.
 
 إذا لم تقم بتحميل Omni Start Soft، يمكنك تحميله من هنا
-[frappebooks.com/download](https://frappebooks.com/download).
+[muthallathat.com/download](https://muthallathat.com/download).
 
 ## إعداد النسخة
 

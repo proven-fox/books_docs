@@ -1,71 +1,74 @@
-# Multi Currency Invoicing
+# فوترة العملات المتعددة
 
-Omni Start Soft allows you to create and print invoices in your customers currency.
+يسمح لك Omni Start Soft إنشاء وطباعة فواتير في عملة عملائك.
 
-::: tip Suppliers and Purchase Invoices
-The same applies procedure applies for creating a Multi Currency Purchase
-Invoice. Just set a different currency when creating a Supplier entry.
+::: tip الموردين وفواتير الشراء
+
+ينطبق نفس الإجراء لإنشاء فاتورة شراء بعملات متعددة.
+فقط عين عملة مختلفة عند إنشاء قيد مورد.
 :::
 
-## Creating a Multi Currency Invoice
+## إنشاء فاتورة بعملات متعددة
 
-To enable a multi currency invoice you need to do two things:
+لتفعيل فاتورة بعملات متعددة تحتاج إلى فعل شيئين:
 
-1. Create a Customer entry with a [different currency](/transactions/multi-currency-invoicing#customer-and-company-currency) from the company currency.
-2. Select the Customer when creating a new invoice.
+1. إنشاء قيد عميل مع [عملة مختلفة](/transactions/multi-currency-invoicing#customer-and-company-currency) عن عملة الشركة.
+2. تحديد العميل عند إنشاء فاتورة جديدة.
 
-This will display the [exchange rate](/transactions/multi-currency-invoicing#exchange-rate) widget.
+سيقوم هذا بعرض [ودجت معدل الصرف](/transactions/multi-currency-invoicing#exchange-rate).
 
-![Multi Currency Invoicing](./images/multicurrency-invoice.png)
+![فوترة العملات المتعددة](./images/multicurrency-invoice.png)
 
-::: info Fields using Company Currency
-The Base Grand Total and Outstanding Amounts are displayed in the company currency.
+::: info الحقول باستخدام عملة الشركة
+
+يتم عرض المجموع الكلي الأساسي والمبالغ المتبقية بعملة الشركة.
 :::
 
-## Printing
+## الطباعة
 
-After submitting, on clicking Print, the invoice can be printed in the customers currency.
-![Multi Currency Invoice Printing](./images/multi-currency-print.png)
+بعد الإرسال، عند النقر على طباعة، يمكن طباعة الفاتورة بعملة العميل.
+![طباعة فاتورة بعملات متعددة](./images/multicurrency-print.png)
 
-## Payments
+## الدفعات
 
-Payments entries are made in the company currency. The exchange rate set when
-submitting the invoice is used to decide the amount to be paid.
+يتم إنشاء قيود الدفعات بعملة الشركة. يُستخدم معدل الصرف المعين
+عند إرسال الفاتورة لتحديد المبلغ الذي سيتم دفعه.
 
-![Multi Currency Payment](./images/multi-currency-payments.png)
+![دفعات بعملات متعددة](./images/multicurrency-payments.png)
 
-On making the payment the Outstanding Amount will be updated accordingly, and any
-rounding differences will be balanced using the [Round Off Account](/miscellaneous/settings#general-settings).
+عند إنشاء الدفع سيتم تحديث المبلغ المتبقي وفق ذلك، وأي
+فروق تقريب سيتم تسويته باستخدام [حساب الشطب](/miscellaneous/settings#general-settings).
 
-## Ledger Entries
+## قيود دفتر الأستاذ
 
-Ledger Entries are created using the company currency. The exchange rate set
-when submitting the invoice is used to decide the recorded amounts.
+يتم إنشاء قيود دفتر الأستاذ باستخدام عملة الشركة. يُستخدم معدل الصرف المعين
+عند إرسال الفاتورة لتحديد المبالغ المسجلة.
 
-![Multi Currency Ledger Entries](./images/multi-currency-ledger-entries.png)
+![قيود دفتر الأستاذ بعملات متعددة](./images/multicurrency-ledger-entries.png)
 
-## Exchange Rate
+## معدل الصرف
 
-When a multi currency invoice is made, the ledger entries are created in the
-company currency.
+عند إنشاء فاتورة بعملات متعددة، يتم إنشاء قيود دفتر الأستاذ بعملة
+الشركة.
 
-::: info Exchange Rate
-Company Currency = Customer Currency ⨉ Exchange Rate
+::: info معدل الصرف
+
+عملة الشركة = عملة العميل ⨉ معدل الصرف
 :::
 
-## Customer and Company Currency
+## عملة العميل و عملة الشركة
 
-Multi currency invoice is possible only if the two currencies are different from
-each other.
+فاتورة العملات المتعددة ممكنة فقط إذا كانت العملتان مختلفتين
+عن بعضهما البعض.
 
-### Customer Currency
+### عملة العميل
 
-This is set when a [Customer](/entries/party) entry is created.
+يتم تعيين هذا عند إنشاء [قيد عميل](/entries/party).
 
-![Customer Currency](./images/customer-currency.png)
+![عملة العميل](./images/customer-currency.png)
 
-### Company Currency
+### عملة الشركة
 
-This is set when [initializing](/setting-up/getting-started) a new Omni Start Soft instance
+يتم تعيين هذا عند [إعداد](/setting-up/getting-started) مثيل جديد من Omni Start Soft
 
-![Company Currency](./images/company-currency.png)
+![عملة الشركة](./images/company-currency.png)

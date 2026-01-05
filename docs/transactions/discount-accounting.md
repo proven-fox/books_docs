@@ -1,56 +1,59 @@
-# Discount Accounting
+# محاسبة الخصم
 
-Discount is a deduction that is applied to the cost of an item. Omni Start Soft
-supports applying discount to an invoice on an item-wise basis.
+الخصم هو خصم يُطبق على تكلفة صنف. يدعم Omni Start Soft
+تطبيق خصم على فاتورة على أساس صنف.
 
-## Enable Discount Accounting
+## تفعيل محاسبة الخصم
 
-To enable discount accounting, first navigate to General Settings:
-`Setup > Settings > General`
+لتفعيل محاسبة الخصم، انتقل أولاً إلى الإعدادات العامة:
+`الإعداد > الإعدادات > العام`
 
-Then check the Enable Discount Accounting checkbox.
+بعد ذلك حدد مربع اختيار تفعيل محاسبة الخصم.
 
-![Enable Discount Accounting](./images/enable-discount-accounting.png)
+![تفعيل محاسبة الخصم](./images/enable-discount-accounting.png)
 
 ::: warning
-Once Discount Accounting is enabled, it cannot be disabled.
+
+بمجرد تفعيل محاسبة الخصم، لا يمكن تعطيلها.
 :::
 
-After that set the account that will be used for discounts
+بعد ذلك عين الحساب الذي سيتم استخدامه للخصومات
 
-![Set Discount Account](./images/set-discount-account.png)
+![تعيين حساب الخصم](./images/set-discount-account.png)
 
 ::: info
-The discount account is an Indirect Income account, you can create it using the
-[Chart of Accounts](/miscellaneous/chart-of-accounts)
+
+حساب الخصم هو حساب دخل غير مباشر، يمكنك إنشاؤه باستخدام
+[دليل الحسابات](/miscellaneous/chart-of-accounts)
 :::
 
-## Setting Discount Amount
+## تعيين مبلغ الخصم
 
-Discount is applied on an item-wise basis. After you have enabled discount click
-on the edit button on the item row to set the discount.
+يتم تطبيق الخصم على أساس صنف. بعد تفعيل الخصم انقر
+على زر التعديل في صف الصنف لتعيين الخصم.
 
-![Setting the Discount](./images/set-discount.png)
+![تعيين الخصم](./images/set-discount.png)
 
-This will open Quick Edit Form to edit the invoice item values. Discount can be
-set in two ways:
+سيقوم هذا بفتح نموذج التعديل السريع لتعديل قيم صنف الفاتورة. يمكن تعيين
+الخصم بطريقتين:
 
-1. Setting a Discount Percent (default)
-2. Setting a Discount Amount
+1. تعيين نسبة خصم (افتراضي)
+2. تعيين مبلغ خصم
 
-To set the Discount Amount click on Set Discount Amount. Once the Discount
-Amount or Percent is set the Discounted Amount will be shown.
+لتعيين مبلغ الخصم انقر على تعيين مبلغ الخصم. بمجرد تعيين
+مبلغ الخصم أو النسبة سيتم عرض المبلغ بعد الخصم.
 
-::: tip Setting Discounted Amount
-You can directly set the Discounted Amount, Omni Start Soft will automatically
-calculate the item rate.
+::: tip تعيين المبلغ بعد الخصم
+
+يمكنك تعيين المبلغ بعد الخصم مباشرة، سيقوم Omni Start Soft تلقائياً
+بحساب معدل الصنف. 
 :::
 
-## Discount After Tax
+## الخصم بعد الضريبة
 
-By default the Discount is applied before the Tax is calculated.
+بشكل افتراضي يتم تطبيق الخصم قبل حساب الضريبة.
 
-To apply the Discount after the Tax, select the Discount After Tax checkbox
-after opening the settings for the Invoice.
+لتطبيق الخصم بعد الضريبة، حدد مربع اختيار الخصم بعد الضريبة
+بعد فتح إعدادات الفاتورة.
 
-![Discount after Tax](./images/discount-after-tax.png)
+![الخصم بعد الضريبة](./images/discount-after-tax.png)

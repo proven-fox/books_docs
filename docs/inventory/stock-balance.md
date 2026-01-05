@@ -1,40 +1,40 @@
-# Stock Balance
+# رصيد المخزون
 
-Stock Balance is a report that displays the current stock quantities, value and
-valuation rate by Item and Location.
+رصيد المخزون هو تقرير يعرض كميات المخزون الحالية، القيمة و
+معدل التقييم حسب الصنف والموقع.
 
-![Stock Balance](./images/stock-balance.png)
+![رصيد المخزون](./images/stock-balance.png)
 
-## Filters
+## الفلاتر
 
-The Stock Balance has filters which can help you narrow the generated report to
-the entries you would like to see.
+يحتوي رصيد المخزون على فلاتر يمكنها مساعدتك في تضييق التقرير المُنشأ إلى
+القيود التي تود رؤيتها.
 
-### Item
+### الصنف
 
-Selecting a Item will display only entries involving the selected item.
+تحديد صنف سيعرض فقط القيود التي تتضمن الصنف المحدد.
 
-### Location
+### الموقع
 
-Selecting a Location will display only entries involving the selected location.
+تحديد موقع سيعرض فقط القيود التي تتضمن الموقع المحدد.
 
-### From Date
+### من التاريخ
 
-The date from which all the stock balance is calculated. The default value is
-one year before tomorrow.
+التاريخ الذي يتم منه حساب جميع أرصدة المخزون. القيمة الافتراضية هي
+سنة واحدة قبل الغد.
 
-Stock balance from before this date is used to set the Opening Quantity and
-Opening Value.
+يتم استخدام رصيد المخزون من قبل هذا التاريخ لتعيين الكمية الافتتاحية و
+القيمة الافتتاحية.
 
-### To Date
+### إلى التاريخ
 
-The date until which all the stock balance is calculated. The default
-value is one day after today.
+التاريخ الذي يتم إليه حساب جميع أرصدة المخزون. القيمة الافتراضية
+هي يوم واحد بعد اليوم.
 
-Values after this date are ignored.
+يتم تجاهل القيم بعد هذا التاريخ.
 
 ::: tip
 
-If you are getting insufficient quantity for backdated inventory entries, you
-can use this filter to identify future negative quantity.
+إذا كنت تحصل على كمية غير كافية لقيود المخزون المؤرخة سابقاً، يمكنك
+استخدام هذا الفلتر لتحديد الكمية السالبة في المستقبل.
 :::

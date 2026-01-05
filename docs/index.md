@@ -12,7 +12,7 @@ hero:
       link: /setting-up/getting-started
     - theme: alt
       text: احصل على Omni Start Soft
-      link: https://frappebooks.com/download
+      link: https://muthallathat.com/download
 
 features:
   - title: قابل للنقل

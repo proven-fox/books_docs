@@ -1,98 +1,97 @@
-# Introduction to Inventory
+# مقدمة في المخزون
 
-Omni Start Soft's inventory features allows you to track the movement of your items
-as you perform your business transactions.
+تتيح ميزات المخزون في Omni Start Soft لك تتبع حركة أصنافك
+أثناء إجراء معاملاتك التجارية.
 
-## Inventory Features
+## ميزات المخزون
 
-The inventory module of Omni Start Soft consists of the following features:
+يتكون وحدة المخزون في Omni Start Soft من الميزات التالية:
 
-1. [Stock Movement](/inventory/stock-movement): transaction that records the movement of Items to and from
-   selected Locations.
-2. [Shipment](/inventory/shipment): transaction that records the movement of Items to a Customer after
-   a sale has been made.
-3. [Purchase Receipt](/inventory/purchase-receipt): transaction that records the movement of Items from a
-   Supplier after a purchase has been made.
-4. [Stock Ledger](/inventory/stock-ledger): report that keeps a record of all the stock transactions.
-5. [Stock Balance](/inventory/stock-balance): report that displays the stock balance quantities.
+1. [حركة المخزون](/inventory/stock-movement): معاملة تسجل حركة الأصناف إلى ومن
+   المواقع المحددة.
+2. [الشحنة](/inventory/shipment): معاملة تسجل حركة الأصناف إلى العميل بعد
+   إجراء عملية البيع.
+3. [إيصال الشراء](/inventory/purchase-receipt): معاملة تسجل حركة الأصناف من
+   المورد بعد إجراء عملية الشراء.
+4. [دفتر المخزون](/inventory/stock-ledger): تقرير يحتفظ بسجل لجميع معاملات المخزون.
+5. [رصيد المخزون](/inventory/stock-balance): تقرير يعرض كميات رصيد المخزون.
 
-## Enabling Inventory
+## تفعيل المخزون
 
-To enable inventory you will have to first check the Enable Inventory. To
-navigate: `Setup > Settings > General Tab`.
+لتفعيل المخزون يجب عليك أولاً تحديد تفعيل المخزون. للتنقل:
+`الإعداد > الإعدادات > التبويب العام`.
 
-![Enable Inventory](./images//enable-inventory.png)
+![تفعيل المخزون](./images//enable-inventory.png)
 
-Once that is done you will have to restart Omni Start Soft to see the Inventory
-item in the sidebar.
+بمجرد الانتهاء من ذلك، سيتعين عليك إعادة تشغيل Omni Start Soft لرؤية عنصر
+المخزون في الشريط الجانبي.
 
 ::: warning
 
-Inventory cannot be disabled once it has been enabled.
+لا يمكن تعطيل المخزون بمجرد تفعيله.
 :::
 
-## Tracking an Item
+## تتبع صنف
 
-Since you may not want to track the movement of all items, item tracking has to
-be enabled by setting the Track Item checkbox when creating an item.
+بما أنك قد لا ترغب في تتبع حركة جميع الأصناف، يجب تفعيل تتبع الصنف
+عن طريق تعيين مربع اختيار تتبع الصنف عند إنشاء صنف.
 
-![Track Item](./images/track-item.png)
+![تتبع الصنف](./images/track-item.png)
 
 ::: info
 
-Track Item can be enabled only while creating the item.
+يمكن تفعيل تتبع الصنف فقط أثناء إنشاء الصنف.
 :::
 
-Once you have created an item with tracking enabled, you can track its movement
-by making inventory specific transactions.
+بمجرد إنشاء صنف مع تفعيل التتبع، يمكنك تتبع حركته عن طريق
+إجراء معاملات خاصة بالمخزون.
 
-## Location
+## الموقع
 
-In Omni Start Soft the movement of an item takes place to and from a _Location_.
-There are two kinds of movements that can take place:
+في Omni Start Soft، تتم حركة صنف إلى ومن _موقع_.
+هناك نوعان من الحركات التي يمكن أن تحدث:
 
-1. Inward movement: When you move an item to a _Location_, the quantity of the
-   item at that location increases.
-2. Outward movement: When you move an item from a _Location_, the quantity of the
-   item at that location decreases.
+1. الحركة الداخلة: عندما تنقل صنفاً إلى _موقع_، تزيد كمية
+   الصنف في ذلك الموقع.
+2. الحركة الخارجة: عندما تنقل صنفاً من _موقع_، تقل كمية
+   الصنف في ذلك الموقع.
 
-The source or destination location for an outward or inward transaction is
-selected when making the transaction.
+يتم تحديد موقع المصدر أو الوجهة للمعاملة الخارجة أو الداخلة
+عند إجراء المعاملة.
 
-::: info Default Location
+::: info الموقع الافتراضي
 
-Omni Start Soft has a default location called Stores set. This can be changed from
-the Inventory tab under Settings.
+يحتوي Omni Start Soft على موقع افتراضي يسمى المخازن. يمكن تغيير هذا من
+تبويب المخزون ضمن الإعدادات.
 :::
 
-::: tip Creating Locations
+::: tip إنشاء المواقع
 
-Additional locations can be created when making an inventory transaction. To do
-so click the Create option in the Location selection dropdown.
+يمكن إنشاء مواقع إضافية عند إجراء معاملة مخزون. للقيام
+بذلك انقر على خيار إنشاء في القائمة المنسدلة لتحديد الموقع.
 :::
 
-## Stock Quantity
+## كمية المخزون
 
-Since an outward movement reduces the stock quantity at a location, if the
-location has an insufficient quantity of stock, the transaction will not be
-allowed.
+بما أن الحركة الخارجة تقلل كمية المخزون في موقع، إذا كان
+الموقع يحتوي على كمية غير كافية من المخزون، فلن يُسمح بالمعاملة.
 
-This means that negative stock movement will not be allowed. This applies even
-to backdated entries that may cause negative stock in the future.
+هذا يعني أن حركة المخزون السالب لن يُسمح بها. هذا ينطبق حتى
+على القيود المؤرخة سابقاً التي قد تسبب مخزوناً سالباً في المستقبل.
 
-To enable the outward movement, two things can be done:
+لتفعيل الحركة الخارجة، يمكن فعل شيئين:
 
-1. Change the location to one that has sufficient quantity.
-2. Create an inward movement of the selected Item to the selected Location
-   before the blocked transaction.
+1. تغيير الموقع إلى موقع يحتوي على كمية كافية.
+2. إنشاء حركة دخلة للصنف المحدد إلى الموقع المحدد
+   قبل المعاملة المحظورة.
 
-::: tip Stock Balance
+::: tip رصيد المخزون
 
-To check which Location has sufficient quantity of an Item check the Stock
-Balance report.
+للتحقق من الموقع الذي يحتوي على كمية كافية من صنف، تحقق من تقرير
+رصيد المخزون.
 :::
 
 ---
 
-Now that you know how to enable inventory and are familiar with the basic
-concepts, you can move onto reading about the inventory transactions.
+الآن بعد أن عرفت كيفية تفعيل المخزون وأنت على دراية بالمفاهيم
+الأساسية، يمكنك الانتقال إلى قراءة عن معاملات المخزون.

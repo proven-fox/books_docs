@@ -1,72 +1,71 @@
-# Inventory Settings
+# إعدادات المخزون
 
-Inventory settings will allow you to configure the inventory module to your
-requirements. To navigate to Inventory Settings: `Setup > Settings` then click
-on the Inventory tab
+ستسمح لك إعدادات المخزون بتكوين وحدة المخزون حسب
+متطلباتك. للانتقال إلى إعدادات المخزون: `الإعداد > الإعدادات` ثم انقر
+على تبويب المخزون
 
-![Inventory Settings](./images/inventory-settings.png)
+![إعدادات المخزون](./images/inventory-settings.png)
 
-## Setting Items
+## تعيين الأصناف
 
-The following values can be configured
+يمكن تكوين القيم التالية
 
-### Valuation Method
+### طريقة التقييم
 
-This can be used to select either FIFO or Moving Average valuation methods.
+يمكن استخدام هذا لتحديد إما طريقة تقييم FIFO أو المتوسط المتحرك.
 
-The valuation rate displayed in the Stock Ledger or the Stock Balance report is
-calculated on the basis of the Valuation Method selected.
+يتم حساب معدل التقييم المعروض في تقرير دفتر المخزون أو رصيد المخزون
+على أساس طريقة التقييم المحددة.
 
-### Default Location
+### الموقع الافتراضي
 
-This is used to set the location that is used whenever an inventory transaction
-detail is created.
+يستخدم هذا لتعيين الموقع الذي يتم استخدامه كلما تم إنشاء تفصيل معاملة مخزون.
 
-### Stock In Hand Account
+### حساب المخزون في اليد
 
-This is used to set the default Stock In Hand Account that is debited whenever
-stock is received.
+يستخدم هذا لتعيين حساب المخزون في اليد الافتراضي الذي يتم مدينه كلما
+تم استلام المخزون.
 
-### Stock Received But Not Billed Account
+### حساب المخزون المستلم ولكن غير المفوتر
 
-This is used to set the default Stock Received But Not Billed Account that is
-debited on making a Purchase Invoice for a tracked item, and credited when a
-Purchase Receipt is made.
+يستخدم هذا لتعيين حساب المخزون المستلم ولكن غير المفوتر الافتراضي الذي يتم مدينه
+عند إنشاء فاتورة شراء لصنف متتبع، ويتم دائنه عند
+إنشاء إيصال شراء.
 
-### Cost Of Goods Sold Account
+### حساب تكلفة البضائع المباعة
 
-This is used to set the default Cost of Goods Sold Account that is debited
-whenever a Shipment is made.
+يستخدم هذا لتعيين حساب تكلفة البضائع المباعة الافتراضي الذي يتم مدينه
+كلما تم إنشاء شحنة.
 
-### Enable Barcodes
+### تفعيل الباركود
 
-Checking this will allow you to set barcodes on items. It will also display a
-barcode input in forms (such as Sales Invoice and Shipment) where items are
-entered.
+تحديد هذا سيسمح لك بتعيين باركود على الأصناف. سيتم أيضاً عرض إدخال
+الباركود في النماذج (مثل فاتورة المبيعات والشحنة) حيث يتم
+إدخال الأصناف.
 
-### Enable Batches
+### تفعيل الدفعات
 
-Checking this will allow the usage of Batches. Items will have a Has Batch
-option if the item is being tracked.
+تحديد هذا سيسمح باستخدام الدفعات. سيكون للأصناف خيار لديه دفعات
+إذا كان الصنف يتم تتبعه.
 
-It will also enable the Batch entry type which can be navigated to by using the
-Quick Search.
+سيتم أيضاً تفعيل نوع قيد الدفعات الذي يمكن الانتقال إليه باستخدام
+البحث السريع.
 
-### Enable Serial Numbers
+### تفعيل الأرقام التسلسلية
 
-Checking this will allow the usage of Serial Numbers. Items will have a Has
-Serial Number option if the item is being tracked.
+تحديد هذا سيسمح باستخدام الأرقام التسلسلية. سيكون للأصناف خيار لديه
+رقم تسلسلي إذا كان الصنف يتم تتبعه.
 
-It will also enable the
-Serial Number entry type which can be navigated to by using the Quick Search.
+سيتم أيضاً تفعيل
+نوع قيد الرقم التسلسلي الذي يمكن الانتقال إليه باستخدام البحث السريع.
 
-### Enable UOM Conversion
+### تفعيل تحويل وحدة القياس
 
-Checking this will allow setting multiple UOMs for an Items. Then when making a
-entry that involves the Item, one of the other UOMs can be selected to mention
-its quantity.
+تحديد هذا سيسمح بتعيين وحدات قياس متعددة للأصناف. ثم عند إنشاء
+قيد يتضمن صنفاً، يمكن تحديد واحدة من وحدات القياس الأخرى لذكر
+كميتها.
 
-### Enable Stock Returns
+### تفعيل إرجاع المخزون
 
-Checking this will allow you to create Purchase Receipt and Shipment Returns against
-the original Purchase Receipts or Shipments.
+تحديد هذا سيسمح لك بإنشاء إرجاع إيصالات الشراء والشحنات ضد
+إيصالات الشراء أو الشحنات الأصلية.

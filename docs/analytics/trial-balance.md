@@ -1,49 +1,49 @@
-# Trial Balance
+# ميزان المراجعة
 
-A Trial Balance is an accounting report which lists account balances for all
-your Accounts (both Ledger and Group) for any given reporting period.
+ميزان المراجعة هو تقرير محاسبي يسرد أرصدة الحسابات لجميع
+حساباتك (كل من دفتر الأستاذ والمجموعات) لأي فترة تقارير معينة.
 
-A company prepares a trial balance periodically, usually at the end of every
-reporting period. The general purpose of producing a trial balance is to ensure
-the entries in a company's bookkeeping system are mathematically correct.
+تقوم الشركة بإعداد ميزان المراجعة دورياً، عادة في نهاية كل
+فترة تقارير. الغرض العام من إعداد ميزان المراجعة هو التأكد من
+أن القيود في نظام محاسبة الشركة صحيحة رياضياً.
 
-The totals of Debit and Credit columns must be the same for any given period, to
-ensure the entries are correct.
+يجب أن تكون المجاموع لأعمدة المدين والدائن متساوية لأي فترة معينة،
+للتأكد من صحة القيود.
 
-Navigate to this report from the sidebar: `Reports > Trial Balance`
+انتقل إلى هذا التقرير من الشريط الجانبي: `التقارير > ميزان المراجعة`
 
-![Trial Balance](./images/trial-balance.png)
+![ميزان المراجعة](./images/trial-balance.png)
 
-## Filters
+## الفلاتر
 
-The Trial Balance report has filters which can help you narrow the date range
-between which to display the report.
+يحتوي تقرير ميزان المراجعة على فلاتر يمكنها مساعدتك في تضييق نطاق
+التاريخ الذي سيتم عرض التقرير فيه.
 
-### From Date
+### من التاريخ
 
-The initial date after which the Trial Balance has to be calculated. The default
-value is the first day of the current fiscal year.
+التاريخ الافتتاحي الذي يتم منه حساب ميزان المراجعة. القيمة الافتراضية
+هي أول يوم من السنة المالية الحالية.
 
-### To Date
+### إلى التاريخ
 
-The final date before which all the Trial Balance has to be calculated. The default
-value is the last day of the current fiscal year.
+التاريخ النهائي الذي يتم إليه حساب جميع ميزان المراجعة. القيمة الافتراضية
+هي آخر يوم من السنة المالية الحالية.
 
-### Hide Group Amounts
+### إخفاء مبالغ المجموعات
 
-The Trial Balance report format displays the group accounts such as Current
-Liabilities along with the non group accounts such as Secured Loans and
-Creditors.
+يُعرض تنسيق تقرير ميزان المراجعة حسابات المجموعة مثل الحسابات
+الحالية والالتزامات إلى جانب حسابات المجموع غير المجموعة مثل
+القروض طويلة والدائنون.
 
-Group account balances depend on the non group account balances under them,
-group account balances are not directly updated.
+تعتمد مبالغ حسابات المجموعة على مبالغ حسابات المجموع غير المجموعة تحتها،
+لا يتم تحديث مبالغ حسابات المجموعة مباشرة.
 
-So clicking on **Hide Group Amounts** will display only the non group account
-amounts making the report a bit easier to read.
+لذلك، النقر على **إخفاء مبالغ المجموعات** سيُعرض فقط مبالغ حسابات
+المجموعة غير المجموعة مما يجعل التقرير أسهل قليلاً في القراءة.
 
-## Folding Rows
+## طي الصفوف
 
-![Trial Balance Folded Rows](./images/trial-balance-folded.png)
+![صفوف ميزان المراجعة المطوية](./images/trial-balance-folded.png)
 
-Rows in the Trial Balance report which display group accounts can be clicked to
-fold all the rows underneath them.
+الصفوف في تقرير ميزان المراجعة التي تعرض حسابات المجموعة يمكن النقر عليها
+لطي جميع الصفوف تحتها.

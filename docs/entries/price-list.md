@@ -1,51 +1,50 @@
-# Price List
+# قائمة الأسعار
 
-Using Price List, you can keep track of multiple [Item Prices](#item-price-table-fields) for sales and purchase.
+باستخدام قائمة الأسعار، يمكنك الاحتفاظ بمسارات متعددة من [أسعار الأصناف](#حقول-سعر-الصنف) للمبيعات والمشتريات.
 
-An Item can by priced differently depending on whether it is for sale or
-purchase, if it is discount season, etc.
+يمكن تسعير صنف بأسعار مختلفة حسب ما إذا كان للبيع أو الشراء،
+إذا كان موسم الخصم، إلخ.
 
-A Price List helps by grouping multiple item prices under a single entry. You
-can then select this entry when making a Sales or a Purchase Invoice, and when
-an item is selected its rate will be fetched from the Price list.
+تساعد قائمة الأسعار بتجميع أسعار أصناف متعددة تحت قيد واحد. يمكنك
+بعد ذلك تحديد هذا القيد عند إنشاء فاتورة مبيعات أو فاتورة مشتريات، وعند
+تحديد صنف سيتم جلب سعره من قائمة الأسعار.
 
-To use Price Lists you need to first enable them.
+لاستخدام قوالب الأسعار تحتاج أولاً إلى تفعيلها.
 
-## Enable Price List
+## تفعيل قائمة الأسعار
 
-The Price List feature needs to be enabled first by checking the
-**Enable Price List** option in the General Settings.
+يجب تفعيل ميزة قائمة الأسعار أولاً عن طريق تحديد
+خيار **تفعيل قائمة الأسعار** في الإعدادات العامة.
 
-To navigate: `Setup > Settings > General Tab`
-![Enable Price List](./images/enable-price-list.png)
+للانتقال: `الإعداد > الإعدادات > التبويب العام`
+![تفعيل قائمة الأسعار](./images/enable-price-list.png)
 
-## Create a Price List
+## إنشاء قائمة أسعار
 
-To create a Price Lists, go to:`Common > Price List`. And then click on the blue
-`+` button to open a new Price List creation form.
+لإنشاء قوالب أسعار، انتقل إلى: `المشترك > قائمة الأسعار`. ثم انقر على الزر الأزرق `+` لفتح نموذج إنشاء قائمة أسعار جديدة.
 
-![Price List Form](./images/price-list.png)
+![نموذج قائمة الأسعار](./images/price-list.png)
 
-Add Item Prices to your price list, when done click on the Save button.
+أضف أسعار الأصناف إلى قائمة الأسعار، عند الانتهاء انقر على زر الحفظ.
 
-Price List Fields:
+حقول قائمة الأسعار:
 
-1. **Is Price List Enabled**: enables the Price List, if disabled it cannot be used.
-2. **For Sales**: if enabled, the Price List can be selected in Sales Invoices.
-3. **For Purchases**: if enabled, the Price List can be selected in Purchase Invoices.
+1. **تفعيل قائمة الأسعار**: يفعل قائمة الأسعار، إذا تم تعطيلها لا يمكن استخدامهال.
+2. **للمبيعات**: إذا تم التفعيل، يمكن تحديد قائمة الأسعار في فواتير المبيعات.
+3. **للمشتريات**: إذا تم التفعيل، يمكن تحديد قائمة الأسعار في فواتير المشتريات.
 
-:::tip Multiple Prices
+:::tip أسعار متعددة
 
-You can add multiple prices for an Item in the Price List. When fetching the
-price from the Price List, the first Item Price with a matching Unit Type will
-be selected.
+يمكنك إضافة أسعار متعددة لصنف في قائمة الأسعار. عند جلب
+السعر من قائمة الأسعار، سيتم تحديد أول سعر صنف مع نوع وحدة مطابق.
+
 :::
 
-## Setting a Price List
+## تعيين قائمة أسعار
 
-To use a Price List, ou need to select **Price List** in the Sales or Purchase Invoice form.
+لاستخدام قائمة أسعار، تحتاج إلى تحديد **قائمة الأسعار** في نموذج فاتورة المبيعات أو فاتورة المشتريات.
 
-![Price List Selection](./images/price-list-selection.png)
+![اختيار قائمة الأسعار](./images/price-list-selection.png)
 
-Once this is done, when a new item is selected it's price will be fetched from
-the selected Price List.
+بمجرد الانتهاء من ذلك، عند تحديد صنف جديد سيتم جلب سعره من
+قائمة الأسعار المحددة.

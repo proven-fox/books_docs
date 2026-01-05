@@ -1,105 +1,105 @@
-# Shipment
+# الشحنة
 
-Shipment is an inventory transaction that records the delivery of stock to a
-customer after a sale has been made.
+الشحنة هي معاملة مخزون تسلم تسليم المخزون إلى
+العميل بعد إجراء عملية البيع.
 
-Shipments record outward movement of stock. Hence a shipment can take place only
-if there is sufficient quantity of an Item at the selected Location.
+تسجل الشحنات الحركة الخارجة للمخزون. وبالتالي يمكن أن تحدث شحنة فقط
+إذا كانت هناك كمية كافية من صنف في الموقع المحدد.
 
-## Creating a Shipment
+## إنشاء شحنة
 
-There are two ways to create a Shipment.
+هناك طريقتان لإنشاء شحنة.
 
-### From a Sales Invoice
+### من فاتورة المبيعات
 
-Since a shipment of stock follows a sale, you can create a Shipment after
-submitting a Sales Invoice.
+بما أن شحن المخزون يتبع عملية بيع، يمكنك إنشاء شحنة بعد
+إرسال فاتورة المبيعات.
 
-To do this select Shipment from under the Create menu button.
+للقيام بذلك، حدد الشحنة من تحت زر قائمة الإنشاء.
 
-![Create Shipment From a Sales Invoice](./images/from-sales-invoice.png)
+![إنشاء شحنة من فاتورة المبيعات](./images/from-sales-invoice.png)
 
-::: tip Back Reference
+::: tip المرجع الخلفي
 
-This will create a Shipment with a reference to the Sales Invoice and allows you
-to view all created Shipments from the Sales Invoice.
+سيقوم هذا بإنشاء شحنة مع إشارة إلى فاتورة المبيعات ويسمح لك
+بعرض جميع الشحنات المنشأة من فاتورة المبيعات.
 :::
 
-### From the List View
+### من عرض القائمة
 
-To do this first navigate to the Shipment page: `Inventory > Shipment` then
-click on the blue `+` button.
+للقيام بذلك، انتقل أولاً إلى صفحة الشحنة: `المخزون > الشحنة` ثم
+انقر على الزر الأزرق `+`.
 
-The creation method is shared with with other transactional entries, for more
-information check [this link](/transactions/transactional-entries.html#creating-an-entry).
+طريقة الإنشاء مشتركة مع القيود المعاملية الأخرى، للمزيد
+من المعلومات تحقق من [هذا الرابط](/transactions/transactional-entries.html#creating-an-entry).
 
-::: warning No Back Reference
+::: warning لا يوجد مرجع خلفي
 
-This method doesn't create links to any Sales Invoices and is an isolated entry.
+لا تنشئ هذه الطريقة روابط لأي فواتير مبيعات وهي قيد معزول.
 :::
 
-### Shipment Form
+### نموذج الشحنة
 
-After selecting one of the above two methods of creating a Shipment, you will
-see the Shipment form.
+بعد تحديد إحدى الطريقتين أعلاه لإنشاء شحنة، سترى
+نموذج الشحنة.
 
-![Shipment Form](./images/shipment-form.png)
+![نموذج الشحنة](./images/shipment-form.png)
 
-If you created the Shipment from a Sales Invoice, all the rows will be filled
-out for you. Else you will have to enter the Shipment details.
+إذا أنشأت شحنة من فاتورة مبيعات، سيتم تعبئة جميع الصفوف
+لك. وإلا سيتعين عليك إدخال تفاصيل الشحنة.
 
-Once the Shipment details have been entered, click on Save and then Submit to
-make the Shipment entry.
+بمجرد إدخال تفاصيل الشحنة، انقر على حفظ ثم إرسال لـ
+إنشاء قيد الشحنة.
 
-A Shipment can have one of the four following statuses:
+يمكن أن تكون للشحنة واحدة من الحالات الأربع التالية:
 
-| Status        | Description                           |
+| الحالة        | الوصف                           |
 | ------------- | ------------------------------------- |
-| Submitted     | Shipment entry submitted              |
-| Return        | Shipment Return submitted             |
-| Return Issued | Return entry created against Shipment |
-| Cancelled     | Shipment entry cancelled              |
+| تم الإرسال     | تم إرسال قيد الشحنة              |
+| إرجاع        | تم إرسال إرجاع الشحنة             |
+| إرجاع صادر | تم إنشاء قيد إرجاع ضد الشحنة |
+| تم الإلغاء     | تم إلغاء قيد الشحنة              |
 
-## Shipment Return
+## إرجاع الشحنة
 
-The customer can return an already shipped Item due to quality issues,
-delay in delivery, or some other issue.
+يمكن للعميل إرجاع صنف مشحن بالفعل بسبب مشاكل في الجودة،
+تأخير في التسليم، أو مشكلة أخرى.
 
-To reflect this you can create a Shipment Return from the original Shipment
-entry or manually create one from a new Shipment Entry.
+لعكس ذلك يمكنك إنشاء إرجاع شحنة من
+قيد الشحنة الأصلي أو إنشاء واحدة يدوياً من قيد شحنة جديد.
 
-### Enable Stock Returns
+### تفعيل إرجاع المخزون
 
-To create Shipment Returns the Stock Returns feature needs to be enabled. To do
-this, check the **Enable Stock Returns** option in
-[Inventory Settings](/inventory/settings.html#inventory-settings) under the Features section.
+لإنشاء إرجاع الشحنات يجب تفعيل ميزة إرجاع المخزون. للقيام
+بذلك، حدد خيار **تفعيل إرجاع المخزون** في
+[إعدادات المخزون](/inventory/settings.html#inventory-settings) ضمن قسم الميزات.
 
-### Creating a Shipment Return
+### إنشاء إرجاع الشحنة
 
-1. Open the Shipment entry to be returned.
-2. Click on `Create > Return`.
-   ![Create Shipment Return](./images/create-shipment-return.png)
-3. The Party and Item details will be fetched from the original Shipment entry.
-   You can set the quantity of Items returned.
-   ![Shipment Return Form](./images/shipment-return-form.png)
-4. Save and Submit.
+1. افتح قيد الشحنة المراد إرجاعه.
+2. انقر على `إنشاء > إرجاع`.
+   ![إنشاء إرجاع الشحنة](./images/create-shipment-return.png)
+3. سيتم جلب تفاصيل الطرف والصنف من قيد الشحنة الأصلي.
+   يمكنك تعيين كمية الأصناف المرجعة.
+   ![نموذج إرجاع الشحنة](./images/shipment-return-form.png)
+4. حفظ وإرسال.
 
 ::: info
-Item quantity and Payment amount will be in negative to indicate that it is a return.
+كمية الصنف ومبلغ الدفع ستكون بالسالب للإشارة إلى أنه إرجاع.
 :::
 
-##  Shipment Return impact on General Ledger
+##  تأثير إرجاع الشحنة على دفتر الأستاذ
 
-The Shipment Return entry will create General Ledger entries to reverse the impact of the original Shipment.
+سيقوم قيد إرجاع الشحنة بإنشاء قيود دفتر الأستاذ لعكس تأثير الشحنة الأصلية.
 
-![Shipment Return in General Ledger](./images/shipment-return-in-general-ledger.png)
+![إرجاع الشحنة في دفتر الأستاذ](./images/shipment-return-in-general-ledger.png)
 
-## View Ledger Entries
+## عرض قيود دفتر الأستاذ
 
-After a Shipment is submitted, both Stock Ledger and General Ledger entries are
-created.
+بعد إرسال شحنة، يتم إنشاء قيود دفتر المخزون ودفتر الأستاذ
+كلاهما.
 
-To view these you can click on the View button and select the one you would like
-to see.
+لعرض هذه، يمكنك النقر على زر العرض وتحديد
+واحد تود رؤيته.
 
-![View Ledger Entries](./images/view-shipment-ledger-entries.png)
+![عرض قيود دفتر الأستاذ](./images/view-shipment-ledger-entries.png)

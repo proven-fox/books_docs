@@ -1,103 +1,106 @@
-# Settings
+# الإعدادات
 
-To navigate to the settings use the Sidebar: `Setup > Settings`
+للانتقال إلى الإعدادات استخدم الشريط الجانبي: `الإعداد > الإعدادات`
 
-There are a few tabs under Settings
+هناك عدة تبويبات تحت الإعدادات
 
-1. General: Settings used to customize accounting defaults and enable features.
-2. Defaults: Settings that are used to set defaults.
-3. Print: Settings that are used to customize the Invoice Print View.
-4. System: Settings used to customize System defaults.
+1. العام: الإعدادات المستخدمة لتخصيص افتراضيات المحاسبة وتفعيل الميزات.
+2. الافتراضيات: الإعدادات المستخدمة لتعيين الافتراضيات.
+3. الطباعة: الإعدادات المستخدمة لتخصيص عرض طباعة الفاتورة.
+4. النظام: الإعدادات المستخدمة لتخصيص افتراضيات النظام.
 
-:::tip Inventory Settings
+:::tip إعدادات المخزون
 
-[Inventory Settings](/inventory/settings) are visible only when Inventory has been enabled.
+[إعدادات المخزون](/inventory/settings) مرئية فقط عندما تم تفعيل المخزون.
 :::
 
-## General Settings
+## الإعدادات العامة
 
-![General Settings](./images/general-settings.png)
+![الإعدادات العامة](./images/general-settings.png)
 
-These settings are used to set and customize accounting defaults.
+تستخدم هذه الإعدادات لتعيين وتخصيص افتراضيات المحاسبة.
 
-**Settings that cannot be changed**
+**الإعدادات التي لا يمكن تغييرها**
 
-1. Full Name
-2. Company Name
-3. Country
-4. Bank Name
+1. الاسم الكامل
+2. اسم الشركة
+3. الدولة
+4. اسم البنك
 
-::: info Setup Wizard
-These values are set when setting up a new instance using the Setup Wizard.
+::: info معالج الإعداد
+
+يتم تعيين هذه القيم عند إعداد مثيل جديد باستخدام معالج الإعداد.
 :::
 
-**Settings that can be changed**
+**الإعدادات التي يمكن تغييرها**
 
-1. Fiscal Year Start Date: used as the start date when displaying the reports by fiscal year.
-2. Fiscal Year End Date: used as the end date when displaying the reports by fiscal year.
-3. Write Off Account: account used when a Write Off amount is set when making a Payment
-4. Round Off Account: account used to settle the credit and debit difference when
-   the General Ledger is updated.
-5. Enable Discount Accounting: used to enable the setting of discounts in invoices. ([link](/transactions/discount-accounting))
-6. Enable Inventory: used to enable inventory management features. ([link](/inventory/introduction))
+1. تاريخ بدء السنة المالية: يُستخدم كتاريخ بدء عند عرض التقارير حسب السنة المالية.
+2. تاريخ نهاية السنة المالية: يُستخدم كتاريخ نهاية عند عرض التقارير حسب السنة المالية.
+3. حساب الشطب: الحساب المستخدم عند تعيين مبلغ الشطب عند إنشاء دفع
+4. حساب التقريب: الحساب المستخدم لتسوية الفرق بين الدائن والمدين عند
+   تحديث دفتر الأستاذ.
+5. تفعيل محاسبة الخصم: يُستخدم لتفعيل تعيين الخصومات في الفواتير. ([رابط](/transactions/discount-accounting))
+6. تفعيل المخزون: يُستخدم لتفعيل ميزات إدارة المخزون. ([رابط](/inventory/introduction))
 
-::: info GSTIN
-GSTIN setting is available only when the country is set to India.
+::: info رقم تسجيل ضريبة السلع والخدمات
 
-Setting this value will enable the GST Reports.
+إعداد رقم تسجيل ضريبة السلع والخدمات متاح فقط عندما تم تعيين الدولة إلى الهند.
+
+تعيين هذه القيمة سيفعل تقارير ضريبة السلع والخدمات.
 :::
 
-## Defaults
+## الافتراضيات
 
-![Defaults](./images/defaults.png)
+![الافتراضيات](./images/defaults.png)
 
-These settings are used to set default values that are selected when creating an
-entry. They allow for quicker creation of entries but can be changed when making
-entries.
+تستخدم هذه الإعدادات لتعيين القيم الافتراضية التي يتم تحديدها عند إنشاء
+قيد. تسمح بإنشاء أسرع للقيود ولكن يمكن تغييرها عند إنشاء
+القيود.
 
-The following Defaults can be set:
+يمكن تعيين الافتراضيات التالية:
 
-1. Accounts used for Auto Payments.
-2. Locations used for Auto Stock Transfers.
-3. [Number Series](/miscellaneous/number-series) for transactional entries.
-4. Terms to be used for certain transactional entries.
-5. [Print Templates](/miscellaneous/print-templates) to be used when printing an entry.
+1. الحسابات المستخدمة للدفعات التلقائية.
+2. المواقع المستخدمة لنقل المخزون التلقائي.
+3. [السلسل الرقمي](/miscellaneous/number-series) للقيود المعاملية.
+4. الشروط التي سيتم استخدامهالقيود معاملية معينة.
+5. [قوالب الطباعة](/miscellaneous/print-templates) التي سيتم استخدامهالطباعة قيد.
 
-:::warning Auto Stock Transfer items
+:::warning عناصر نقل المخزون التلقائي
 
-An Item from an Invoice is included in the auto Stock Transfer only if these conditions are met:
+يتم تضمين صنف من فاتورة في نقل المخزون التلقائي فقط إذا تم استيفاء هذه الشروط:
 
-1. The item does not use Batches.
-2. The item does not use Serial Numbers.
-3. There is sufficient quantity of the item at the set default Location.
+1. الصنف لا يستخدم الدفعات.
+2. الصنف لا يستخدم الأرقام التسلسلية.
+3. توجد كمية كافية من الصنف في الموقع الافتراضي المعين.
 
 :::
 
-## Print Settings
+## إعدادات الطباعة
 
-![Invoice Settings](./images/print-settings.png)
+![إعدادات الفاتورة](./images/print-settings.png)
 
-Settings here can be altered to customize the Print View of an Invoice.
+يمكن تغيير الإعدادات هنا لتخصيص عرض الطباعة لفاتورة.
 
-::: tip Print View
-These settings can also be altered from the
-[Print View](/transactions/sales-invoices#printing-the-sales-invoice) of an Invoice
+::: tip عرض الطباعة
+
+يمكن أيضاً تغيير هذه الإعدادات من
+[عرض الطباعة](/transactions/sales-invoices#printing-the-sales-invoice) لفاتورة
 :::
 
-## System Settings
+## إعدادات النظام
 
-![System Settings](./images/system-settings.png)
+![إعدادات النظام](./images/system-settings.png)
 
-These settings are used to alter how values such as currency and time are
-displayed.
+تستخدم هذه الإعدادات لتغيير كيفية عرض القيم مثل العملة والوقت.
 
-1. Date Format: used to set how dates are displayed.
-2. Hide Get Started: used to hide the Get Started section from the Sidebar.
-3. Version: this is a read only field which tells you the current version of Omni Start Soft.
-4. Locale: used to set the currency format, by default locale of the selected country is used.
-5. Display Precision: used to set the number of digits are shown after the decimal.
-6. Currency: used to set the currency used for all transactions.
+1. تنسيق التاريخ: يُستخدم لتعيين كيفية عرض التواريخ.
+2. إخفاء البدء: يُستخدم لإخفاء قسم البدء من الشريط الجانبي.
+3. الإصدار: هذا حقل للقراءة فقط يخبرك بالإصدار الحالي من Omni Start Soft.
+4. المحلي: يُستخدم لتعيين تنسيق العملة، افتراضياً يتم استخدام محلي الدولة المحددة.
+5. دقة العرض: يُستخدم لتعيين عدد الأرقام التي تُعرض بعد الفاصلة العشرية.
+6. العملة: يُستخدم لتعيين العملة المستخدمة لجميع المعاملات.
 
-::: info Get Started
-Get Started is auto hidden on completion.
+::: info البدء
+
+يتم إخفاء البدء تلقائياً عند الإكمال.
 :::
