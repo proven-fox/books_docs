@@ -41,12 +41,6 @@ features:
   --gray-900: #334155;
   --black: #1E293B;
 
-  --blue-200: #CCE7FF;
-  --blue-400: #66B8FF;
-  --blue-600: #2490ef;
-  --blue-700: #006ECC;
-  --blue-800: #005299;
-  
   /* Vitepress CSS Variables */
   --vp-c-text-light-1: var(--gray-900);
   --vp-c-text-light-2: var(--gray-700);
@@ -65,12 +59,6 @@ features:
   
   --vp-c-divider-light-1: var(--gray-200);
   --vp-c-divider-light-2: var(--gray-300);
-
-  --vp-c-brand-darker: var(--blue-800);
-  --vp-c-brand-dark: var(--blue-700);
-  --vp-c-brand: var(--blue-600);
-  --vp-c-brand-light: var(--blue-400);
-  --vp-c-brand-lighter: var(--blue-200);
 }
 
 /* Vitepress class and component overrides */

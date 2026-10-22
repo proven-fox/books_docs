@@ -126,7 +126,7 @@ blockquote {
 
 /* Adjust tip block */
 .custom-block.tip {
-  border-right-color: #42b883;
+  border-right-color: var(--blue-600);
 }
 
 /* Adjust warning block */
@@ -532,6 +532,26 @@ body {
 /* Adjust html for RTL */
 html {
   direction: rtl;
+}
+
+/* Brand color palette (site-wide) */
+html:root {
+  --blue-200: #CCE7FF;
+  --blue-400: #66B8FF;
+  --blue-600: #2490ef;
+  --blue-700: #006ECC;
+  --blue-800: #005299;
+
+  --vp-c-brand-darker: var(--blue-800);
+  --vp-c-brand-dark: var(--blue-700);
+  --vp-c-brand: var(--blue-600);
+  --vp-c-brand-light: var(--blue-400);
+  --vp-c-brand-lighter: var(--blue-200);
+
+  --vp-custom-block-tip-border: var(--blue-600);
+  --vp-custom-block-tip-text: var(--blue-800);
+  --vp-custom-block-tip-bg: rgba(36, 144, 239, 0.05);
+  --vp-custom-block-tip-code-bg: rgba(36, 144, 239, 0.1);
 }
 
 @media print {
