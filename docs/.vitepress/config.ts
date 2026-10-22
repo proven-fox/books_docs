@@ -6,7 +6,6 @@ const taglineAr = 'محاسبة سطح المكتب الحديثة والمجا�
 
 export default defineConfig({
   lang: 'ar-SA',
-  base: '/books/',
   title: 'Omni Start Soft',
   description: taglineAr,
   titleTemplate: taglineAr,
@@ -15,23 +14,19 @@ export default defineConfig({
   lastUpdated: true,
 
   head: [
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/books/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['meta', { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' }],
-    ['link', { rel: 'stylesheet', href: '/books/.vitepress/theme/style.css' }],
+    ['link', { rel: 'stylesheet', href: '/.vitepress/theme/style.css' }],
   ],
 
   themeConfig: {
-    logo: '/books/logo.svg',
+    logo: '/logo.svg',
     siteTitle: false,
     nav: nav(),
     sidebar: sidebar(),
-    editLink: {
-      pattern: 'https://github.com/muthallathat/books_docs/edit/master/docs/:path',
-      text: 'تعديل هذه الصفحة على GitHub',
-    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/muthallathat/books' },
+      // { icon: 'github', link: 'https://github.com/muthallathat/books' },
       {
         icon: 'youtube',
           // link: 'https://www.youtube.com/channel/UCbaNaml6jBSIACQwc9Nz_0g',
@@ -51,10 +46,10 @@ function nav() {
       text: 'الرئيسية',
       link: 'https://muthallathat.com/',
     },
-    {
-      text: 'تحميل',
-      link: 'https://muthallathat.com/download',
-    },
+    // {
+    //   text: 'تحميل',
+    //   link: 'https://muthallathat.com/download',
+    // },
     {
       text: 'المجتمع',
       link: 'https://t.me/muthallathat',

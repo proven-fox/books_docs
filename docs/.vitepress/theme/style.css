@@ -1,6 +1,10 @@
 /* Import Cairo Font */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
 
+.VPHomeHero {
+  display: none;
+}
+
 /* RTL Support for Arabic */
 :root {
   direction: rtl;
@@ -528,4 +532,52 @@ body {
 /* Adjust html for RTL */
 html {
   direction: rtl;
+}
+
+@media print {
+  .VPNav,
+  .VPLocalNav,
+  .VPSidebar,
+  .VPDoc .aside,
+  .VPDocFooter,
+  .VPFooter,
+  .VPBackToTop {
+    display: none !important;
+  }
+
+  .VPContent,
+  .VPContent.has-sidebar,
+  .VPDoc {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .VPContent .container,
+  .VPContent.has-sidebar .container {
+    max-width: 100% !important;
+  }
+
+  .content-container {
+    max-width: 100% !important;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .vp-doc h1,
+  .vp-doc h2,
+  .vp-doc h3,
+  .vp-doc h4 {
+    break-after: avoid;
+  }
+
+  .vp-doc table,
+  .vp-doc img,
+  .vp-doc blockquote,
+  .vp-doc pre {
+    break-inside: avoid;
+  }
 }

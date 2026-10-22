@@ -10,9 +10,8 @@ hero:
     - theme: brand
       text: ابدأ الآن
       link: /setting-up/getting-started
-    - theme: alt
+    - theme: label
       text: احصل على Omni Start Soft
-      link: https://muthallathat.com/download
 
 features:
   - title: قابل للنقل
